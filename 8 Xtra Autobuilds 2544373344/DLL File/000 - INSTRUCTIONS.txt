@@ -1,0 +1,7 @@
+For the anti-harsh planet buildigs to change planet biomes
+!!!! COPY AND MAKE A BACK UP OF the Assembly-CSharp.dll !!!!!
+located at... 
+[DRIVE LETTER]:\SteamLibrary\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed
+
+*** ONLY AFTER YOU HAVE THAT SO YOU CAN SWITCH BACK THEN ***
+replace it with the file located in this folder.

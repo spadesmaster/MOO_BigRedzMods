@@ -1,0 +1,225 @@
+## TODO: Add Weather Controller from Bio VI to advanced and hyper_advanced, felt like they were missing
+---
+- collection: &Backend.Fleets.ShipHullType
+    items:
+          - key: hull_colony
+            name: HULL_COLONY_NAME
+            description: Colony ships are specialized vessels that along with bringing an initial population, upon landing, the ship itself breaks apart into the following modules that function as the fully operational buildings of discovered technologies - Marine Barracks, Automated Factory, Geosynchronic Warehouse, Research Laboratory, Hydroponic Farm, Colony Base, Global DNA Scanner, Holo Simulator & Pollution Processor. Total Day 1 Upkeep if all prefabricated building modules are present is 13BC. #SHIP_TYPE_COLONY_DESCRIPTION
+            cost: 250
+            space: 500
+            hp: 150
+            tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
+            icon: assets/ships/%civ%/%type%/ship_colony.png
+            hullScale: 1.0
+            hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_colony
+            acceleration: 0.4
+            angularAcceleration: 0.2
+            baseDriveVelocity: 0.75
+            bestDriveVelocity: 1.5
+            maxVelocity: 1.6
+            maxAngularVelocity: 0.3
+            velocityFriction: 0.02
+            angularFriction: 0.05
+            flagType: colony
+            flagPriority: 6
+            fleetSupportCost: 2
+            isUnarmed: true
+            hullClass: 1
+            tacticalVictoryDelay: 5.0
+            civilianRequired: true
+            canColonize: true
+            weaponSlots: 0
+            specialSlots: 1
+            allowMassProduction: true
+            CPAffectedByTechAch: false
+            colonizationStructures:
+              ### COLONY SHIP
+                # GAME START
+                - structure_marine_barracks
+                # CONSTRUCTION I
+                - structure_automated_factory
+                # SOCIOLOGY I
+                - structure_geosynchronic_wharf
+                # COMPUTERS I
+                - structure_research_laboratory
+                # BIOLOGY I
+                - structure_hydroponic_farm
+                # POWER II
+                - structure_colony_base
+                # COMPUTERS III
+                - structure_global_dna_scanner
+                # COMPUTERS IV
+                - structure_holo_simulator
+                # CHEMISTRY V
+                - structure_pollution_processor
+                ### UNKNOWN MAY BE NEEDED FOR COMPATABILITY
+                - structure_government_building
+                
+          - key: hull_advanced_colony
+            name: HULL_ADVANCED_COLONY_NAME
+            description: Advanced colony ships are specialized vessels that along with bringing an initial population, upon landing, including all modules of a standard colony ship, also breaks apart into the following modules that function as the fully operational buildings of discovered technologies - Advance Data Center, Colonial Revenue Services, Cloning Center, Soil Enrichment, Neutron Collider, Robominers, Space Port, & Armor Barracks. Total Day 1 Upkeep if all prefabricated building modules are present is 32BC. #SHIP_TYPE_ADVANCED_COLONY_DESCRIPTION
+            cost: 500
+            space: 500
+            hp: 200
+            tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
+            icon: assets/ships/%civ%/%type%/ship_colony.png
+            hullScale: 1.0
+            hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_colony
+            acceleration: 0.4
+            angularAcceleration: 0.2
+            baseDriveVelocity: 0.75
+            bestDriveVelocity: 1.5
+            maxVelocity: 1.6
+            maxAngularVelocity: 0.3
+            velocityFriction: 0.02
+            angularFriction: 0.05
+            flagType: colony
+            flagPriority: 6
+            fleetSupportCost: 3
+            isUnarmed: true
+            hullClass: 1
+            tacticalVictoryDelay: 5.0
+            civilianRequired: true
+            canColonize: true
+            weaponSlots: 0
+            specialSlots: 1
+            allowMassProduction: true
+            CPAffectedByTechAch: false
+            colonizationStructures:
+                ### BAD PLANET FIXES
+                ### BUGGED - KNOWN ISSUE - BUILDINGS DO NOT TAKE EFFECT IF APPLIED BY COLONY SHIPS - WILL UPDATE / ACTIVATE IF A FUTURE UPC FIXES THAT
+                # BIOLOGY I
+                - structure_biospheres #ANTI SMALL / TINY PLANETS
+                # BIOLOGY III
+                - structure_toxics_processor #ANTI TOXIC PLANETS
+                # PHYSICS IV
+                - structure_gravity_generators #ANTI GRAVITY PENALITY
+                # FIELDS V
+                - structure_planetary_radiation_shield #ANTI RADIATED PLANETS
+
+              ### COLONY SHIP
+                # GAME START
+                - structure_marine_barracks
+                # CONSTRUCTION I
+                - structure_automated_factory
+                # SOCIOLOGY I
+                - structure_geosynchronic_wharf
+                # COMPUTERS I
+                - structure_research_laboratory
+                # BIOLOGY I
+                - structure_hydroponic_farm
+                # POWER II
+                - structure_colony_base
+                # COMPUTERS III
+                - structure_global_dna_scanner
+                # COMPUTERS IV
+                - structure_holo_simulator
+                # CHEMISTRY V
+                - structure_pollution_processor
+
+              ### ADVANCED COLONY SHIP 5X inclusions
+                # SOCIOLOGY III
+                - structure_advance_data_center
+                - structure_colonial_revenue_services
+                # BIOLOGY III
+                - structure_cloning_center
+                - structure_soil_enrichment
+                # PHYSICS III
+                - structure_neutron_collider
+                # CONSTRUCTION V
+                - structure_robominers
+                # SOCIOLOGY V
+                - structure_space_port
+                # CONSTRUCTION VII
+                - structure_armor_barracks
+                ### UNKNOWN MAY BE NEEDED FOR COMPATABILITY
+                - structure_government_building
+                
+          - key: hull_hyper_advanced_colony
+            name: HULL_HYPER_ADVANCED_COLONY_NAME
+            description: Hyper Advanced colony ships are specialized vessels that along with bringing an initial population, upon landing, including all modules of an advanced colony ship, also breaks apart into the following modules that function as the fully operational buildings of discovered technologies - Autolab, Deep Core Mine, Core Waste Dump. Total Day 1 Upkeep if all prefabricated building modules are present is 64BC. #SHIP_TYPE_HYPER_ADVANCED_COLONY_DESCRIPTION
+            cost: 1000
+            space: 500
+            hp: 600
+            tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
+            icon: assets/ships/%civ%/%type%/ship_colony.png
+            hullScale: 1.0
+            hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_colony
+            acceleration: 0.6
+            angularAcceleration: 0.3
+            baseDriveVelocity: 1.0
+            bestDriveVelocity: 2.0
+            maxVelocity: 2.5
+            maxAngularVelocity: 0.6
+            velocityFriction: 0.02
+            angularFriction: 0.05
+            flagType: colony
+            flagPriority: 6
+            fleetSupportCost: 1
+            isUnarmed: true
+            hullClass: 1
+            tacticalVictoryDelay: 5.0
+            civilianRequired: true
+            canColonize: true
+            weaponSlots: 0
+            specialSlots: 2
+            allowMassProduction: true
+            CPAffectedByTechAch: false
+            colonizationStructures:
+                ### BAD PLANET FIXES
+                ### BUGGED - KNOWN ISSUE - BUILDINGS DO NOT TAKE EFFECT IF APPLIED BY COLONY SHIPS - WILL UPDATE / ACTIVATE IF A FUTURE UPC FIXES THAT
+                # BIOLOGY I
+                - structure_biospheres #ANTI SMALL / TINY PLANETS
+                # BIOLOGY III
+                - structure_toxics_processor #ANTI TOXIC PLANETS
+                # PHYSICS IV
+                - structure_gravity_generators #ANTI GRAVITY PENALITY
+                # FIELDS V
+                - structure_planetary_radiation_shield #ANTI RADIATED PLANETS
+              ### COLONY SHIP
+                # GAME START
+                - structure_marine_barracks
+                # CONSTRUCTION I
+                - structure_automated_factory
+                # SOCIOLOGY I
+                - structure_geosynchronic_wharf
+                # COMPUTERS I
+                - structure_research_laboratory
+                # BIOLOGY I
+                - structure_hydroponic_farm
+                # POWER II
+                - structure_colony_base
+                # COMPUTERS III
+                - structure_global_dna_scanner
+                # COMPUTERS IV
+                - structure_holo_simulator
+                # CHEMISTRY V
+                - structure_pollution_processor
+              ### ADVANCED COLONY SHIP
+                # SOCIOLOGY III
+                - structure_advance_data_center
+                - structure_colonial_revenue_services
+                # BIOLOGY III
+                - structure_cloning_center
+                - structure_soil_enrichment
+                # PHYSICS III
+                - structure_neutron_collider
+                # CONSTRUCTION V
+                - structure_robominers
+                # SOCIOLOGY V
+                - structure_space_port
+                # CONSTRUCTION VII
+                - structure_armor_barracks
+              ### HYPER-ADVANCED COLONY SHIP
+                # FIELDS VIII
+                - structure_planetary_flux_shield
+                # FIELDS XIV
+                - structure_planetary_barrier_shield
+                # COMPUTERS VIII
+                - structure_autolab
+                # CONSTRUCTION X
+                - structure_deep_core_mine
+                - structure_core_waste_dump
+                # UNKNOWN MAY BE NEEDED FOR COMPATABILITY
+                - structure_government_building
+...

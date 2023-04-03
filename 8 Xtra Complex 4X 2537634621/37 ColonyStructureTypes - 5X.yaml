@@ -1,0 +1,918 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+        ###General structures
+#### STAR BASE
+          - key: structure_star_base
+           # BC
+            cost: 200 # <---  <---  <---
+            upkeep: 5 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 1 # <---  <---  <---
+           # FLEET
+            # fleetSupportCost: 0
+            fleetSupportBonus: 5 # <---  <---  <---
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.05 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### BATTLESTATION
+          - key: structure_battlestation
+           # BC
+            cost: 320 # <---  <---  <---
+            upkeep: 6 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 2 # <---  <---  <---
+           # FLEET
+            # fleetSupportCost: 0
+            fleetSupportBonus: 06 # <---  <---  <---
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.10 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### STAR FORTRESS
+          - key: structure_star_fortress
+           # BC
+            cost: 440 # <---  <---  <---
+            upkeep: 07 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 3 # <---  <---  <---
+           # FLEET
+            # fleetSupportCost: 0
+            fleetSupportBonus: 7 # <---  <---  <---
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.15 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+        ###Space Factory Structures
+#### SURVEILLIANCE SYSTEM
+          - key: structure_surveilliance_system
+           # BC
+            cost: 30 # <---  <---  <---
+            upkeep: 5 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 1 # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true
+            scannerRangeBonus: 4
+           # FLEET
+            fleetSupportCost: 0
+            fleetSupportBonus: 05 # <---  <---  <---
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.05
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            canBlock: true  # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            requiresColonyInSystem: false  # <---  <---  <---
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### MILITARY OUTPOST
+          - key: structure_military_outpost
+            requiresColonyInSystem: false
+           # BC
+            cost: 75 # <---  <---  <---
+            upkeep: 6  # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 2 # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 2 # <---  <---  <---
+           # FLEET
+            fleetSupportCost: 0 # <---  <---  <---
+            fleetSupportBonus: 6
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.10 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            canBlock: true # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            requiresWarpGate: true # <---  <---  <---
+            # requiresAsteroid: false
+            requiresColonyInSystem: false # <---  <---  <---
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### ADVANCED MILITARY OUTPOST
+          - key: structure_advanced_military_outpost
+           # BC
+            cost: 150 # <---  <---  <---
+            upkeep: 7  # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 3 # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 3 # <---  <---  <---
+           # FLEET
+            fleetSupportCost: 0 # <---  <---  <---
+            fleetSupportBonus: 7  # <---  <---  <---
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.15 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            canBlock: true # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            requiresWarpGate: true # <---  <---  <---
+            # requiresAsteroid: false
+            requiresColonyInSystem: false # <---  <---  <---
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### HYPER ADVANCED MILITARY OUTPOST
+          # - key: structure_hyper_advanced_military_outpost
+            # cost: 150
+            # hasScanner: true
+            # scannerRangeBonus: 2
+            # repairFactor: 0.15
+            # allowShipBlueprintUpgrade: true
+            # canBlock: true
+            # requiresWarpGate: true
+            # fleetSupportCost: 5
+            # requiresColonyInSystem: false
+           # BC
+            # cost: 000
+            # upkeep: 0
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            # hasScanner: false
+            # scannerRangeBonus: 0
+           # FLEET
+            # fleetSupportCost: 0
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            # repairFactor: 0.00
+            # allowShipBlueprintUpgrade: false
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### ASTEROID MINE
+          - key: structure_asteroid_mine
+           # BC
+            cost: 60 # <---  <---  <---
+            upkeep: 0 # <---  <---  <---
+            # workerIncomeBonus: 0
+            creditIncomeBonus: 15 # <---  <---  <---
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 1 # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            # scannerRangeBonus: 0
+           # FLEET
+            fleetSupportCost: 1 # <---  <---  <---
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.02 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            requiresColonyInSystem: false # <---  <---  <---
+            compatibleBiomes:  # <---  <---  <---
+                - biome_asteroid_field  # <---  <---  <---
+#### ASTEROID LABORATORY
+          - key: structure_asteroid_laboratory
+           # BC
+            cost: 60 # <---  <---  <---
+            upkeep: 5 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 5 # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 1 # <---  <---  <---
+           # FLEET
+            fleetSupportCost: 1  # <---  <---  <---
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.02 # <---  <---  <---
+            allowShipBlueprintUpgrade: true  # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            requiresColonyInSystem: false # <---  <---  <---
+            compatibleBiomes:
+                - biome_asteroid_field
+                - biome_relics
+#### GAS GIANT MINE
+          - key: structure_superscalar_gas_harvester
+           # BC
+            cost: 60 # <---  <---  <---
+            # upkeep: 0
+            # workerIncomeBonus: 0
+            creditIncomeBonus: 10 # <---  <---  <---
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 1  # <---  <---  <---
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            hasScanner: true  # <---  <---  <---
+            # scannerRangeBonus: 0
+           # FLEET
+            fleetSupportCost: 1  # <---  <---  <---
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.02  # <---  <---  <---
+            allowShipBlueprintUpgrade: true  # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            requiresColonyInSystem: false  # <---  <---  <---
+            compatibleBiomes:
+                - biome_gas_giant
+#### JUMP GATE (FUNCTIONING)
+          - key: structure_jump_gate_orbital
+           # BC
+            cost: 75 # <---  <---  <---
+            upkeep: 10 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            # hasScanner: false
+            # scannerRangeBonus: 0
+           # FLEET
+            # fleetSupportCost: 0
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            repairFactor: 0.02 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            generatesJumpConnection: true # <---  <---  <---
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            systemUnique: true # <---  <---  <---
+            # requiresMoon: false
+            # requiresWorker: false
+            requiresWarpGate: false # <---  <---  <---
+            # requiresAsteroid: false
+            requiresColonyInSystem: false # <---  <---  <---
+            # compatibleBiomes:
+                # - biome_asteroid_field
+                # - biome_gas_giant
+            # compatiblePlanetSize:
+                # - planetsize_large
+                # - planetsize_huge
+#### JUMP GATE (DISABLED)
+          #- key: structure_jump_gate
+            # cost: 145
+            # upkeep: 5
+            # systemUnique: true
+            # generatesJumpConnection: true
+           # BC
+            # cost: 000 # <---  <---  <---
+            # upkeep: 0 # <---  <---  <---
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            # hasScanner: false
+            # scannerRangeBonus: 0
+           # FLEET
+            # fleetSupportCost: 0
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            # repairFactor: 0.00
+            # allowShipBlueprintUpgrade: false
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false # <---  <---  <---
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+#### JUMP GATE ADVANCED (DISABLED)
+          # - key: structure_advanced_jump_gate_orbital
+            # cost: 40
+            # upkeep: 8
+            # hasScanner: true
+            # scannerRangeBonus: 1
+            # canBlock: false
+            # requiresWarpGate: true
+            # requiresColonyInSystem: false
+            # generatesJumpConnection: true
+            # systemUnique: true
+           # BC
+            # cost: 000
+            # upkeep: 0
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            # incomeMultiplierBonus: 0.0
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            # buyoutCostModifier: -0.0
+           # FOOD
+            # baseLifeSupportBonus: 0 #BASE FOOD BONUS
+            # foodTileBonus: 0
+            # foodCarryoverRatio: 0.0
+            # totalFoodMultiplierBonus: 0.00
+           # POPULATION
+            # maxPopulationBonus: 0
+            # populationGrowthMultiplierBonus: 0.00
+           # MORALE
+            # moraleMultiplierBonus: 0.00
+            # moraleMultiplierBonusSystem: 0.00
+           # PRODUCTION
+            # baseProductionBonus: 0
+            # productionTileBonus: 0
+            # workerYieldMultiplierBonus: 0.00 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            # pollutionMultiplierReduction: 0.00 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            # baseResearchBonus: 0
+            # researchTileBonus: 0
+            # workerResearchBonus: 0
+           # SECURITY
+            # securityBonus: 0.00
+            # systemSecurityBonus: 0.00
+            # empireSecurityBonus: 0.00
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            # assimilationRateModifier: 0.0
+           # SCANNER
+            # hasScanner: false
+            # scannerRangeBonus: 0
+           # FLEET
+            # fleetSupportCost: 0
+            # fleetSupportBonus: 00
+            # shipCostModifier: -0.0
+            # fleetSupportCostReduction: 0.0 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            # repairFactor: 0.00
+            # allowShipBlueprintUpgrade: false
+           # MISC
+            # planetDefense: 00
+            # canBlock: false
+            # buildBorder: false
+            # blocksInvasion: false
+            # generatesJumpConnection: false
+           # BUILD RESTRICTIONS REQUIREMENTS
+            # empireUnique: false
+            # systemUnique: false
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: false
+            # compatibleBiomes:
+            #    - biome_xxxx
+...

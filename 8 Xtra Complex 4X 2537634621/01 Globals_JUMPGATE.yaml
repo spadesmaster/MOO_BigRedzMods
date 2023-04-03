@@ -1,0 +1,4 @@
+﻿---
+- globals: &Backend.Civilizations.Civilization
+    JUMP_GATE_TRAVEL_FACTOR: 0.50
+...

@@ -1,0 +1,118 @@
+******* Xtra Complex 4X - MeVII *******
+v01.07.05.21.24.58
+
+[h2][u]Summary[/u][/h2]
+Fundamental changes include:
+All workship structures can be built without a colony in the system.
+Warp Gates cannot be built on warp nodes, by can be built inside systems.
+Surveillance Systems can repair and block.
+Outposts generate, rather than require command points.
+Theres more, see chart and read below for details…
+
+[h1][b][u]Xtra Complex 4X - MeVII[/u][/b][/h1]
+
+[h2]Location[/h2]
+By default this mod is located at 
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2537634621
+
+
+[h1][b][u]Special Thanks[/u][/b][/h1]
+SpudDastardly & WhatisSol for patiently dealing with my many nitpicky questions
+
+[h2][u]Bugs & Compatibility[/u][/h2]
+
+[h3][i]Known Bugs[/i][/h3]
+01 - The Klackon
+02 - Building Warp Gates on system bodies makes it impossible to click on that system body.
+e.g. Planets, and Asteroids.
+It is still possible to navagate to teh planet useing all other menus and methods.
+
+[h3][i]Compatibility Information[/i][/h3]
+
+This Mod requires UCP, 5X, and UCP5X Compatibility mods.
+(It will function without Custom 5X and DSMP Assets,
+however, some game images will be blank)
+It should always be loaded after (below) UCP, 5X, and UCP5X Compatibility mods.
+
+[h3]Files Modified[/h3]
+The following yaml files are used by this mod.
+Globals.yaml, ColonyStructureTypes.yaml
+
+[h3]Data Entries Changed[/h3]
+This mod changes content under the following data points.
+[code]JUMP_GATE_TRAVEL_FACTOR, key: structure_... star_base, battlestation,
+star_fortress, surveilliance_system, military_outpost, advanced_military_outpost,
+asteroid_mine, asteroid_laboratory, superscalar_gas_harvester, structure_jump_gate_orbital[/code]
+
+[b][i]-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.[/i][/b]
+
+[h2][u]Mod Details[/u][/h2]
+I decided to name this mod Xtra Complex 4x based on following line of thought.
+4X stands for eXplore, eXpand, eXploit and eXterminate.
+This mod makes all the decisions regarding the management and implementation of
+each of those focuses more involved, by creating more interdependency and value to
+many key structures. (See the image of the chart for full details at a glance.)
+All Workship structures can now be built even in systems players don’t have a colony in.
+However, many new balance metrics were implemented along with extra boosted benefits.
+What do you want first? The Good News or the Bad News? Read in your preferred order.
+
+[b][i]GOOD NEWS[/i][/b]
+[spoiler]Upkeep for the Star Base, Battle Station and Star Fortress are lower.
+Build cost for Star Fortress and Surveillance Stations is lower.
+Surveillance Stations, Military and Adv Military Outposts
+now create, not take up command points.
+… can now repair ships, upgrade ships, and block star lanes.
+… have the largest scanner boost of any structure in the game,
+actually making it a consideration of building and keeping them for Surveillance.
+…provide a +1/2/3 research bonus per turn.
+Military and Adv Military Outposts have had both
+their repair factor, and scanners boosted.
+Asteroid Labs / mines and Gas Giant Mines… slightly repair ships every turn.
+…can upgrade fleets.
+Asteroid Labs have a +1 Scanner Boost.
+Asteroid / Gas Giant mines have a +1 Research Bonus.
+Asteroid Mines boosted from +10bc to +15bc.
+Jump Gates can now be built at all planet and asteroid locations.
+Jump Gates now reduce travel time by half.[/spoiler]
+
+[b][i]BAD NEWS[/i][/b]
+[spoiler]Build costs for the Star Base, Battle Station
+and Star Fortress have been increased.
+Command Point bonuses for the Star Base, Battle Station
+and Star Fortress have been lowered.
+Surveillance Stations have a higher upkeep.
+Military and Adv Military Outposts now have a BC upkeep.
+Asteroid Labs / mines and Gas Giant Mines… have higher build costs.
+…have a command point cost of 1.
+Jump Gates cost more and have a higher upkeep.[/spoiler]
+
+[h2][u]Closing Notes[/u][/h2]
+"Why cant Jump Gates just be built anywhere on Warp Nodes AND Planets?"
+If the Tag "requiresWarpGate" is set to "false" to allow building on planets,
+then they cant be built on warp gates(lanes/nodes) and visa versa.
+
+I intend to write unique descriptions that indicate all the changes this mod makes,
+to make everything more integrated and immersive. Sooner than later.
+
+If you have no modding experience but are interested,
+be sure to read over the following guide,
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=772694134]Modding Basics[/url] - By Spud Dastardly
+
+[hr]
+~ MeVII †
+
+~ ~ ~ ~ ~ ~ ~
+
+You are not a lost cause.
+You are not a hopeless case.
+John 3:16
+Romans 5:8
+
+### END ###
+
+[i][b]*[/b]Psst![b]*[/b]
+
+Over here...[/i] [spoiler][url=https://steamcommunity.com/sharedfiles/filedetails/discussions/2509813417]?[/url][/spoiler]

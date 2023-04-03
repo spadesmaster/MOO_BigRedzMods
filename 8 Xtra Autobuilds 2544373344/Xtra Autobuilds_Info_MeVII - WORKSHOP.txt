@@ -1,0 +1,142 @@
+******* Xtra Autobuild Structures - MeVII *******
+v01.07.11.21.13.20
+
+[h2][u]Summary[/u][/h2]
+This mod alters all colony ships so that if the player has the Tech researched
+they build a host of new structures when founding a new colony.
+Colony ship building costs have been rebalanced.
+Hyper Advanced Colony Ships are fully self-sufficient flying colonies
+and so have reduced command point cost.
+
+[h1][b][u]Xtra Autobuild Structures - MeVII[/u][/b][/h1]
+
+[h2]Location[/h2]
+By default this mod is located at 
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2544373344
+
+[h1][b][u]Special Thanks[/u][/b][/h1]
+SpudDastardly & WhatisSol for patiently dealing with my many nitpicky questions
+
+[h2][u]Bugs & Compatibility[/u][/h2]
+
+[h3][i]Known Bugs[/i][/h3]
+01 - The Klackon
+02 - [BETA VERSION] READ THIS CAREFULLY -
+This mod is NOT 100% functional without copying over a dll file with the one found in the mod folder. 
+
+WITHOUT the dll, ALL buildings WILL be built - however, harsh planet buildings, that, for example
+Change Toxic planets to Barren planets, will NOT CHANGE THE BIOME.
+
+It is recommend to sell them for BC, to get a discount to just buy them back.
+
+WITH THE INCLUDED DLL the buildings will ALSO CHANGE THE PLANET BIOME to Barren as they should.
+
+HOWEVER, there is STILL a glitch where some effects, such as the visual rendering of the planetary shield will not occur until the game refreshes the buildings list, when a building is sold, or built.
+
+WhatIsSol is looking at the issue, and he MAY fix it in a future UPC update.
+If he does, then this mod will automatically function at 100%.
+
+
+[h3][i]Compatibility Information[/i][/h3]
+
+This Mod requires UCP, 5X, and UCP5X Compatibility mods.
+(It will function without Custom 5X and DSMP Assets,
+however, some game images will be blank)
+It should always be loaded after (below) UCP, 5X, and UCP5X Compatibility mods.
+
+[h3]Files Modified[/h3]
+ShipHullTypes.yaml
+
+[h3]Data Entries Changed[/h3]
+This mod changes all content under the following data points.
+[code]key: hull... _colony, advanced_colony, hyper_advanced_colony[/code]
+
+[b][i]-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.[/i][/b]
+
+[h2][u]Mod Details[/u][/h2]
+If the player has the Tech researched,
+Colony Ships now auto build the following when founding a new colony...
+### COLONY SHIP
+# GAME START
+- structure_marine_barracks
+# CONSTRUCTION I
+- structure_automated_factory
+# SOCIOLOGY I
+- structure_geosynchronic_wharf
+# COMPUTERS I
+- structure_research_laboratory
+# BIOLOGY I
+- structure_hydroponic_farm
+# POWER II
+- structure_colony_base
+# COMPUTERS III
+- structure_global_dna_scanner
+# COMPUTERS IV
+- structure_holo_simulator
+# CHEMISTRY V
+- structure_pollution_processor
+
+### ADVANCED COLONY SHIP
+ALL COLONY SHIP BUILDINGS AND
+### BAD PLANET FIXES
+# BIOLOGY I
+- structure_biospheres #ANTI SMALL / TINY PLANETS
+# BIOLOGY III
+- structure_toxics_processor #ANTI TOXIC PLANETS
+# PHYSICS IV
+- structure_gravity_generators #ANTI GRAVITY PENALITY
+# FIELDS V
+- structure_planetary_radiation_shield #ANTI RADIATED PLANETS
+
+# SOCIOLOGY III
+- structure_advance_data_center
+- structure_colonial_revenue_services
+# BIOLOGY III
+- structure_cloning_center
+- structure_soil_enrichment
+# PHYSICS III
+- structure_neutron_collider
+# CONSTRUCTION V
+- structure_robominers
+# SOCIOLOGY V
+- structure_space_port
+# CONSTRUCTION VII
+- structure_armor_barracks
+
+
+### HYPER-ADVANCED COLONY SHIP
+### ALL COLONY AND ADVANCED COLONY SHIP BUILDINGS AND
+# FIELDS VIII
+- structure_planetary_flux_shield
+# FIELDS XIV
+- structure_planetary_barrier_shield
+# COMPUTERS VIII
+- structure_autolab
+# CONSTRUCTION X
+- structure_deep_core_mine
+- structure_core_waste_dump
+
+[h2][u]Closing Notes[/u][/h2]
+
+If you have no modding experience but are interested,
+be sure to read over the following guide,
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=772694134]Modding Basics[/url] - By Spud Dastardly
+
+[hr]
+~ MeVII †
+
+~ ~ ~ ~ ~ ~ ~
+
+You are not a lost cause.
+You are not a hopeless case.
+John 3:16
+Romans 5:8
+
+### END ###
+
+[i][b]*[/b]Psst![b]*[/b]
+
+Over here...[/i] [spoiler][url=https://steamcommunity.com/sharedfiles/filedetails/discussions/2509813417]?[/url][/spoiler]

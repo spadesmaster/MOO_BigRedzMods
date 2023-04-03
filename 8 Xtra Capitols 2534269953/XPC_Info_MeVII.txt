@@ -1,0 +1,75 @@
+******* Xtra Powerful Capitols - MeVII *******
+v01.07.04.21.13.50
+_________________
+- Location
+-----------------
+By default this mod is located at
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2534269953
+
+--- Special Thanks ---
+SpudDastardly & WhatisSol for patiently dealing with my many nitpicky questions
+
+_________________
+- Known Bugs
+-----------------
+01 - The Klackon
+
+_______________________________
+- Summary
+-------------------------------
+This mod makes capitols a significant place of great power in an empire.
+Conquering capitols, along with defending your own,
+now have a much greater strategic importance.
+_______________________________
+- Compatibility Information
+-------------------------------
+
+This Mod requires UCP, 5X, and UCP5X Compatibility mods.
+(It will function without Custom 5X and DSMP Assets,
+however, some game images will be blank)
+It should always be loaded after (below) UCP, 5X, and UCP5X Compatibility mods.
+
+--- Files Modified
+The following yaml files are used by this mod.
+ColonyStructureTypes.yaml
+
+_______________________________
+- Data Entries Changed
+-------------------------------
+This mod changes content under the following data points.
+key: structure_capitol, cost, upkeep, buyoutCostModifier, baseLifeSupportBonus,
+foodTileBonus, foodCarryoverRatio, totalFoodMultiplierBonus, maxPopulationBonus,
+populationGrowthMultiplierBonus, moraleMultiplierBonus, moraleMultiplierBonusSystem,
+baseProductionBonus, productionTileBonus, workerYieldMultiplierBonus, pollutionCleaningRate,
+pollutionMultiplierReduction, baseResearchBonus, researchTileBonus, workerResearchBonus,
+securityBonus, systemSecurityBonus, empireSecurityBonus, spyTrainingTimeModifier, startingSpyLvl,
+assimilationRateModifier, hasScanner, scannerRangeBonus, fleetSupportBonus, shipCostModifier,
+fleetSupportCostReduction, planetDefense, empireUnique, systemUnique
+
+-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.
+
+__________________________________
+Mod Details - Xtra Planet Specials
+----------------------------------
+See image located on Steam Workshop page for a side by side comparason.
+______________
+Closing Notes
+--------------
+
+If you have no modding experience but are interested,
+be sure to read over the following guide, "Modding Basics" - By Spud Dastardly
+https://steamcommunity.com/sharedfiles/filedetails/?id=772694134
+
+~ MeVII †
+
+~ ~ ~ ~ ~ ~ ~
+
+You are not a lost cause.
+You are not a hopeless case.
+John 3:16
+Romans 5:8
+
+### END ###

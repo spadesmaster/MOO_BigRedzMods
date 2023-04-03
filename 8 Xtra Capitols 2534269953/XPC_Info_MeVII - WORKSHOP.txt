@@ -1,0 +1,73 @@
+******* Xtra Powerful Capitols - MeVII *******
+v01.07.04.21.13.50
+
+[h2][u]Summary[/u][/h2]
+This mod makes capitols a significant place of great power in an empire.
+Conquering capitols, along with defending your own,
+now have a much greater strategic importance.
+
+[h1][b][u]Xtra Powerful Capitols - MeVII[/u][/b][/h1]
+
+[h2]Location[/h2]
+By default this mod is located at 
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2534269953
+
+[h1][b][u]Special Thanks[/u][/b][/h1]
+SpudDastardly & WhatisSol for patiently dealing with my many nitpicky questions
+
+[h2][u]Bugs & Compatibility[/u][/h2]
+
+[h3][i]Known Bugs[/i][/h3]
+01 - The Klackon
+
+[h3][i]Compatibility Information[/i][/h3]
+
+This Mod requires UCP, 5X, and UCP5X Compatibility mods.
+(It will function without Custom 5X and DSMP Assets,
+however, some game images will be blank)
+It should always be loaded after (below) UCP, 5X, and UCP5X Compatibility mods.
+
+[h3]Files Modified[/h3]
+The following yaml files are used by this mod.
+ColonyStructureTypes.yaml
+
+[h3]Data Entries Changed[/h3]
+This mod changes content under the following data points.
+[code]key: structure_capitol, cost, upkeep, buyoutCostModifier, baseLifeSupportBonus,
+foodTileBonus, foodCarryoverRatio, totalFoodMultiplierBonus, maxPopulationBonus,
+populationGrowthMultiplierBonus, moraleMultiplierBonus, moraleMultiplierBonusSystem,
+baseProductionBonus, productionTileBonus, workerYieldMultiplierBonus, pollutionCleaningRate,
+pollutionMultiplierReduction, baseResearchBonus, researchTileBonus, workerResearchBonus,
+securityBonus, systemSecurityBonus, empireSecurityBonus, spyTrainingTimeModifier, startingSpyLvl,
+assimilationRateModifier, hasScanner, scannerRangeBonus, fleetSupportBonus, shipCostModifier,
+fleetSupportCostReduction, planetDefense, empireUnique, systemUnique[/code]
+
+[b][i]-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.[/i][/b]
+
+[h2][u]Mod Details[/u][/h2]
+See image located on Steam Workshop page for a side by side comparason.
+
+[h2][u]Closing Notes[/u][/h2]
+
+If you have no modding experience but are interested,
+be sure to read over the following guide,
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=772694134]Modding Basics[/url] - By Spud Dastardly
+
+[hr]
+~ MeVII †
+
+~ ~ ~ ~ ~ ~ ~
+
+You are not a lost cause.
+You are not a hopeless case.
+John 3:16
+Romans 5:8
+
+### END ###
+
+[i][b]*[/b]Psst![b]*[/b]
+
+Over here...[/i] [spoiler][url=https://steamcommunity.com/sharedfiles/filedetails/discussions/2509813417]?[/url][/spoiler]

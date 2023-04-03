@@ -1,0 +1,72 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+        ###General structures
+          - key: structure_capitol
+           # BC
+            cost: 500 # 120
+            upkeep: 0 # 2
+            # workerIncomeBonus: 0
+            # creditIncomeBonus: 0
+            incomeMultiplierBonus: 0.1
+            # totalEmpireMultiplierBonus: 0.0 # TAX BONUS
+            buyoutCostModifier: -0.1
+           # FOOD
+            baseLifeSupportBonus: 1 #BASE FOOD BONUS
+            foodTileBonus: 0
+            foodCarryoverRatio: 0.1
+            totalFoodMultiplierBonus: 0.1
+           # POPULATION
+            maxPopulationBonus: 1
+            populationGrowthMultiplierBonus: 0.10
+           # MORALE
+            moraleMultiplierBonus: 0.05
+            moraleMultiplierBonusSystem: 0.10
+           # PRODUCTION
+            baseProductionBonus: 5          # give our (and enemy) capitals a little more base production I mean we built the capitol there!
+            productionTileBonus: 0
+            workerYieldMultiplierBonus: 0.1 # PERCENT PRODUCTION BONUS
+           # POLLUTION
+            # pollutionCleaningRate: 00
+            pollutionMultiplierReduction: 0.1 # POLLUTION PERCENT REDUCTION
+           # SCIENCE
+            baseResearchBonus: 1
+            # researchTileBonus: 0
+            workerResearchBonus: 0.1 # PERCENT RESEARCH BONUS FUNCTIONS BUT NOT DISPLAYED IN GAME
+           # SECURITY
+            securityBonus: 0.05
+            systemSecurityBonus: 0.05
+            empireSecurityBonus: 0.05
+            # spyTrainingTimeModifier: 0.0
+            # startingSpyLvl: 0
+            assimilationRateModifier: 0.5
+           # SCANNER
+            hasScanner: true
+            scannerRangeBonus: 1
+           # FLEET
+            # fleetSupportCost: 0
+            fleetSupportBonus: 10
+            shipCostModifier: -0.1
+            fleetSupportCostReduction: 0.05 # COMMAND POINT COST PERCENT REDUCTION
+            # shipList:
+            #    - hull_xxxxxxx
+           # REPAIR UPGRADE
+            # repairFactor: 0.00
+            # allowShipBlueprintUpgrade: false
+           # MISC
+            planetDefense: 3
+            # canBlock: false
+            # buildBorder: false
+            blocksInvasion: true
+           # BUILD RESTRICTIONS REQUIREMENTS
+            canBuy: false
+            empireUnique: true
+            systemUnique: true
+            # requiresMoon: false
+            # requiresWorker: false
+            # requiresWarpGate: false
+            # requiresAsteroid: false
+            # requiresColonyInSystem: flase
+            # compatibleBiomes:
+            #    - biome_xxxx
+...
