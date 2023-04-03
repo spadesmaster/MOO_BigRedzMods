@@ -1,0 +1,647 @@
+---
+- collection: &Backend.Fleets.WeaponType
+    items:
+      #BEAMS
+      - key: weapontype_fusion_beam
+        visualScale: 1.5
+        tacticalCooldown: 10.0
+        minDamage: 25
+        maxDamage: 25
+        weaponSteps: 1
+        armorPenetration: 11.0
+        rangeDecayFactor: 0.5
+        decayRate: .65
+        rangeLoss: .2
+        weaponRange: 45
+        maxVelocity: 175.0
+        modifiers:
+          - modifier: modifier_continuous_fire_beams
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          - modifier: modifier_enveloping
+      - key: weapontype_ion_pulse_beam
+        visualScale: 1.5
+        tacticalCooldown: 15.0
+        minDamage: 30
+        maxDamage: 27
+        weaponSteps: 1
+        armorPenetration: 20.0
+        rangeDecayFactor: 0.0155
+        decayRate: 0.33
+        rangeLoss: 0.3
+        weaponRange: 35
+        maxVelocity: 175.0
+        modifiers:
+          - modifier: modifier_continuous_fire_beams
+          - modifier: modifier_auto_fire
+        # - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_plasma_cannon
+        visualScale: 1.5
+        tacticalCooldown: 20.0
+        minDamage: 30
+        maxDamage: 30
+        weaponSteps: 4
+        armorPenetration: 2
+        rangeDecayFactor: 0.5
+        decayRate: 1
+        rangeLoss: 0.2
+        weaponRange: 50
+        maxVelocity: 175.0
+        modifiers:
+          - modifier: modifier_continuous_fire_beams
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          - modifier: modifier_enveloping
+      - key: weapontype_particle_beam
+        visualScale: 1.5
+        tacticalCooldown: 10.0
+        minDamage: 60
+        maxDamage: 60
+        weaponSteps: 1
+        armorPenetration: 20.0
+        shieldPenetration: true
+        rangeDecayFactor: 0.0155
+        decayRate: 0.33
+        rangeLoss: 0.25
+        weaponRange: 50
+        maxVelocity: 175.0
+        modifiers:
+          # - modifier: modifier_continuous_fire_beams
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_stellar_converter
+        minDamage: 400
+        maxDamage: 400
+        rangeLoss: 0.1
+        weaponRange: 95
+        maxVelocity: 175.0
+        # modifiers:
+        # - modifier: modifier_continuous_fire_beams
+        # - modifier: modifier_auto_fire
+        # - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_death_ray
+        visualScale: 2.0
+        tacticalCooldown: 10.0
+        minDamage: 85
+        maxDamage: 85
+        weaponSteps: 1
+        armorPenetration: 30.0
+        rangeDecayFactor: 0.0155
+        decayRate: 0.33
+        rangeLoss: 0.25
+        weaponRange: 60
+        maxVelocity: 175.0
+        modifiers:
+          # - modifier: modifier_continuous_fire_beams
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          # - modifier: modifier_enveloping
+      #CANNONS
+      - key: weapontype_laser_cannon
+        tacticalCooldown: 5.0
+        minDamage: 9
+        maxDamage: 9
+        armorPenetration: 6.0
+        rangeDecayFactor: 0.32
+        decayRate: 1.25
+        rangeLoss: 0.15
+        weaponRange: 35
+        modifiers:
+          - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          # - modifier: modifier_enveloping
+      - key: weapontype_neutron_blaster
+        tacticalCooldown: 5.0
+        minDamage: 12
+        maxDamage: 12
+        armorPenetration: 8.0
+        rangeDecayFactor: 0.32
+        decayRate: 1.25
+        rangeLoss: 0.15
+        weaponRange: 40
+        modifiers:
+          # - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_mass_driver
+        tacticalCooldown: 5.0
+        minDamage: 11
+        maxDamage: 11
+        armorPenetration: 10.0
+        rangeLoss: 0.3
+        weaponRange: 40
+        modifiers:
+          - modifier: modifier_point_defense
+          # - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_graviton_beam
+        tacticalCooldown: 5.0
+        minDamage: 7
+        maxDamage: 7
+        armorPenetration: 40.0
+        rangeDecayFactor: 0.39
+        decayRate: 1.5
+        rangeLoss: 0.1
+        weaponRange: 40
+        modifiers:
+          # - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_phasors
+        tacticalCooldown: 5.0
+        minDamage: 14
+        maxDamage: 14
+        armorPenetration: 11.0
+        rangeDecayFactor: 0.39
+        decayRate: 1.5
+        rangeLoss: 0.2
+        weaponRange: 45
+        modifiers:
+          - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_gauss_cannon
+        tacticalCooldown: 10.0
+        minDamage: 20
+        maxDamage: 20
+        armorPenetration: 18.0
+        rangeLoss: 0.3
+        weaponRange: 50
+        modifiers:
+          # - modifier: modifier_point_defense
+          # - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_disruptor_cannon
+        tacticalCooldown: 10.0
+        minDamage: 30
+        maxDamage: 30
+        armorPenetration: 20.0
+        rangeDissipation: false
+        rangeLoss: 0.2
+        weaponRange: 50
+        modifiers:
+          # - modifier: modifier_point_defense
+          # - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_mauler_device
+        tacticalCooldown: 20.0
+        minDamage: 125
+        maxDamage: 125
+        armorPenetration: 25.0
+        rangeLoss: 0.5
+        weaponRange: 20
+        modifiers:
+          # - modifier: modifier_point_defense
+          # - modifier: modifier_continuous_fire_lasers
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_dark_energy_cannon
+        tacticalCooldown: 10.0
+        minDamage: 40
+        maxDamage: 40
+        armorPenetration: 25.0
+        rangeDecayFactor: 0.4
+        decayRate: 1.5
+        rangeLoss: 0.3
+        weaponRange: 55
+        modifiers:
+          # - modifier: modifier_point_defense
+          # - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      #MISSILES
+      - key: weapontype_nuclear_missile
+        tacticalCooldown: 15.0
+        timeToLive: 30.0
+        missileAttack: 50
+        minDamage: 10
+        maxDamage: 20
+        armorPenetration: 10.0
+        weaponRange: 50
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 7.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      - key: weapontype_merculite_missile
+        tacticalCooldown: 15.0
+        timeToLive: 30.0
+        missileAttack: 50
+        minDamage: 12
+        maxDamage: 23
+        armorPenetration: 13.0
+        weaponRange: 50
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 7.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      - key: weapontype_pulson_missile
+        tacticalCooldown: 15.0
+        timeToLive: 30.0
+        missileAttack: 60
+        minDamage: 14
+        maxDamage: 26
+        armorPenetration: 16.0
+        weaponRange: 60
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 8.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      - key: weapontype_zeon_missile
+        tacticalCooldown: 15.0
+        timeToLive: 30.0
+        missileAttack: 60
+        minDamage: 16
+        maxDamage: 29
+        armorPenetration: 19.0
+        weaponRange: 60
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 9.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      - key: weapontype_quantum_missile
+        tacticalCooldown: 15.0
+        timeToLive: 30.0
+        missileAttack: 70
+        minDamage: 18
+        maxDamage: 32
+        armorPenetration: 22.0
+        weaponRange: 70
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 10.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      #TORPEDOES
+      - key: weapontype_proton_torpedo
+        minDamage: 45
+        maxDamage: 45
+        weaponRange: 55
+        acceleration: 5.0
+        maxVelocity: 7.0
+        modifiers:
+          - modifier: modifier_enveloping
+          - modifier: modifier_overloaded
+          # - modifier: modifier_fast
+          # - modifier: modifier_semi_guided
+      - key: weapontype_antimatter_torpedo
+        minDamage: 60
+        maxDamage: 60
+        weaponRange: 60
+        acceleration: 6.0
+        maxVelocity: 8.25
+        modifiers:
+          # - modifier: modifier_enveloping
+          - modifier: modifier_overloaded
+          - modifier: modifier_fast
+          # - modifier: modifier_semi_guided
+      - key: weapontype_plasma_torpedo
+        minDamage: 70
+        maxDamage: 70
+        weaponRange: 65
+        acceleration: 6.0
+        maxVelocity: 10.0
+        modifiers:
+          - modifier: modifier_enveloping
+          # - modifier: modifier_overloaded
+          - modifier: modifier_fast
+          # - modifier: modifier_semi_guided
+      - key: weapontype_quantum_torpedo
+        minDamage: 80
+        maxDamage: 80
+        weaponRange: 70
+        acceleration: 7.0
+        maxVelocity: 8.25
+        modifiers:
+          - modifier: modifier_enveloping
+          - modifier: modifier_overloaded
+          - modifier: modifier_fast
+          # - modifier: modifier_semi_guided
+      #BOMBS
+      - key: weapontype_nuclear_bomb
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 10
+        maxDamage: 10
+        missileAttack: 50
+        armorPenetration: 10.0
+        weaponRange: 20
+        weaponHp: 4.0
+        ammo: 2
+      - key: weapontype_fusion_bomb
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 20
+        maxDamage: 20
+        missileAttack: 55
+        armorPenetration: 15.0
+        weaponRange: 20
+        weaponHp: 4.0
+        ammo: 2
+      - key: weapontype_antimatter_bomb
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 35
+        maxDamage: 35
+        missileAttack: 55
+        armorPenetration: 15.0
+        weaponRange: 20
+        weaponHp: 4.0
+        ammo: 2
+      - key: weapontype_neutronium_bomb
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 55
+        maxDamage: 55
+        missileAttack: 60
+        armorPenetration: 20.0
+        weaponRange: 20
+        weaponHp: 4.0
+        ammo: 2
+      - key: weapontype_chromodynamic_bomb
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 70
+        maxDamage: 70
+        missileAttack: 60
+        armorPenetration: 30.0
+        weaponRange: 20
+        weaponHp: 4.0
+        ammo: 2
+      - key: weapontype_death_spores
+        visualScale: 0.5
+        tacticalCooldown: 10.0
+        minDamage: 10
+        maxDamage: 10
+        missileAttack: 50
+        weaponRange: 20
+        weaponHp: 4.0
+      - key: weapontype_bio_terminator
+        visualScale: 0.5
+        tacticalCooldown: 10.0
+        minDamage: 10
+        maxDamage: 10
+        missileAttack: 50
+        weaponRange: 20
+        weaponHp: 4.0
+      - key: weapontype_bionic_super_viruses
+        visualScale: 0.5
+        tacticalCooldown: 10.0
+        minDamage: 10
+        maxDamage: 10
+        missileAttack: 50
+        weaponRange: 20
+        weaponHp: 4.0
+      #FIGHTERS
+      - key: weapontype_fighter_bay
+        dronesPerGroup: 3
+        tacticalCooldown: 5.0
+      - key: weapontype_bomber_bay
+        dronesPerGroup: 2
+        tacticalCooldown: 10.0
+      - key: weapontype_heavy_fighter_bay
+        dronesPerGroup: 3
+        tacticalCooldown: 5.0
+      #SPECIALS
+      - key: weapontype_pulsar
+        weaponRange: 10
+        splashArea: 15
+        visualScale: 0.5
+        tacticalCooldown: 5.0
+        minDamage: 25
+        maxDamage: 25
+        armorPenetration: 10.0
+      - key: weapontype_lightning_field
+        weaponRange: 20
+        weaponAccuracy: 0.75
+        duration: 1.0
+      - key: weapontype_antimissile_rockets
+        weaponRange: 40
+      - key: weapontype_plasma_web
+        tacticalCooldown: 70
+        duration: 0.25
+        weaponRange: 50
+        minDamage: 40
+        maxDamage: 40
+        weaponSteps: 30
+        weaponStepDuration: 2.0
+        splashArea: 5
+      - key: weapontype_black_hole
+        weaponRange: 70
+      - key: weapontype_cluster_bombs
+        visualScale: .15
+        weaponRange: 35
+        armorPenetration: 15.0
+        minDamage: 15
+        maxDamage: 15
+        splashArea: 10
+      - key: weapontype_advanced_cluster_bombs
+        visualScale: .25
+        weaponRange: 40
+        armorPenetration: 20.0
+        minDamage: 25
+        maxDamage: 25
+      - key: weapontype_black_hole_crush
+        minDamage: 70
+        maxDamage: 70
+        armorPenetration: 10.0
+        duration: 1.0
+
+      ##PIRATE WEAPONTYPES
+      - key: weapontype_pirate_cannon
+        tacticalCooldown: 5.0
+        minDamage: 9
+        maxDamage: 9
+        armorPenetration: 6.0
+        rangeDecayFactor: 0.32
+        decayRate: 1.25
+        rangeLoss: 0.15
+        weaponRange: 40
+        modifiers:
+          # - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+        # - modifier: modifier_enveloping
+      - key: weapontype_pirate_beam
+        tacticalCooldown: 10.0
+        minDamage: 30
+        maxDamage: 30
+        weaponSteps: 1
+        armorPenetration: 10.0
+        rangeDecayFactor: 0.5
+        decayRate: 1
+        rangeLoss: 0.20
+        weaponRange: 45
+        modifiers:
+          - modifier: modifier_continuous_fire_beams
+          # - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          - modifier: modifier_enveloping
+      - key: weapontype_pirate_missile
+        tacticalCooldown: 15.0
+        missileAttack: 20
+        minDamage: 30
+        maxDamage: 30
+        armorPenetration: 10.0
+        weaponRange: 55
+        weaponHp: 2.0
+        acceleration: 35.0
+        maxVelocity: 10.0
+        modifiers:
+          - modifier: modifier_heavy_armor
+          - modifier: modifier_eccm
+          - modifier: modifier_fast
+          - modifier: modifier_mirv
+      ##MONSTER WEAPONTYPES
+      - key: weapontype_fusion_beam_eel
+        model: ion_pulse_beam
+      - key: weapontype_missile_squid
+        maxDamage: 29
+        armorPenetration: 16.0
+        weaponRange: 60
+        weaponHp: 10.0
+      - key: weapontype_melee_squid
+        maxDamage: 120
+        armorPenetration: 25.0
+        weaponRange: 4
+      - key: weapontype_missile_dragon
+        tacticalCooldown: 10.0
+        maxDamage: 31
+        armorPenetration: 19.0
+        weaponRange: 20
+        weaponHp: 10.0
+        hasFacing: true
+      - key: weapontype_plasma_torpedo_dragon
+        tacticalCooldown: 7.0
+        maxDamage: 120
+        armorPenetration: 30.0
+        weaponRange: 60
+      - key: weapontype_phasors_parasite
+        visualScale: 0.25
+        tacticalCooldown: 5.0
+        rateOfFire: 0.3
+        volleySize: 1
+        minDamage: 14
+        maxDamage: 14
+        armorPenetration: 15.0
+        shieldPenetration: true
+        modifiers:
+          - modifier: modifier_point_defense
+          - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_auto_fire
+          - modifier: modifier_heavy_mount
+          - modifier: modifier_enveloping
+      - key: weapontype_fighter_bay_dragon
+        className: TacticalDragonParasite
+        dronesPerGroup: 12
+        tacticalCooldown: 8.0
+        weaponRange: 80.0
+        onUseFunc: FighterBay
+        isToggleable: true
+        hasFacing: false
+        canUseBombs: false
+      - key: weapontype_pulsar_amoeba_large
+        tacticalCooldown: 10.0
+        splashArea: 25
+        rateOfFire: 0.3
+        maxDamage: 100
+        armorPenetration: 15.0
+        weaponRange: 20
+      - key: weapontype_pulsar_amoeba_medium
+        tacticalCooldown: 10.0
+        splashArea: 20
+        rateOfFire: 0.3
+        maxDamage: 50
+        armorPenetration: 15.0
+        weaponRange: 15
+      - key: weapontype_pulsar_amoeba_small
+        tacticalCooldown: 5.0
+        splashArea: 15
+        visualScale: 2.0
+        rateOfFire: 0.3
+        maxDamage: 18
+        armorPenetration: 15.0
+        weaponRange: 10
+      - key: weapontype_plasma_web_amoeba_large
+        tacticalCooldown: 20.0
+        duration: 5
+        weaponRange: 40
+        minDamage: 40
+        maxDamage: 40
+        weaponSteps: 10
+        weaponStepDuration: 0.5
+        armorPenetration: 25
+        splashArea: 15
+      - key: weapontype_plasma_web_amoeba_medium
+        tacticalCooldown: 10.0
+        duration: 5
+        weaponRange: 20
+        minDamage: 20
+        maxDamage: 20
+        weaponSteps: 10
+        weaponStepDuration: 0.5
+        armorPenetration: 20
+        splashArea: 15
+      #MISSING SPECIALS WEAPONTYPES
+      - key: weapontype_augmented_engines
+        tacticalCooldown: 10.0
+        bonusAcceleration: 1.5
+        duration: 15.0
+      - key: weapontype_displacement_device
+        tacticalCooldown: 15.0
+        weaponRange: 50.0
+        warmupTime: 1.0
+      - key: weapontype_subspace_teleporter
+        tacticalCooldown: 20.0
+        weaponRange: 100.0
+        warmupTime: 1.25
+      - key: weapontype_cloaking_device
+        warmupTime: 0
+        tacticalCooldown: 2.0
+      - key: weapontype_phasing_cloak
+        warmupTime: 0
+        tacticalCooldown: 2.0
+      - key: weapontype_shield_capacitor
+        bonusSP: 0.25
+      - key: weapontype_energy_absorber
+        tacticalCooldown: 45.0
+        damageToShield: 0.70
+        duration: 20.0

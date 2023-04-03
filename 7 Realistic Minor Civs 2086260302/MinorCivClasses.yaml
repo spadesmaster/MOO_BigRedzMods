@@ -1,0 +1,103 @@
+---
+- collection: &Backend.Civilizations.MinorCivClass
+    items:
+          - key: minor_civ_class_farmers
+            name: FE_FARMERS
+            icon_idx: 0
+            investments:
+              - cost: 250
+                bonuses:
+                  - type: system_colonies_food
+                    value: 2
+              - cost: 450
+                bonuses:
+                  - type: system_colonies_food
+                    value: 4
+              - cost: 600
+                bonuses:
+                  - type: system_colonies_food
+                    value: 6
+              - cost: 800
+                bonuses:
+                  - type: system_colonies_food
+                    value: 8   
+              - cost: 1000
+                bonuses:
+                  - type: system_colonies_food
+                    value: 10
+                    
+          - key: minor_civ_class_workers
+            name: FE_WORKERS
+            icon_idx: 1
+            investments:
+              - cost: 250
+                bonuses:
+                  - type: system_colonies_production
+                    value: 2
+              - cost: 450
+                bonuses:
+                  - type: system_colonies_production
+                    value: 4
+              - cost: 600
+                bonuses:
+                  - type: system_colonies_production
+                    value: 6
+              - cost: 800
+                bonuses:
+                  - type: system_colonies_production
+                    value: 8
+              - cost: 1000
+                bonuses:
+                  - type: system_colonies_production
+                    value: 10
+                    
+          - key: minor_civ_class_researchers
+            name: FE_RESEARCHERS
+            icon_idx: 2
+            investments:
+              - cost: 250
+                bonuses:
+                  - type: system_colonies_research
+                    value: 2
+              - cost: 450
+                bonuses:
+                  - type: system_colonies_research
+                    value: 4
+              - cost: 600
+                bonuses:
+                  - type: system_colonies_research
+                    value: 6
+              - cost: 800
+                bonuses:
+                  - type: system_colonies_research
+                    value: 8
+              - cost: 1000
+                bonuses:
+                  - type: system_colonies_research
+                    value: 10
+
+          - key: minor_civ_class_traders
+            name: FE_TRADERS
+            icon_idx: 3
+            investments:
+              - cost: 250
+                bonuses:
+                  - type: system_colonies_credits
+                    value: 4
+              - cost: 450
+                bonuses:
+                  - type: system_colonies_credits
+                    value: 8
+              - cost: 600
+                bonuses:
+                  - type: system_colonies_credits
+                    value: 12
+              - cost: 800
+                bonuses:
+                  - type: system_colonies_credits
+                    value: 16
+              - cost: 1000
+                bonuses:
+                  - type: system_colonies_credits
+                    value: 20
+...

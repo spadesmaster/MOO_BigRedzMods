@@ -1,0 +1,20 @@
+---
+- collection: &Backend.Research.TechApplication
+    items:
+          - key: techapp_arcology
+            icon: assets/tech_apps/tech_building_food.png
+            type: techapptype_structure
+            hologram: ContentPrefabs/Research/metro.prefab
+            unlocks:
+               - structure_arcology
+            tags:
+                 - Population
+          - key: techapp_uber_arcology
+            icon: assets/tech_apps/tech_building_food.png
+            type: techapptype_structure
+            hologram: ContentPrefabs/Research/metro.prefab
+            unlocks:
+               - structure_uber_arcology
+            tags:
+                 - Population
+...

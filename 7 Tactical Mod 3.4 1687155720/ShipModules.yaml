@@ -1,0 +1,195 @@
+---
+- collection: &Backend.Fleets.ShipModule
+    items:
+      #CANNONS
+      - key: shipmodule_repair_cannon
+        size: 5
+      - key: shipmodule_laser_cannon
+        size: 8
+      - key: shipmodule_mass_driver
+        size: 10
+      - key: shipmodule_neutron_blaster
+        size: 10
+      - key: shipmodule_graviton_beam
+        size: 15
+      - key: shipmodule_phasors
+        size: 10
+      - key: shipmodule_gauss_cannon
+        size: 10
+      - key: shipmodule_disruptor_cannon
+        size: 20
+      - key: shipmodule_mauler_device
+        size: 40
+      - key: shipmodule_dark_energy_cannon
+        size: 40
+      - key: shipmodule_pirate_cannon
+        size: 10
+
+      #BEAMS
+      - key: shipmodule_fusion_beam
+        size: 10
+      - key: shipmodule_ion_pulse_cannon
+        size: 15
+      - key: shipmodule_plasma_cannon
+        size: 15
+      - key: shipmodule_death_ray
+        size: 30
+      - key: shipmodule_particle_beam
+        size: 20
+
+        #MISSILES
+      - key: shipmodule_nuclear_missile
+        size: 14
+      - key: shipmodule_merculite_missile
+        size: 14
+      - key: shipmodule_pulson_missile
+        size: 14
+      - key: shipmodule_zeon_missile
+        size: 14
+      - key: shipmodule_quantum_missile
+        size: 14
+
+        #DRONES
+      - key: shipmodule_bomber_bays
+        subType: shipmodulesubtype_bomber
+
+        #ARMOR
+      - key: shipmodule_titanium_armor
+        tacticalArmorMultiplier: 1.0
+      - key: shipmodule_tritanium_armor
+        tacticalArmorMultiplier: 1.2
+      - key: shipmodule_neutronium_armor
+        tacticalArmorMultiplier: 1.8
+      - key: shipmodule_zortrium_armor
+        tacticalArmorMultiplier: 2.6
+      - key: shipmodule_adamantium_armor
+        tacticalArmorMultiplier: 3.4
+      - key: shipmodule_xentronium_armor
+        tacticalArmorMultiplier: 4.4
+      - key: shipmodule_unobtainium_armor
+        tacticalArmorMultiplier: 5.4
+
+        #SHIELDS
+      - key: shipmodule_class_i_shield
+        shieldStrengthMultiplier: 0.6
+        shieldDamageAbsorption: 1
+        shieldRechargeRate: 0.1
+        shieldCooldown: 5
+      - key: shipmodule_class_iii_shield
+        shieldStrengthMultiplier: 1.0
+        shieldDamageAbsorption: 3
+        shieldRechargeRate: 0.1
+        shieldCooldown: 5
+      - key: shipmodule_class_v_shield
+        shieldStrengthMultiplier: 1.4
+        shieldDamageAbsorption: 5
+        shieldRechargeRate: 0.15
+        shieldCooldown: 5
+      - key: shipmodule_class_vii_shield
+        shieldStrengthMultiplier: 1.8
+        shieldDamageAbsorption: 7
+        shieldRechargeRate: 0.15
+        shieldCooldown: 5
+      - key: shipmodule_class_x_shield
+        shieldStrengthMultiplier: 2.0
+        shieldDamageAbsorption: 10
+        shieldRechargeRate: 0.2
+        shieldCooldown: 5
+      - key: shipmodule_class_xii_shield
+        shieldStrengthMultiplier: 2.2
+        shieldDamageAbsorption: 12
+        shieldRechargeRate: 0.2
+        shieldCooldown: 5
+      - key: shipmodule_hard_shield
+        bonusAbsorptionRate: 5
+      - key: shipmodule_multiphased_shield
+        shieldStrengthBonus: 1.75
+      - key: shipmodule_reinforced_hull
+        hullPointsMultiplier: 0.60
+
+      #COMPUTERS
+      - key: shipmodule_electronic_computer
+        accuracyBonus: 5
+      - key: shipmodule_advanced_electronic_computer
+        accuracyBonus: 25
+      - key: shipmodule_optronic_computer
+        accuracyBonus: 50
+      - key: shipmodule_cybertronic_computer
+        accuracyBonus: 75
+      - key: shipmodule_positronic_computer
+        accuracyBonus: 100
+      - key: shipmodule_moleculartronic_computer
+        accuracyBonus: 125
+      - key: shipmodule_chromodynamic_computer
+        accuracyBonus: 150
+
+      #DRIVES
+      - key: shipmodule_fusion_drive
+        impulseFactor: 0.2
+      - key: shipmodule_ion_drive
+        impulseFactor: 0.6
+      - key: shipmodule_antimatter_drive
+        impulseFactor: 1.0
+      - key: shipmodule_hyper_drive
+        impulseFactor: 1.4
+      - key: shipmodule_interphased_drive
+        impulseFactor: 1.8
+      - key: shipmodule_interdimensional_drive
+        impulseFactor: 2.2
+
+      #SYSTEMS
+      - key: shipmodule_augmented_engines
+        avoidance: 20
+      - key: shipmodule_battle_scanner
+        accuracyBonus: 20
+      - key: shipmodule_inertial_stabilizer
+        avoidance: 40
+      - key: shipmodule_inertial_nullifier
+        avoidance: 60
+      - key: shipmodule_cloaking_device
+        avoidance: 55
+        missileAvoidance: 60
+        baseSize: 2
+      - key: shipmodule_ecm_jammer
+        missileAvoidance: 55
+      - key: shipmodule_multiwave_ecm_jammer
+        missileAvoidance: 70
+        costHullFactor: 1.5
+      - key: shipmodule_wide_area_jammer
+        missileAvoidance: 90
+        fleetMissileAvoidance: 50
+      - key: shipmodule_fast_missile_racks
+        sizeHullFactor: 2.1
+      - key: shipmodule_military_upgrade
+        rangeBoost: 1.5
+        damageBoost: 1.25
+        accuracyBonus: 25
+      - key: shipmodule_hyperx_capacitors
+        baseSize: 4
+        sizeHullFactor: 2
+        energyWeaponSizeFactor: 0.70
+      - key: shipmodule_highenergy_focus
+        baseSize: 4
+        sizeHullFactor: 1.75
+        bonusEnergyDamage: 0.25
+      - key: shipmodule_automated_repair_unit
+        hullRegeneration: 0.01
+        hullRegenerationTimer: 2.0
+      - key: shipmodule_cluster_bombs
+        category: mine
+      - key: shipmodule_advanced_cluster_bombs
+        category: mine
+      - key: shipmodule_damper_field
+        name: $SHIP_MODULE_DAMPER_FIELD_NAME
+        shortDescription: $SHIP_MODULE_DAMPER_FIELD_DESCRIPTION_SHORT
+        description: $SHIP_MODULE_DAMPER_FIELD_DESCRIPTION
+        slot: shipslot_special
+        weaponType: weapontype_special_passive
+        subType: shipmodulesubtype_defense
+        baseCost: 8
+        costHullFactor: 1.7
+        baseSize: 5
+        sizeHullFactor: 2
+        isPassive: true
+        isUnique: true
+        icon: assets/ship_modules/scout_lab.png

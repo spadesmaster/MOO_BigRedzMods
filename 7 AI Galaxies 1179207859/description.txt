@@ -1,0 +1,6 @@
+Version 1.8
+This mod is compatible with 5X v5.1 and later. 
+
+To get Mike's new races to work with 5X and this mod, load MNR between UCP and 5XCPC.
+
+Note that the game is not designed to run more than 9 players in a galaxy, and adding extra ones may cause issues. In particular, it is known to cause issues with Antarans, so you may want to turn them off if you are going to play with more than 9 players.

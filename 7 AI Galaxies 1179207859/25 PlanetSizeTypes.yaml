@@ -1,0 +1,23 @@
+---
+- collection: &Backend.Galaxy.PlanetSizeType
+    items:
+          - key: planetsize_tiny
+            scaleFactor: 0.7
+          - key: planetsize_small
+            scaleFactor: 0.825
+          - key: planetsize_medium
+            scaleFactor: 0.95
+          - key: planetsize_large
+            name: PLANET_SIZE_TYPE_LARGE
+            scaleFactor: 1.075
+          - key: planetsize_huge
+            scaleFactor: 1.2
+          - key: planetsize_gasgiant
+            scaleFactor: 1.325
+          - key: satellitesize_small
+            scaleFactor: 0.175
+          - key: satellitesize_medium
+            scaleFactor: 0.25
+          - key: satellitesize_large
+            scaleFactor: 0.325
+...

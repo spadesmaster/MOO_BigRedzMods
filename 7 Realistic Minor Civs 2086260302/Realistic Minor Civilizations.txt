@@ -1,0 +1,27 @@
+Realistic Minor Civilizations
+
+Minor civilizations are sometimes found on planets that do not correspond to them, for example:
+-	Aquatic Akirians can be on Arid planet;
+-	The Eldritch, who are described as “living in makeshifts tunnels under the surface of the planet”, or the Nyemorian with desolate landscape at the picture, are found on the Ocean planet;
+-	And Yar-ssian with green hills in the background can be on a Barren planet.
+
+This mod fixes that and makes a few improvements without radically changing the gameplay.
+
+List of changes:
+1. Home planets of minor civilizations now more accurately correspond to the contact description and their pictures. Possible planets are more diverse and includes uber planets.
+
+2. For some civilizations their class has been changed. So, in the description of the first contact with Akirians, it is written that “they have forsaken technology in search of spiritual illumination.  They claim to live in peace and harmony with nature.” It is obvious, that the farmers class is most corresponds to them.
+
+3. The parameter "focus" are changed to match with the roles of civilizations. I'm not sure that it really affects the gameplay, but in any case, it will definitely not make it worse :)
+
+4. Instead of three levels of development of relations with minor civilizations, there are now five.
+But do not be surprised that for the fifth level the payment is less and the bonus is more. You need to consider the amount of total investment for all levels. The attached images show the advantages of the new scheme:
+- Investments pay off slightly faster than in the original game. This is especially important if you have only one or two planets in a system with a minor civilization.
+- The payment for the first level has been reduced, and the total amount of investment for all levels has become higher. This is done to extend the period of interaction with a minor civilization.
+
+The latest version of the Unofficial Code Patch is required to work correctly (https://steamcommunity.com/sharedfiles/filedetails/?id=1109736522). Although it is difficult to imagine a situation where you have not yet installed it.
+
+Only the MinorCivClasses.yaml and RaceTypes.yaml files were changed.
+The mod works with the latest version of the game (from March 12, 2020) and should be compatible with any other. Place it to the bottom of the list of mods.
+
+Comments are welcome!

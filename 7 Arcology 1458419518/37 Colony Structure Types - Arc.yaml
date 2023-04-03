@@ -1,0 +1,25 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+          - key: structure_arcology
+            name: "Arcology"
+            description: "Abandoning individual housing structures allows more people to live in a smaller area, increasing the maximum population of the world by 10 units."
+            icon: assets/structures/metro.png
+            cost: 600
+            upkeep: 40
+            maxPopulationBonus: 10
+            isTransferable: false
+            structureTypes:
+                - 1
+            workingStatus: true
+          - key: structure_uber_arcology
+            name: "Uber Arcology"
+            description: "Advancements in construction technology allow for incredibly massive structures, increasing the maximum population of the world by 20 units."
+            icon: assets/structures/metro.png
+            cost: 1500
+            upkeep: 100
+            maxPopulationBonus: 20
+            isTransferable: false
+            structureTypes:
+                - 1
+            workingStatus: true

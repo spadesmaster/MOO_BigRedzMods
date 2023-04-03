@@ -1,0 +1,29 @@
+﻿---
+- globals: &Backend.Galaxy.GalaxyModels.LeastDistanceDistribution
+    MAX_POSITION_REROLLS: 13
+- globals: &Backend.Galaxy.SolarSystemGenerator
+    PLANETARY_ORBITS:
+        - minOrbitRadius: 0.25
+          maxOrbitRadius: 0.25
+          bodyCapacity: 1
+        - minOrbitRadius: 0.4
+          maxOrbitRadius: 0.4
+          bodyCapacity: 1
+        - minOrbitRadius: 0.55
+          maxOrbitRadius: 0.55
+          bodyCapacity: 1
+        - minOrbitRadius: 0.7
+          maxOrbitRadius: 0.7
+          bodyCapacity: 2
+        - minOrbitRadius: 0.85
+          maxOrbitRadius: 0.85
+          bodyCapacity: 2
+    LUNAR_ORBITS:
+        - minOrbitRadius: 0.1
+          maxOrbitRadius: 0.1
+          bodyCapacity: 1
+        - minOrbitRadius: 0.135
+          maxOrbitRadius: 0.135
+          bodyCapacity: 1
+    WARPGATE_ORBIT_RADIUS_OFFSET: 0.15
+...

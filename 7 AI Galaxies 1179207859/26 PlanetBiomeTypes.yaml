@@ -1,0 +1,109 @@
+---
+- collection: &Backend.Galaxy.PlanetBiomeType
+    items:
+          - key: biome_coral_world
+            name: PLANET_BIOME_TYPE_CORAL_WORLD
+            classType: PLANET_BIOME_CLASS_A
+            isColonizable: true
+            isUberBiome: true
+            cinematic: ContentPrefabs/Cinematics/ColonizationCinematic_ocean.prefab
+            biomeSoilFactor: 4.6
+            viableFarmingFactor: 1
+            viableIndustryFactor: 1
+            innerOrbitDowngradeBiome: biome_ocean
+            outerOrbitDowngradeBiome: biome_tundra
+            color: 0x9ac632
+            surfaceMaterial:
+                - Materials/PlanetBiomes/Planet_Oceanic_A
+            haloMaterial:
+                - Materials/PlanetHalos/NewPlanet_halo_ocean
+            systemSurfMaterial:
+                - Materials/PlanetBiomes/NewPlanet_galaxy_terran
+            pollutionAbsorption: 25
+            icon : assets/empire_management/planet_ocean.png   
+            banner : assets/empire_management/banner_planet_ocean.png            
+          - key: biome_dark_swamp
+            name: PLANET_BIOME_TYPE_DARK_SWAMP
+            classType: PLANET_BIOME_CLASS_A
+            isColonizable: true
+            isUberBiome: true
+            cinematic: ContentPrefabs/Cinematics/ColonizationCinematic_swamp.prefab
+            biomeSoilFactor: 4.2
+            viableFarmingFactor: 1
+            viableIndustryFactor: 1
+            innerOrbitDowngradeBiome: biome_swamp
+            outerOrbitDowngradeBiome: biome_tundra
+            color: 0xe7e541
+            surfaceMaterial:
+                - Materials/PlanetBiomes/Planet_Barren_C
+            haloMaterial:
+                - Materials/PlanetHalos/newplanet_halo_unknown
+            systemSurfMaterial:
+                - Materials/PlanetBiomes/planet_unknown
+            pollutionAbsorption: 30
+            icon : assets/empire_management/unknown.png
+            banner : assets/empire_management/banner_planet_tropical.png
+          - key: biome_forest
+            name: PLANET_BIOME_TYPE_FOREST
+            classType: PLANET_BIOME_CLASS_A
+            isColonizable: true
+            isUberBiome: true
+            cinematic: ContentPrefabs/Cinematics/ColonizationCinematic_swamp.prefab
+            biomeSoilFactor: 4.2
+            viableFarmingFactor: 1
+            viableIndustryFactor: 1
+            innerOrbitDowngradeBiome: biome_desert
+            outerOrbitDowngradeBiome: biome_arid
+            color: 0xe7e541
+            surfaceMaterial:
+                - Materials/PlanetBiomes/Planet_Tropical_A
+            haloMaterial:
+                - Materials/PlanetHalos/NewPlanet_halo_tropical
+            systemSurfMaterial:
+                - Materials/PlanetBiomes/NewPlanet_galaxy_tropical
+            pollutionAbsorption: 30
+            icon : assets/empire_management/planet_tropical.png
+            banner : assets/empire_management/banner_planet_grasslands.png
+          - key: biome_mountainous
+            name: PLANET_BIOME_TYPE_MOUNTAINOUS
+            classType: PLANET_BIOME_CLASS_A
+            isColonizable: true
+            isUberBiome: true
+            cinematic: ContentPrefabs/Cinematics/ColonizationCinematic_arid.prefab
+            biomeSoilFactor: 3.8
+            viableFarmingFactor: 1
+            viableIndustryFactor: 1
+            innerOrbitDowngradeBiome: biome_desert
+            outerOrbitDowngradeBiome: biome_arid
+            color: 0xc67f32
+            surfaceMaterial:
+                - Materials/PlanetBiomes/Planet_Cavernous_A
+            haloMaterial:
+                - Materials/PlanetHalos/NewPlanet_halo_cavernous
+            systemSurfMaterial:
+                - Materials/PlanetBiomes/NewPlanet_galaxy_Cavernous
+            pollutionAbsorption: 35
+            icon : assets/empire_management/planet_cavernous.png
+            banner : assets/empire_management/banner_planet_cavernous.png
+          - key: biome_cybernetic
+            name: PLANET_BIOME_TYPE_CYBERNETIC
+            classType: PLANET_BIOME_CLASS_A
+            isColonizable: true
+            isUberBiome: true
+            cinematic: ContentPrefabs/Cinematics/ColonizationCinematic_terran.prefab
+            biomeSoilFactor: 3.4
+            viableFarmingFactor: 1
+            viableIndustryFactor: 1
+            innerOrbitDowngradeBiome: biome_arid
+            outerOrbitDowngradeBiome: biome_tundra
+            color: 0xc67f32
+            surfaceMaterial:
+                - Materials/PlanetBiomes/Planet_Terran_E
+            haloMaterial:
+                - Materials/PlanetHalos/NewPlanet_halo_nazin
+            systemSurfMaterial:
+                - Materials/PlanetBiomes/NewPlanet_galaxy_nazin
+            pollutionAbsorption: 40
+            icon : assets/empire_management/planet_tropical.png
+            banner : assets/empire_management/banner_planet_tropical.png
+...

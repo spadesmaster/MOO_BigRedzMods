@@ -1,0 +1,1360 @@
+---
+- collection: &Backend.Galaxy.StarType
+    items:
+        - key: star_blue_white
+          name: STAR_TYPE_BLUE_WHITE
+          nebulaeDensity: 2
+          description: STAR_TYPE_BLUE_WHITE_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 4
+                - planetCount: 1
+                  chance: 18
+                - planetCount: 2
+                  chance: 28
+                - planetCount: 3
+                  chance: 29
+                - planetCount: 4
+                  chance: 15
+                - planetCount: 5
+                  chance: 6
+          orbitChances:
+                - orbit: 1
+                  chance: 20
+                - orbit: 2
+                  chance: 20
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 20
+          orbits:
+                - orbit: 1
+                  planetChance: 80
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 85
+                  asteroidFieldChance: 20
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 95
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 85
+                  asteroidFieldChance: 0
+                  gasGiantChance: 15
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 85
+                  asteroidFieldChance: 0
+                  gasGiantChance: 15
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 30
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 40
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 30
+        - key: star_white
+          name: STAR_TYPE_WHITE
+          nebulaeDensity: 3
+          description: STAR_TYPE_WHITE_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 4
+                - planetCount: 1
+                  chance: 18
+                - planetCount: 2
+                  chance: 28
+                - planetCount: 3
+                  chance: 29
+                - planetCount: 4
+                  chance: 15
+                - planetCount: 5
+                  chance: 6
+          orbitChances:
+                - orbit: 1
+                  chance: 20
+                - orbit: 2
+                  chance: 20
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 20
+          orbits:
+                - orbit: 1
+                  planetChance: 85
+                  asteroidFieldChance: 15
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 85
+                  asteroidFieldChance: 0
+                  gasGiantChance: 15
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 80
+                  asteroidFieldChance: 15
+                  gasGiantChance: 20
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 9
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 34
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 36
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 21
+        - key: star_yellow
+          name: STAR_TYPE_YELLOW
+          nebulaeDensity: 1
+          description: STAR_TYPE_YELLOW_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 4
+                - planetCount: 1
+                  chance: 18
+                - planetCount: 2
+                  chance: 28
+                - planetCount: 3
+                  chance: 29
+                - planetCount: 4
+                  chance: 15
+                - planetCount: 5
+                  chance: 6
+          orbitChances:
+                - orbit: 1
+                  chance: 20
+                - orbit: 2
+                  chance: 20
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 20
+          orbits:
+                - orbit: 1
+                  planetChance: 20
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 80
+                  asteroidFieldChance: 15
+                  gasGiantChance: 5
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 10
+                  gasGiantChance: 15
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 80
+                  asteroidFieldChance: 0
+                  gasGiantChance: 20
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 10
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 29
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 39
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 14
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 8
+        - key: star_orange
+          name: STAR_TYPE_ORANGE
+          nebulaeDensity: 0
+          description: STAR_TYPE_ORANGE_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 4
+                - planetCount: 1
+                  chance: 18
+                - planetCount: 2
+                  chance: 28
+                - planetCount: 3
+                  chance: 29
+                - planetCount: 4
+                  chance: 15
+                - planetCount: 5
+                  chance: 6
+          orbitChances:
+                - orbit: 1
+                  chance: 20
+                - orbit: 2
+                  chance: 20
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 20
+          orbits:
+                - orbit: 1
+                  planetChance: 20
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 95
+                  asteroidFieldChance: 5
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 80
+                  asteroidFieldChance: 10
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 10
+                  gasGiantChance: 15
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 80
+                  asteroidFieldChance: 0
+                  gasGiantChance: 20
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 16
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 39
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 36
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 8
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 1
+        - key: star_red
+          name: STAR_TYPE_RED
+          nebulaeDensity: 0
+          description: STAR_TYPE_RED_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 4
+                - planetCount: 1
+                  chance: 18
+                - planetCount: 2
+                  chance: 28
+                - planetCount: 3
+                  chance: 29
+                - planetCount: 4
+                  chance: 15
+                - planetCount: 5
+                  chance: 6
+          orbitChances:
+                - orbit: 1
+                  chance: 20
+                - orbit: 2
+                  chance: 20
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 20
+          orbits:
+                - orbit: 1
+                  planetChance: 20
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 80
+                  asteroidFieldChance: 10
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 10
+                  gasGiantChance: 15
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 80
+                  asteroidFieldChance: 5
+                  gasGiantChance: 15
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 33
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 46
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 1
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 0
+        - key: star_black_hole
+          name: STAR_TYPE_BLACK_HOLE
+          occupationChances:
+                - planetCount: 0
+                  chance: 50
+                - planetCount: 1
+                  chance: 20
+                - planetCount: 2
+                  chance: 15
+                - planetCount: 3
+                  chance: 10
+                - planetCount: 4
+                  chance: 5
+                - planetCount: 5
+                  chance: 0
+          orbitChances:
+                - orbit: 1
+                  chance: 0
+                - orbit: 2
+                  chance: 10
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 30
+                - orbit: 5
+                  chance: 40
+          orbits:
+                - orbit: 1
+                  planetChance: 0
+                  asteroidFieldChance: 100
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 0
+                  asteroidFieldChance: 100
+                  gasGiantChance: 0
+                  multipleObjectChance: 5
+                - orbit: 3
+                  planetChance: 0
+                  asteroidFieldChance: 75
+                  gasGiantChance: 25
+                  multipleObjectChance: 5
+                - orbit: 4
+                  planetChance: 0
+                  asteroidFieldChance: 50
+                  gasGiantChance: 50
+                  multipleObjectChance: 5
+                - orbit: 5
+                  planetChance: 0
+                  asteroidFieldChance: 25
+                  gasGiantChance: 75
+                  multipleObjectChance: 5
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 20
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 20
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 20
+        - key: star_brown
+          orbits:
+                - orbit: 1
+                  planetChance: 86
+                  asteroidFieldChance: 7
+                  gasGiantChance: 7
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 86
+                  asteroidFieldChance: 7
+                  gasGiantChance: 7
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 86
+                  asteroidFieldChance: 7
+                  gasGiantChance: 7
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 86
+                  asteroidFieldChance: 7
+                  gasGiantChance: 7
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 86
+                  asteroidFieldChance: 7
+                  gasGiantChance: 7
+                  multipleObjectChance: 0
+        - key: star_real_black_hole
+          name: STAR_TYPE_REAL_BLACK_HOLE
+          nebulaeDensity: 5
+          description: STAR_TYPE_REAL_BLACK_HOLE_DESCRIPTION
+          occupationChances:
+                - planetCount: 0
+                  chance: 35
+                - planetCount: 1
+                  chance: 50
+                - planetCount: 2
+                  chance: 10
+                - planetCount: 3
+                  chance: 4
+                - planetCount: 4
+                  chance: 1
+                - planetCount: 5
+                  chance: 0
+          orbitChances:
+                - orbit: 1
+                  chance: 0
+                - orbit: 2
+                  chance: 10
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 35
+                - orbit: 5
+                  chance: 35
+          orbits:
+                - orbit: 1
+                  planetChance: 0
+                  asteroidFieldChance: 100
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 0
+                  asteroidFieldChance: 100
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 10
+                  asteroidFieldChance: 80
+                  gasGiantChance: 10
+                  multipleObjectChance: 10
+                - orbit: 4
+                  planetChance: 60
+                  asteroidFieldChance: 10
+                  gasGiantChance: 30
+                  multipleObjectChance: 10
+                - orbit: 5
+                  planetChance: 50
+                  asteroidFieldChance: 0
+                  gasGiantChance: 50
+                  multipleObjectChance: 10
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 25
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 35
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 40
+          names:
+              - STAR_TYPE_BLUE_WHITE_NAME_1
+              - STAR_TYPE_BLUE_WHITE_NAME_2
+              - STAR_TYPE_BLUE_WHITE_NAME_3
+              - STAR_TYPE_BLUE_WHITE_NAME_4
+              - STAR_TYPE_BLUE_WHITE_NAME_5
+              - STAR_TYPE_BLUE_WHITE_NAME_6
+              - STAR_TYPE_BLUE_WHITE_NAME_7
+              - STAR_TYPE_BLUE_WHITE_NAME_8
+              - STAR_TYPE_BLUE_WHITE_NAME_9
+              - STAR_TYPE_BLUE_WHITE_NAME_10
+              - STAR_TYPE_BLUE_WHITE_NAME_11
+              - STAR_TYPE_BLUE_WHITE_NAME_12
+              - STAR_TYPE_BLUE_WHITE_NAME_13
+              - STAR_TYPE_BLUE_WHITE_NAME_14
+              - STAR_TYPE_BLUE_WHITE_NAME_15
+              - STAR_TYPE_BLUE_WHITE_NAME_16
+              - STAR_TYPE_BLUE_WHITE_NAME_17
+              - STAR_TYPE_BLUE_WHITE_NAME_18
+              - STAR_TYPE_BLUE_WHITE_NAME_19
+              - STAR_TYPE_BLUE_WHITE_NAME_20
+              - STAR_TYPE_BLUE_WHITE_NAME_21
+              - STAR_TYPE_BLUE_WHITE_NAME_22
+              - STAR_TYPE_BLUE_WHITE_NAME_23
+              - STAR_TYPE_BLUE_WHITE_NAME_24
+              - STAR_TYPE_BLUE_WHITE_NAME_25
+              - STAR_TYPE_BLUE_WHITE_NAME_26
+              - STAR_TYPE_BLUE_WHITE_NAME_27
+              - STAR_TYPE_BLUE_WHITE_NAME_28
+              - STAR_TYPE_BLUE_WHITE_NAME_29
+              - STAR_TYPE_BLUE_WHITE_NAME_30
+              - STAR_TYPE_BLUE_WHITE_NAME_31
+              - STAR_TYPE_BLUE_WHITE_NAME_32
+              - STAR_TYPE_BLUE_WHITE_NAME_33
+              - STAR_TYPE_BLUE_WHITE_NAME_34
+              - STAR_TYPE_BLUE_WHITE_NAME_35
+              - STAR_TYPE_BLUE_WHITE_NAME_36
+              - STAR_TYPE_BLUE_WHITE_NAME_37
+              - STAR_TYPE_BLUE_WHITE_NAME_38
+              - STAR_TYPE_BLUE_WHITE_NAME_39
+              - STAR_TYPE_BLUE_WHITE_NAME_40
+              - STAR_TYPE_BLUE_WHITE_NAME_41
+              - STAR_TYPE_BLUE_WHITE_NAME_42
+              - STAR_TYPE_BLUE_WHITE_NAME_43
+              - STAR_TYPE_BLUE_WHITE_NAME_44
+              - STAR_TYPE_BLUE_WHITE_NAME_45
+              - STAR_TYPE_BLUE_WHITE_NAME_46
+              - STAR_TYPE_BLUE_WHITE_NAME_47
+              - STAR_TYPE_BLUE_WHITE_NAME_48
+              - STAR_TYPE_BLUE_WHITE_NAME_49
+              - STAR_TYPE_BLUE_WHITE_NAME_50
+              - STAR_TYPE_BLUE_WHITE_NAME_51
+              - STAR_TYPE_BLUE_WHITE_NAME_52
+              - STAR_TYPE_BLUE_WHITE_NAME_53
+              - STAR_TYPE_BLUE_WHITE_NAME_54
+              - STAR_TYPE_BLUE_WHITE_NAME_55
+              - STAR_TYPE_BLUE_WHITE_NAME_56
+              - STAR_TYPE_BLUE_WHITE_NAME_57
+              - STAR_TYPE_BLUE_WHITE_NAME_58
+              - STAR_TYPE_BLUE_WHITE_NAME_59
+              - STAR_TYPE_BLUE_WHITE_NAME_60
+              - STAR_TYPE_BLUE_WHITE_NAME_61
+              - STAR_TYPE_BLUE_WHITE_NAME_62
+              - STAR_TYPE_BLUE_WHITE_NAME_63
+              - STAR_TYPE_BLUE_WHITE_NAME_64
+              - STAR_TYPE_BLUE_WHITE_NAME_65
+              - STAR_TYPE_BLUE_WHITE_NAME_66
+              - STAR_TYPE_BLUE_WHITE_NAME_67
+              - STAR_TYPE_BLUE_WHITE_NAME_68
+              - STAR_TYPE_BLUE_WHITE_NAME_69
+              - STAR_TYPE_BLUE_WHITE_NAME_70
+              - STAR_TYPE_BLUE_WHITE_NAME_71
+              - STAR_TYPE_BLUE_WHITE_NAME_72
+              - STAR_TYPE_BLUE_WHITE_NAME_73
+              - STAR_TYPE_BLUE_WHITE_NAME_74
+              - STAR_TYPE_BLUE_WHITE_NAME_75
+              - STAR_TYPE_BLUE_WHITE_NAME_76
+              - STAR_TYPE_BLUE_WHITE_NAME_77
+              - STAR_TYPE_BLUE_WHITE_NAME_78
+              - STAR_TYPE_BLUE_WHITE_NAME_79
+              - STAR_TYPE_BLUE_WHITE_NAME_80
+              - STAR_TYPE_BLUE_WHITE_NAME_81
+              - STAR_TYPE_BLUE_WHITE_NAME_82
+              - STAR_TYPE_BLUE_WHITE_NAME_83
+              - STAR_TYPE_BLUE_WHITE_NAME_84
+              - STAR_TYPE_BLUE_WHITE_NAME_85
+              - STAR_TYPE_BLUE_WHITE_NAME_86
+              - STAR_TYPE_BLUE_WHITE_NAME_87
+              - STAR_TYPE_BLUE_WHITE_NAME_88
+              - STAR_TYPE_BLUE_WHITE_NAME_89
+              - STAR_TYPE_BLUE_WHITE_NAME_90
+              - STAR_TYPE_BLUE_WHITE_NAME_91
+              - STAR_TYPE_BLUE_WHITE_NAME_92
+              - STAR_TYPE_BLUE_WHITE_NAME_93
+              - STAR_TYPE_BLUE_WHITE_NAME_94
+              - STAR_TYPE_BLUE_WHITE_NAME_95
+              - STAR_TYPE_BLUE_WHITE_NAME_96
+              - STAR_TYPE_BLUE_WHITE_NAME_97
+              - STAR_TYPE_BLUE_WHITE_NAME_98
+              - STAR_TYPE_BLUE_WHITE_NAME_99
+              - STAR_TYPE_BLUE_WHITE_NAME_100
+              - STAR_TYPE_BLUE_WHITE_NAME_101
+              - STAR_TYPE_BLUE_WHITE_NAME_102
+              - STAR_TYPE_BLUE_WHITE_NAME_103
+              - STAR_TYPE_BLUE_WHITE_NAME_104
+              - STAR_TYPE_BLUE_WHITE_NAME_105
+              - STAR_TYPE_BLUE_WHITE_NAME_106
+              - STAR_TYPE_BLUE_WHITE_NAME_107
+              - STAR_TYPE_BLUE_WHITE_NAME_108
+              - STAR_TYPE_BLUE_WHITE_NAME_109
+              - STAR_TYPE_BLUE_WHITE_NAME_110
+              - STAR_TYPE_BLUE_WHITE_NAME_111
+              - STAR_TYPE_BLUE_WHITE_NAME_112
+              - STAR_TYPE_BLUE_WHITE_NAME_113
+              - STAR_TYPE_BLUE_WHITE_NAME_114
+              - STAR_TYPE_BLUE_WHITE_NAME_115
+              - STAR_TYPE_BLUE_WHITE_NAME_116
+              - STAR_TYPE_BLUE_WHITE_NAME_117
+              - STAR_TYPE_BLUE_WHITE_NAME_118
+              - STAR_TYPE_BLUE_WHITE_NAME_119
+              - STAR_TYPE_BLUE_WHITE_NAME_120
+              - STAR_TYPE_BLUE_WHITE_NAME_121
+              - STAR_TYPE_BLUE_WHITE_NAME_122
+              - STAR_TYPE_BLUE_WHITE_NAME_123
+              - STAR_TYPE_BLUE_WHITE_NAME_124
+              - STAR_TYPE_BLUE_WHITE_NAME_125
+              - STAR_TYPE_BLUE_WHITE_NAME_126
+              - STAR_TYPE_BLUE_WHITE_NAME_127
+              - STAR_TYPE_BLUE_WHITE_NAME_128
+              - STAR_TYPE_BLUE_WHITE_NAME_129
+              - STAR_TYPE_BLUE_WHITE_NAME_130
+              - STAR_TYPE_BLUE_WHITE_NAME_131
+              - STAR_TYPE_BLUE_WHITE_NAME_132
+              - STAR_TYPE_BLUE_WHITE_NAME_133
+              - STAR_TYPE_BLUE_WHITE_NAME_134
+              - STAR_TYPE_BLUE_WHITE_NAME_135
+              - STAR_TYPE_BLUE_WHITE_NAME_136
+              - STAR_TYPE_BLUE_WHITE_NAME_137
+              - STAR_TYPE_BLUE_WHITE_NAME_138
+              - STAR_TYPE_BLUE_WHITE_NAME_139
+              - STAR_TYPE_BLUE_WHITE_NAME_140
+              - STAR_TYPE_BLUE_WHITE_NAME_141
+              - STAR_TYPE_BLUE_WHITE_NAME_142
+              - STAR_TYPE_BLUE_WHITE_NAME_143
+              - STAR_TYPE_BLUE_WHITE_NAME_144
+              - STAR_TYPE_BLUE_WHITE_NAME_145
+              - STAR_TYPE_WHITE_NAME_1
+              - STAR_TYPE_WHITE_NAME_2
+              - STAR_TYPE_WHITE_NAME_3
+              - STAR_TYPE_WHITE_NAME_4
+              - STAR_TYPE_WHITE_NAME_5
+              - STAR_TYPE_WHITE_NAME_6
+              - STAR_TYPE_WHITE_NAME_7
+              - STAR_TYPE_WHITE_NAME_8
+              - STAR_TYPE_WHITE_NAME_9
+              - STAR_TYPE_WHITE_NAME_10
+              - STAR_TYPE_WHITE_NAME_11
+              - STAR_TYPE_WHITE_NAME_12
+              - STAR_TYPE_WHITE_NAME_13
+              - STAR_TYPE_WHITE_NAME_14
+              - STAR_TYPE_WHITE_NAME_15
+              - STAR_TYPE_WHITE_NAME_16
+              - STAR_TYPE_WHITE_NAME_17
+              - STAR_TYPE_WHITE_NAME_18
+              - STAR_TYPE_WHITE_NAME_19
+              - STAR_TYPE_WHITE_NAME_20
+              - STAR_TYPE_WHITE_NAME_21
+              - STAR_TYPE_WHITE_NAME_22
+              - STAR_TYPE_WHITE_NAME_23
+              - STAR_TYPE_WHITE_NAME_24
+              - STAR_TYPE_WHITE_NAME_25
+              - STAR_TYPE_WHITE_NAME_26
+              - STAR_TYPE_WHITE_NAME_27
+              - STAR_TYPE_WHITE_NAME_28
+              - STAR_TYPE_WHITE_NAME_29
+              - STAR_TYPE_WHITE_NAME_30
+              - STAR_TYPE_WHITE_NAME_31
+              - STAR_TYPE_WHITE_NAME_32
+              - STAR_TYPE_WHITE_NAME_33
+              - STAR_TYPE_WHITE_NAME_34
+              - STAR_TYPE_WHITE_NAME_35
+              - STAR_TYPE_WHITE_NAME_36
+              - STAR_TYPE_WHITE_NAME_37
+              - STAR_TYPE_WHITE_NAME_38
+              - STAR_TYPE_WHITE_NAME_39
+              - STAR_TYPE_WHITE_NAME_40
+              - STAR_TYPE_WHITE_NAME_41
+              - STAR_TYPE_WHITE_NAME_42
+              - STAR_TYPE_WHITE_NAME_43
+              - STAR_TYPE_WHITE_NAME_44
+              - STAR_TYPE_WHITE_NAME_45
+              - STAR_TYPE_WHITE_NAME_46
+              - STAR_TYPE_WHITE_NAME_47
+              - STAR_TYPE_WHITE_NAME_48
+              - STAR_TYPE_WHITE_NAME_49
+              - STAR_TYPE_WHITE_NAME_50
+              - STAR_TYPE_WHITE_NAME_51
+              - STAR_TYPE_WHITE_NAME_52
+              - STAR_TYPE_WHITE_NAME_53
+              - STAR_TYPE_WHITE_NAME_54
+              - STAR_TYPE_WHITE_NAME_55
+              - STAR_TYPE_WHITE_NAME_56
+              - STAR_TYPE_WHITE_NAME_57
+              - STAR_TYPE_WHITE_NAME_58
+              - STAR_TYPE_WHITE_NAME_59
+              - STAR_TYPE_WHITE_NAME_60
+              - STAR_TYPE_WHITE_NAME_61
+              - STAR_TYPE_WHITE_NAME_62
+              - STAR_TYPE_WHITE_NAME_63
+              - STAR_TYPE_WHITE_NAME_64
+              - STAR_TYPE_WHITE_NAME_65
+              - STAR_TYPE_WHITE_NAME_66
+              - STAR_TYPE_WHITE_NAME_67
+              - STAR_TYPE_WHITE_NAME_68
+              - STAR_TYPE_WHITE_NAME_69
+              - STAR_TYPE_WHITE_NAME_70
+              - STAR_TYPE_WHITE_NAME_71
+              - STAR_TYPE_WHITE_NAME_72
+              - STAR_TYPE_WHITE_NAME_73
+              - STAR_TYPE_WHITE_NAME_74
+              - STAR_TYPE_WHITE_NAME_75
+              - STAR_TYPE_WHITE_NAME_76
+              - STAR_TYPE_WHITE_NAME_77
+              - STAR_TYPE_WHITE_NAME_78
+              - STAR_TYPE_WHITE_NAME_79
+              - STAR_TYPE_WHITE_NAME_80
+              - STAR_TYPE_WHITE_NAME_81
+              - STAR_TYPE_WHITE_NAME_82
+              - STAR_TYPE_WHITE_NAME_83
+              - STAR_TYPE_WHITE_NAME_84
+              - STAR_TYPE_WHITE_NAME_85
+              - STAR_TYPE_WHITE_NAME_86
+              - STAR_TYPE_WHITE_NAME_87
+              - STAR_TYPE_WHITE_NAME_88
+              - STAR_TYPE_WHITE_NAME_89
+              - STAR_TYPE_WHITE_NAME_90
+              - STAR_TYPE_WHITE_NAME_91
+              - STAR_TYPE_WHITE_NAME_92
+              - STAR_TYPE_WHITE_NAME_93
+              - STAR_TYPE_WHITE_NAME_94
+              - STAR_TYPE_WHITE_NAME_95
+              - STAR_TYPE_WHITE_NAME_96
+              - STAR_TYPE_WHITE_NAME_97
+              - STAR_TYPE_WHITE_NAME_98
+              - STAR_TYPE_WHITE_NAME_99
+              - STAR_TYPE_WHITE_NAME_100
+              - STAR_TYPE_WHITE_NAME_101
+              - STAR_TYPE_WHITE_NAME_102
+              - STAR_TYPE_WHITE_NAME_103
+              - STAR_TYPE_WHITE_NAME_104
+              - STAR_TYPE_WHITE_NAME_105
+              - STAR_TYPE_WHITE_NAME_106
+              - STAR_TYPE_WHITE_NAME_107
+              - STAR_TYPE_WHITE_NAME_108
+              - STAR_TYPE_WHITE_NAME_109
+              - STAR_TYPE_WHITE_NAME_110
+              - STAR_TYPE_WHITE_NAME_111
+              - STAR_TYPE_WHITE_NAME_112
+              - STAR_TYPE_WHITE_NAME_113
+              - STAR_TYPE_WHITE_NAME_114
+              - STAR_TYPE_WHITE_NAME_115
+              - STAR_TYPE_WHITE_NAME_116
+              - STAR_TYPE_WHITE_NAME_117
+              - STAR_TYPE_WHITE_NAME_118
+              - STAR_TYPE_WHITE_NAME_119
+              - STAR_TYPE_WHITE_NAME_120
+              - STAR_TYPE_WHITE_NAME_121
+              - STAR_TYPE_WHITE_NAME_122
+              - STAR_TYPE_WHITE_NAME_123
+              - STAR_TYPE_WHITE_NAME_124
+              - STAR_TYPE_WHITE_NAME_125
+              - STAR_TYPE_WHITE_NAME_126
+              - STAR_TYPE_WHITE_NAME_127
+              - STAR_TYPE_WHITE_NAME_128
+              - STAR_TYPE_WHITE_NAME_129
+              - STAR_TYPE_WHITE_NAME_130
+              - STAR_TYPE_WHITE_NAME_131
+              - STAR_TYPE_WHITE_NAME_132
+              - STAR_TYPE_WHITE_NAME_133
+              - STAR_TYPE_WHITE_NAME_134
+              - STAR_TYPE_WHITE_NAME_135
+              - STAR_TYPE_WHITE_NAME_136
+              - STAR_TYPE_WHITE_NAME_137
+              - STAR_TYPE_WHITE_NAME_138
+              - STAR_TYPE_WHITE_NAME_139
+              - STAR_TYPE_WHITE_NAME_140
+              - STAR_TYPE_WHITE_NAME_141
+              - STAR_TYPE_WHITE_NAME_142
+              - STAR_TYPE_WHITE_NAME_143
+              - STAR_TYPE_WHITE_NAME_144
+              - STAR_TYPE_WHITE_NAME_145
+              - STAR_TYPE_WHITE_NAME_146
+              - STAR_TYPE_YELLOW_NAME_1
+              - STAR_TYPE_YELLOW_NAME_2
+              - STAR_TYPE_YELLOW_NAME_3
+              - STAR_TYPE_YELLOW_NAME_4
+              - STAR_TYPE_YELLOW_NAME_5
+              - STAR_TYPE_YELLOW_NAME_6
+              - STAR_TYPE_YELLOW_NAME_7
+              - STAR_TYPE_YELLOW_NAME_8
+              - STAR_TYPE_YELLOW_NAME_9
+              - STAR_TYPE_YELLOW_NAME_10
+              - STAR_TYPE_YELLOW_NAME_11
+              - STAR_TYPE_YELLOW_NAME_12
+              - STAR_TYPE_YELLOW_NAME_13
+              - STAR_TYPE_YELLOW_NAME_14
+              - STAR_TYPE_YELLOW_NAME_15
+              - STAR_TYPE_YELLOW_NAME_16
+              - STAR_TYPE_YELLOW_NAME_17
+              - STAR_TYPE_YELLOW_NAME_18
+              - STAR_TYPE_YELLOW_NAME_19
+              - STAR_TYPE_YELLOW_NAME_20
+              - STAR_TYPE_YELLOW_NAME_21
+              - STAR_TYPE_YELLOW_NAME_22
+              - STAR_TYPE_YELLOW_NAME_23
+              - STAR_TYPE_YELLOW_NAME_24
+              - STAR_TYPE_YELLOW_NAME_25
+              - STAR_TYPE_YELLOW_NAME_26
+              - STAR_TYPE_YELLOW_NAME_27
+              - STAR_TYPE_YELLOW_NAME_28
+              - STAR_TYPE_YELLOW_NAME_29
+              - STAR_TYPE_YELLOW_NAME_30
+              - STAR_TYPE_YELLOW_NAME_31
+              - STAR_TYPE_YELLOW_NAME_32
+              - STAR_TYPE_YELLOW_NAME_33
+              - STAR_TYPE_YELLOW_NAME_34
+              - STAR_TYPE_YELLOW_NAME_35
+              - STAR_TYPE_YELLOW_NAME_36
+              - STAR_TYPE_YELLOW_NAME_37
+              - STAR_TYPE_YELLOW_NAME_38
+              - STAR_TYPE_YELLOW_NAME_39
+              - STAR_TYPE_YELLOW_NAME_40
+              - STAR_TYPE_YELLOW_NAME_41
+              - STAR_TYPE_YELLOW_NAME_42
+              - STAR_TYPE_YELLOW_NAME_43
+              - STAR_TYPE_YELLOW_NAME_44
+              - STAR_TYPE_YELLOW_NAME_45
+              - STAR_TYPE_YELLOW_NAME_46
+              - STAR_TYPE_YELLOW_NAME_47
+              - STAR_TYPE_YELLOW_NAME_48
+              - STAR_TYPE_YELLOW_NAME_49
+              - STAR_TYPE_YELLOW_NAME_50
+              - STAR_TYPE_YELLOW_NAME_51
+              - STAR_TYPE_YELLOW_NAME_52
+              - STAR_TYPE_YELLOW_NAME_53
+              - STAR_TYPE_YELLOW_NAME_54
+              - STAR_TYPE_YELLOW_NAME_55
+              - STAR_TYPE_YELLOW_NAME_56
+              - STAR_TYPE_YELLOW_NAME_57
+              - STAR_TYPE_YELLOW_NAME_58
+              - STAR_TYPE_YELLOW_NAME_59
+              - STAR_TYPE_YELLOW_NAME_60
+              - STAR_TYPE_YELLOW_NAME_61
+              - STAR_TYPE_YELLOW_NAME_62
+              - STAR_TYPE_YELLOW_NAME_63
+              - STAR_TYPE_YELLOW_NAME_64
+              - STAR_TYPE_YELLOW_NAME_65
+              - STAR_TYPE_YELLOW_NAME_66
+              - STAR_TYPE_YELLOW_NAME_67
+              - STAR_TYPE_YELLOW_NAME_68
+              - STAR_TYPE_YELLOW_NAME_69
+              - STAR_TYPE_YELLOW_NAME_70
+              - STAR_TYPE_YELLOW_NAME_71
+              - STAR_TYPE_YELLOW_NAME_72
+              - STAR_TYPE_YELLOW_NAME_73
+              - STAR_TYPE_YELLOW_NAME_74
+              - STAR_TYPE_YELLOW_NAME_75
+              - STAR_TYPE_YELLOW_NAME_76
+              - STAR_TYPE_YELLOW_NAME_77
+              - STAR_TYPE_YELLOW_NAME_78
+              - STAR_TYPE_YELLOW_NAME_79
+              - STAR_TYPE_YELLOW_NAME_80
+              - STAR_TYPE_YELLOW_NAME_81
+              - STAR_TYPE_YELLOW_NAME_82
+              - STAR_TYPE_YELLOW_NAME_83
+              - STAR_TYPE_YELLOW_NAME_84
+              - STAR_TYPE_YELLOW_NAME_85
+              - STAR_TYPE_YELLOW_NAME_86
+              - STAR_TYPE_YELLOW_NAME_87
+              - STAR_TYPE_YELLOW_NAME_88
+              - STAR_TYPE_YELLOW_NAME_89
+              - STAR_TYPE_YELLOW_NAME_90
+              - STAR_TYPE_YELLOW_NAME_91
+              - STAR_TYPE_YELLOW_NAME_92
+              - STAR_TYPE_YELLOW_NAME_93
+              - STAR_TYPE_YELLOW_NAME_94
+              - STAR_TYPE_YELLOW_NAME_95
+              - STAR_TYPE_YELLOW_NAME_96
+              - STAR_TYPE_YELLOW_NAME_97
+              - STAR_TYPE_YELLOW_NAME_98
+              - STAR_TYPE_YELLOW_NAME_99
+              - STAR_TYPE_YELLOW_NAME_100
+              - STAR_TYPE_YELLOW_NAME_101
+              - STAR_TYPE_YELLOW_NAME_102
+              - STAR_TYPE_YELLOW_NAME_103
+              - STAR_TYPE_YELLOW_NAME_104
+              - STAR_TYPE_YELLOW_NAME_105
+              - STAR_TYPE_YELLOW_NAME_106
+              - STAR_TYPE_YELLOW_NAME_107
+              - STAR_TYPE_YELLOW_NAME_108
+              - STAR_TYPE_YELLOW_NAME_109
+              - STAR_TYPE_YELLOW_NAME_110
+              - STAR_TYPE_YELLOW_NAME_111
+              - STAR_TYPE_YELLOW_NAME_112
+              - STAR_TYPE_YELLOW_NAME_113
+              - STAR_TYPE_YELLOW_NAME_114
+              - STAR_TYPE_YELLOW_NAME_115
+              - STAR_TYPE_YELLOW_NAME_116
+              - STAR_TYPE_YELLOW_NAME_117
+              - STAR_TYPE_YELLOW_NAME_118
+              - STAR_TYPE_YELLOW_NAME_119
+              - STAR_TYPE_YELLOW_NAME_120
+              - STAR_TYPE_YELLOW_NAME_121
+              - STAR_TYPE_YELLOW_NAME_122
+              - STAR_TYPE_YELLOW_NAME_123
+              - STAR_TYPE_YELLOW_NAME_124
+              - STAR_TYPE_YELLOW_NAME_125
+              - STAR_TYPE_YELLOW_NAME_126
+              - STAR_TYPE_YELLOW_NAME_127
+              - STAR_TYPE_YELLOW_NAME_128
+              - STAR_TYPE_YELLOW_NAME_129
+              - STAR_TYPE_YELLOW_NAME_130
+              - STAR_TYPE_YELLOW_NAME_131
+              - STAR_TYPE_YELLOW_NAME_132
+              - STAR_TYPE_YELLOW_NAME_133
+              - STAR_TYPE_YELLOW_NAME_134
+              - STAR_TYPE_YELLOW_NAME_135
+              - STAR_TYPE_YELLOW_NAME_136
+              - STAR_TYPE_YELLOW_NAME_137
+              - STAR_TYPE_YELLOW_NAME_138
+              - STAR_TYPE_YELLOW_NAME_139
+              - STAR_TYPE_YELLOW_NAME_140
+              - STAR_TYPE_YELLOW_NAME_141
+              - STAR_TYPE_YELLOW_NAME_142
+              - STAR_TYPE_YELLOW_NAME_143
+              - STAR_TYPE_YELLOW_NAME_144
+              - STAR_TYPE_YELLOW_NAME_145
+              - STAR_TYPE_ORANGE_NAME_1
+              - STAR_TYPE_ORANGE_NAME_2
+              - STAR_TYPE_ORANGE_NAME_3
+              - STAR_TYPE_ORANGE_NAME_4
+              - STAR_TYPE_ORANGE_NAME_5
+              - STAR_TYPE_ORANGE_NAME_6
+              - STAR_TYPE_ORANGE_NAME_7
+              - STAR_TYPE_ORANGE_NAME_8
+              - STAR_TYPE_ORANGE_NAME_9
+              - STAR_TYPE_ORANGE_NAME_10
+              - STAR_TYPE_ORANGE_NAME_11
+              - STAR_TYPE_ORANGE_NAME_12
+              - STAR_TYPE_ORANGE_NAME_13
+              - STAR_TYPE_ORANGE_NAME_14
+              - STAR_TYPE_ORANGE_NAME_15
+              - STAR_TYPE_ORANGE_NAME_16
+              - STAR_TYPE_ORANGE_NAME_17
+              - STAR_TYPE_ORANGE_NAME_18
+              - STAR_TYPE_ORANGE_NAME_19
+              - STAR_TYPE_ORANGE_NAME_20
+              - STAR_TYPE_ORANGE_NAME_21
+              - STAR_TYPE_ORANGE_NAME_22
+              - STAR_TYPE_ORANGE_NAME_23
+              - STAR_TYPE_ORANGE_NAME_24
+              - STAR_TYPE_ORANGE_NAME_25
+              - STAR_TYPE_ORANGE_NAME_26
+              - STAR_TYPE_ORANGE_NAME_27
+              - STAR_TYPE_ORANGE_NAME_28
+              - STAR_TYPE_ORANGE_NAME_29
+              - STAR_TYPE_ORANGE_NAME_30
+              - STAR_TYPE_ORANGE_NAME_31
+              - STAR_TYPE_ORANGE_NAME_32
+              - STAR_TYPE_ORANGE_NAME_33
+              - STAR_TYPE_ORANGE_NAME_34
+              - STAR_TYPE_ORANGE_NAME_35
+              - STAR_TYPE_ORANGE_NAME_36
+              - STAR_TYPE_ORANGE_NAME_37
+              - STAR_TYPE_ORANGE_NAME_38
+              - STAR_TYPE_ORANGE_NAME_39
+              - STAR_TYPE_ORANGE_NAME_40
+              - STAR_TYPE_ORANGE_NAME_41
+              - STAR_TYPE_ORANGE_NAME_42
+              - STAR_TYPE_ORANGE_NAME_43
+              - STAR_TYPE_ORANGE_NAME_44
+              - STAR_TYPE_ORANGE_NAME_45
+              - STAR_TYPE_ORANGE_NAME_46
+              - STAR_TYPE_ORANGE_NAME_47
+              - STAR_TYPE_ORANGE_NAME_48
+              - STAR_TYPE_ORANGE_NAME_49
+              - STAR_TYPE_ORANGE_NAME_50
+              - STAR_TYPE_ORANGE_NAME_51
+              - STAR_TYPE_ORANGE_NAME_52
+              - STAR_TYPE_ORANGE_NAME_53
+              - STAR_TYPE_ORANGE_NAME_54
+              - STAR_TYPE_ORANGE_NAME_55
+              - STAR_TYPE_ORANGE_NAME_56
+              - STAR_TYPE_ORANGE_NAME_57
+              - STAR_TYPE_ORANGE_NAME_58
+              - STAR_TYPE_ORANGE_NAME_59
+              - STAR_TYPE_ORANGE_NAME_60
+              - STAR_TYPE_ORANGE_NAME_61
+              - STAR_TYPE_ORANGE_NAME_62
+              - STAR_TYPE_ORANGE_NAME_63
+              - STAR_TYPE_ORANGE_NAME_64
+              - STAR_TYPE_ORANGE_NAME_65
+              - STAR_TYPE_ORANGE_NAME_66
+              - STAR_TYPE_ORANGE_NAME_67
+              - STAR_TYPE_ORANGE_NAME_68
+              - STAR_TYPE_ORANGE_NAME_69
+              - STAR_TYPE_ORANGE_NAME_70
+              - STAR_TYPE_ORANGE_NAME_71
+              - STAR_TYPE_ORANGE_NAME_72
+              - STAR_TYPE_ORANGE_NAME_73
+              - STAR_TYPE_ORANGE_NAME_74
+              - STAR_TYPE_ORANGE_NAME_75
+              - STAR_TYPE_ORANGE_NAME_76
+              - STAR_TYPE_ORANGE_NAME_77
+              - STAR_TYPE_ORANGE_NAME_78
+              - STAR_TYPE_ORANGE_NAME_79
+              - STAR_TYPE_ORANGE_NAME_80
+              - STAR_TYPE_ORANGE_NAME_81
+              - STAR_TYPE_ORANGE_NAME_82
+              - STAR_TYPE_ORANGE_NAME_83
+              - STAR_TYPE_ORANGE_NAME_84
+              - STAR_TYPE_ORANGE_NAME_85
+              - STAR_TYPE_ORANGE_NAME_86
+              - STAR_TYPE_ORANGE_NAME_87
+              - STAR_TYPE_ORANGE_NAME_88
+              - STAR_TYPE_ORANGE_NAME_89
+              - STAR_TYPE_ORANGE_NAME_90
+              - STAR_TYPE_ORANGE_NAME_91
+              - STAR_TYPE_ORANGE_NAME_92
+              - STAR_TYPE_ORANGE_NAME_93
+              - STAR_TYPE_ORANGE_NAME_94
+              - STAR_TYPE_ORANGE_NAME_95
+              - STAR_TYPE_ORANGE_NAME_96
+              - STAR_TYPE_ORANGE_NAME_97
+              - STAR_TYPE_ORANGE_NAME_98
+              - STAR_TYPE_ORANGE_NAME_99
+              - STAR_TYPE_ORANGE_NAME_100
+              - STAR_TYPE_ORANGE_NAME_101
+              - STAR_TYPE_ORANGE_NAME_102
+              - STAR_TYPE_ORANGE_NAME_103
+              - STAR_TYPE_ORANGE_NAME_104
+              - STAR_TYPE_ORANGE_NAME_105
+              - STAR_TYPE_ORANGE_NAME_106
+              - STAR_TYPE_ORANGE_NAME_107
+              - STAR_TYPE_ORANGE_NAME_108
+              - STAR_TYPE_ORANGE_NAME_109
+              - STAR_TYPE_ORANGE_NAME_110
+              - STAR_TYPE_ORANGE_NAME_111
+              - STAR_TYPE_ORANGE_NAME_112
+              - STAR_TYPE_ORANGE_NAME_113
+              - STAR_TYPE_ORANGE_NAME_114
+              - STAR_TYPE_ORANGE_NAME_115
+              - STAR_TYPE_ORANGE_NAME_116
+              - STAR_TYPE_ORANGE_NAME_117
+              - STAR_TYPE_ORANGE_NAME_118
+              - STAR_TYPE_ORANGE_NAME_119
+              - STAR_TYPE_ORANGE_NAME_120
+              - STAR_TYPE_ORANGE_NAME_121
+              - STAR_TYPE_ORANGE_NAME_122
+              - STAR_TYPE_ORANGE_NAME_123
+              - STAR_TYPE_ORANGE_NAME_124
+              - STAR_TYPE_ORANGE_NAME_125
+              - STAR_TYPE_ORANGE_NAME_126
+              - STAR_TYPE_ORANGE_NAME_127
+              - STAR_TYPE_ORANGE_NAME_128
+              - STAR_TYPE_ORANGE_NAME_129
+              - STAR_TYPE_ORANGE_NAME_130
+              - STAR_TYPE_ORANGE_NAME_131
+              - STAR_TYPE_ORANGE_NAME_132
+              - STAR_TYPE_ORANGE_NAME_133
+              - STAR_TYPE_ORANGE_NAME_134
+              - STAR_TYPE_ORANGE_NAME_135
+              - STAR_TYPE_ORANGE_NAME_136
+              - STAR_TYPE_ORANGE_NAME_137
+              - STAR_TYPE_ORANGE_NAME_138
+              - STAR_TYPE_ORANGE_NAME_139
+              - STAR_TYPE_ORANGE_NAME_140
+              - STAR_TYPE_ORANGE_NAME_141
+              - STAR_TYPE_ORANGE_NAME_142
+              - STAR_TYPE_ORANGE_NAME_143
+              - STAR_TYPE_ORANGE_NAME_144
+              - STAR_TYPE_ORANGE_NAME_145
+              - STAR_TYPE_RED_NAME_1
+              - STAR_TYPE_RED_NAME_2
+              - STAR_TYPE_RED_NAME_3
+              - STAR_TYPE_RED_NAME_4
+              - STAR_TYPE_RED_NAME_5
+              - STAR_TYPE_RED_NAME_6
+              - STAR_TYPE_RED_NAME_7
+              - STAR_TYPE_RED_NAME_8
+              - STAR_TYPE_RED_NAME_9
+              - STAR_TYPE_RED_NAME_10
+              - STAR_TYPE_RED_NAME_11
+              - STAR_TYPE_RED_NAME_12
+              - STAR_TYPE_RED_NAME_13
+              - STAR_TYPE_RED_NAME_14
+              - STAR_TYPE_RED_NAME_15
+              - STAR_TYPE_RED_NAME_16
+              - STAR_TYPE_RED_NAME_17
+              - STAR_TYPE_RED_NAME_18
+              - STAR_TYPE_RED_NAME_19
+              - STAR_TYPE_RED_NAME_20
+              - STAR_TYPE_RED_NAME_21
+              - STAR_TYPE_RED_NAME_22
+              - STAR_TYPE_RED_NAME_23
+              - STAR_TYPE_RED_NAME_24
+              - STAR_TYPE_RED_NAME_25
+              - STAR_TYPE_RED_NAME_26
+              - STAR_TYPE_RED_NAME_27
+              - STAR_TYPE_RED_NAME_28
+              - STAR_TYPE_RED_NAME_29
+              - STAR_TYPE_RED_NAME_30
+              - STAR_TYPE_RED_NAME_31
+              - STAR_TYPE_RED_NAME_32
+              - STAR_TYPE_RED_NAME_33
+              - STAR_TYPE_RED_NAME_34
+              - STAR_TYPE_RED_NAME_35
+              - STAR_TYPE_RED_NAME_36
+              - STAR_TYPE_RED_NAME_37
+              - STAR_TYPE_RED_NAME_38
+              - STAR_TYPE_RED_NAME_39
+              - STAR_TYPE_RED_NAME_40
+              - STAR_TYPE_RED_NAME_41
+              - STAR_TYPE_RED_NAME_42
+              - STAR_TYPE_RED_NAME_43
+              - STAR_TYPE_RED_NAME_44
+              - STAR_TYPE_RED_NAME_45
+              - STAR_TYPE_RED_NAME_46
+              - STAR_TYPE_RED_NAME_47
+              - STAR_TYPE_RED_NAME_48
+              - STAR_TYPE_RED_NAME_49
+              - STAR_TYPE_RED_NAME_50
+              - STAR_TYPE_RED_NAME_51
+              - STAR_TYPE_RED_NAME_52
+              - STAR_TYPE_RED_NAME_53
+              - STAR_TYPE_RED_NAME_54
+              - STAR_TYPE_RED_NAME_55
+              - STAR_TYPE_RED_NAME_56
+              - STAR_TYPE_RED_NAME_57
+              - STAR_TYPE_RED_NAME_58
+              - STAR_TYPE_RED_NAME_59
+              - STAR_TYPE_RED_NAME_60
+              - STAR_TYPE_RED_NAME_61
+              - STAR_TYPE_RED_NAME_62
+              - STAR_TYPE_RED_NAME_63
+              - STAR_TYPE_RED_NAME_64
+              - STAR_TYPE_RED_NAME_65
+              - STAR_TYPE_RED_NAME_66
+              - STAR_TYPE_RED_NAME_67
+              - STAR_TYPE_RED_NAME_68
+              - STAR_TYPE_RED_NAME_69
+              - STAR_TYPE_RED_NAME_70
+              - STAR_TYPE_RED_NAME_71
+              - STAR_TYPE_RED_NAME_72
+              - STAR_TYPE_RED_NAME_73
+              - STAR_TYPE_RED_NAME_74
+              - STAR_TYPE_RED_NAME_75
+              - STAR_TYPE_RED_NAME_76
+              - STAR_TYPE_RED_NAME_77
+              - STAR_TYPE_RED_NAME_78
+              - STAR_TYPE_RED_NAME_79
+              - STAR_TYPE_RED_NAME_80
+              - STAR_TYPE_RED_NAME_81
+              - STAR_TYPE_RED_NAME_82
+              - STAR_TYPE_RED_NAME_83
+              - STAR_TYPE_RED_NAME_84
+              - STAR_TYPE_RED_NAME_85
+              - STAR_TYPE_RED_NAME_86
+              - STAR_TYPE_RED_NAME_87
+              - STAR_TYPE_RED_NAME_88
+              - STAR_TYPE_RED_NAME_89
+              - STAR_TYPE_RED_NAME_90
+              - STAR_TYPE_RED_NAME_91
+              - STAR_TYPE_RED_NAME_92
+              - STAR_TYPE_RED_NAME_93
+              - STAR_TYPE_RED_NAME_94
+              - STAR_TYPE_RED_NAME_95
+              - STAR_TYPE_RED_NAME_96
+              - STAR_TYPE_RED_NAME_97
+              - STAR_TYPE_RED_NAME_98
+              - STAR_TYPE_RED_NAME_99
+              - STAR_TYPE_RED_NAME_100
+              - STAR_TYPE_RED_NAME_101
+              - STAR_TYPE_RED_NAME_102
+              - STAR_TYPE_RED_NAME_103
+              - STAR_TYPE_RED_NAME_104
+              - STAR_TYPE_RED_NAME_105
+              - STAR_TYPE_RED_NAME_106
+              - STAR_TYPE_RED_NAME_107
+              - STAR_TYPE_RED_NAME_108
+              - STAR_TYPE_RED_NAME_109
+              - STAR_TYPE_RED_NAME_110
+              - STAR_TYPE_RED_NAME_111
+              - STAR_TYPE_RED_NAME_112
+              - STAR_TYPE_RED_NAME_113
+              - STAR_TYPE_RED_NAME_114
+              - STAR_TYPE_RED_NAME_115
+              - STAR_TYPE_RED_NAME_116
+              - STAR_TYPE_RED_NAME_117
+              - STAR_TYPE_RED_NAME_118
+              - STAR_TYPE_RED_NAME_119
+              - STAR_TYPE_RED_NAME_120
+              - STAR_TYPE_RED_NAME_121
+              - STAR_TYPE_RED_NAME_122
+              - STAR_TYPE_RED_NAME_123
+              - STAR_TYPE_RED_NAME_124
+              - STAR_TYPE_RED_NAME_125
+              - STAR_TYPE_RED_NAME_126
+              - STAR_TYPE_RED_NAME_127
+              - STAR_TYPE_RED_NAME_128
+              - STAR_TYPE_RED_NAME_129
+              - STAR_TYPE_RED_NAME_130
+              - STAR_TYPE_RED_NAME_131
+              - STAR_TYPE_RED_NAME_132
+              - STAR_TYPE_RED_NAME_133
+              - STAR_TYPE_RED_NAME_134
+              - STAR_TYPE_RED_NAME_135
+              - STAR_TYPE_RED_NAME_136
+              - STAR_TYPE_RED_NAME_137
+              - STAR_TYPE_RED_NAME_138
+              - STAR_TYPE_RED_NAME_139
+              - STAR_TYPE_RED_NAME_140
+              - STAR_TYPE_RED_NAME_141
+              - STAR_TYPE_RED_NAME_142
+              - STAR_TYPE_RED_NAME_143
+              - STAR_TYPE_RED_NAME_144
+              - STAR_TYPE_RED_NAME_145
+              - STAR_TYPE_BROWN_NAME_1
+              - STAR_TYPE_BROWN_NAME_2
+              - STAR_TYPE_BROWN_NAME_3
+              - STAR_TYPE_BROWN_NAME_4
+              - STAR_TYPE_BROWN_NAME_5
+              - STAR_TYPE_BROWN_NAME_6
+              - STAR_TYPE_BROWN_NAME_7
+              - STAR_TYPE_BROWN_NAME_8
+              - STAR_TYPE_BROWN_NAME_9
+              - STAR_TYPE_BROWN_NAME_10
+              - STAR_TYPE_BROWN_NAME_11
+              - STAR_TYPE_BROWN_NAME_12
+              - STAR_TYPE_BROWN_NAME_13
+              - STAR_TYPE_BROWN_NAME_14
+              - STAR_TYPE_BROWN_NAME_15
+              - STAR_TYPE_BROWN_NAME_16
+              - STAR_TYPE_BROWN_NAME_17
+              - STAR_TYPE_BROWN_NAME_18
+              - STAR_TYPE_BROWN_NAME_19
+              - STAR_TYPE_BROWN_NAME_20
+              - STAR_TYPE_BROWN_NAME_21
+              - STAR_TYPE_BROWN_NAME_22
+              - STAR_TYPE_BROWN_NAME_23
+              - STAR_TYPE_BROWN_NAME_24
+              - STAR_TYPE_BROWN_NAME_25
+              - STAR_TYPE_BROWN_NAME_26
+              - STAR_TYPE_BROWN_NAME_27
+              - STAR_TYPE_BROWN_NAME_28
+              - STAR_TYPE_BROWN_NAME_29
+              - STAR_TYPE_BROWN_NAME_30
+              - STAR_TYPE_BROWN_NAME_31
+              - STAR_TYPE_BROWN_NAME_32
+              - STAR_TYPE_BROWN_NAME_33
+              - STAR_TYPE_BROWN_NAME_34
+              - STAR_TYPE_BROWN_NAME_35
+              - STAR_TYPE_BROWN_NAME_36
+              - STAR_TYPE_BROWN_NAME_37
+              - STAR_TYPE_BROWN_NAME_38
+              - STAR_TYPE_BROWN_NAME_39
+              - STAR_TYPE_BROWN_NAME_40
+              - STAR_TYPE_BROWN_NAME_41
+              - STAR_TYPE_BROWN_NAME_42
+              - STAR_TYPE_BROWN_NAME_43
+              - STAR_TYPE_BROWN_NAME_44
+              - STAR_TYPE_BROWN_NAME_45
+              - STAR_TYPE_BROWN_NAME_46
+              - STAR_TYPE_BROWN_NAME_47
+              - STAR_TYPE_BROWN_NAME_48
+              - STAR_TYPE_BROWN_NAME_49
+              - STAR_TYPE_BROWN_NAME_50
+              - STAR_TYPE_BROWN_NAME_51
+              - STAR_TYPE_BROWN_NAME_52
+              - STAR_TYPE_BROWN_NAME_53
+              - STAR_TYPE_BROWN_NAME_54
+              - STAR_TYPE_BROWN_NAME_55
+              - STAR_TYPE_BROWN_NAME_56
+              - STAR_TYPE_BROWN_NAME_57
+              - STAR_TYPE_BROWN_NAME_58
+              - STAR_TYPE_BROWN_NAME_59
+              - STAR_TYPE_BROWN_NAME_60
+              - STAR_TYPE_BROWN_NAME_61
+              - STAR_TYPE_BROWN_NAME_62
+              - STAR_TYPE_BROWN_NAME_63
+              - STAR_TYPE_BROWN_NAME_64
+              - STAR_TYPE_BROWN_NAME_65
+              - STAR_TYPE_BROWN_NAME_66
+              - STAR_TYPE_BROWN_NAME_67
+              - STAR_TYPE_BROWN_NAME_68
+              - STAR_TYPE_BROWN_NAME_69
+              - STAR_TYPE_BROWN_NAME_70
+              - STAR_TYPE_BROWN_NAME_71
+              - STAR_TYPE_BROWN_NAME_72
+              - STAR_TYPE_BROWN_NAME_73
+              - STAR_TYPE_BROWN_NAME_74
+              - STAR_TYPE_BROWN_NAME_75
+              - STAR_TYPE_BROWN_NAME_76
+              - STAR_TYPE_BROWN_NAME_77
+              - STAR_TYPE_BROWN_NAME_78
+              - STAR_TYPE_BROWN_NAME_79
+              - STAR_TYPE_BROWN_NAME_80
+              - STAR_TYPE_BROWN_NAME_81
+              - STAR_TYPE_BROWN_NAME_82
+              - STAR_TYPE_BROWN_NAME_83
+              - STAR_TYPE_BROWN_NAME_84
+              - STAR_TYPE_BROWN_NAME_85
+              - STAR_TYPE_BROWN_NAME_86
+              - STAR_TYPE_BROWN_NAME_87
+              - STAR_TYPE_BROWN_NAME_88
+              - STAR_TYPE_BROWN_NAME_89
+              - STAR_TYPE_BROWN_NAME_90
+              - STAR_TYPE_BROWN_NAME_91
+              - STAR_TYPE_BROWN_NAME_92
+              - STAR_TYPE_BROWN_NAME_93
+              - STAR_TYPE_BROWN_NAME_94
+              - STAR_TYPE_BROWN_NAME_95
+              - STAR_TYPE_BROWN_NAME_96
+              - STAR_TYPE_BROWN_NAME_97
+              - STAR_TYPE_BROWN_NAME_98
+              - STAR_TYPE_BROWN_NAME_99
+              - STAR_TYPE_BROWN_NAME_100
+              - STAR_TYPE_BROWN_NAME_101
+              - STAR_TYPE_BROWN_NAME_102
+              - STAR_TYPE_BROWN_NAME_103
+              - STAR_TYPE_BROWN_NAME_104
+              - STAR_TYPE_BROWN_NAME_105
+              - STAR_TYPE_BROWN_NAME_106
+              - STAR_TYPE_BROWN_NAME_107
+              - STAR_TYPE_BROWN_NAME_108
+              - STAR_TYPE_BROWN_NAME_109
+              - STAR_TYPE_BROWN_NAME_110
+              - STAR_TYPE_BROWN_NAME_111
+              - STAR_TYPE_BROWN_NAME_112
+              - STAR_TYPE_BROWN_NAME_113
+              - STAR_TYPE_BROWN_NAME_114
+              - STAR_TYPE_BROWN_NAME_115
+              - STAR_TYPE_BROWN_NAME_116
+              - STAR_TYPE_BROWN_NAME_117
+              - STAR_TYPE_BROWN_NAME_118
+              - STAR_TYPE_BROWN_NAME_119
+              - STAR_TYPE_BROWN_NAME_120
+              - STAR_TYPE_BROWN_NAME_121
+              - STAR_TYPE_BROWN_NAME_122
+              - STAR_TYPE_BROWN_NAME_123
+              - STAR_TYPE_BROWN_NAME_124
+              - STAR_TYPE_BROWN_NAME_125
+              - STAR_TYPE_BROWN_NAME_126
+              - STAR_TYPE_BROWN_NAME_127
+              - STAR_TYPE_BROWN_NAME_128
+              - STAR_TYPE_BROWN_NAME_129
+              - STAR_TYPE_BROWN_NAME_130
+              - STAR_TYPE_BROWN_NAME_131
+              - STAR_TYPE_BROWN_NAME_132
+              - STAR_TYPE_BROWN_NAME_133
+              - STAR_TYPE_BROWN_NAME_134
+              - STAR_TYPE_BROWN_NAME_135
+              - STAR_TYPE_BROWN_NAME_136
+              - STAR_TYPE_BROWN_NAME_137
+              - STAR_TYPE_BROWN_NAME_138
+              - STAR_TYPE_BROWN_NAME_139
+              - STAR_TYPE_BROWN_NAME_140
+              - STAR_TYPE_BROWN_NAME_141
+              - STAR_TYPE_BROWN_NAME_142
+              - STAR_TYPE_BROWN_NAME_143
+              - STAR_TYPE_BROWN_NAME_144
+              - STAR_TYPE_BROWN_NAME_145
+          galaxy_view_prefabs:
+              - ContentPrefabs/Stars/GalaxyView/Backup/Blackhole_visual
+          system_view_prefabs:
+              - ContentPrefabs/Stars/SystemView/StarBlueDiscover
+...

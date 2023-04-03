@@ -1,0 +1,1858 @@
+---
+- collection: &Backend.Galaxy.BiomeChances
+    items:
+        - key: galaxy_very_young
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 25
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 31
+                    - biome: biome_barren
+                      chance: 21
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 0
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 16
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 23
+                    - biome: biome_barren
+                      chance: 23
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 4
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 4
+                    - biome: biome_radiated
+                      chance: 5
+                    - biome: biome_barren
+                      chance: 5
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 18
+                    - biome: biome_swamp
+                      chance: 12
+                    - biome: biome_terran
+                      chance: 21
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 12
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 16
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 12
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 9
+                    - biome: biome_swamp
+                      chance: 11
+                    - biome: biome_terran
+                      chance: 8
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 10
+                    - biome: biome_barren
+                      chance: 50
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 3
+                    - biome: biome_ocean
+                      chance: 3
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 20
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 16
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 2
+                    - biome: biome_inferno
+                      chance: 2
+                    - biome: biome_tropical
+                      chance: 2
+                    - biome: biome_coral_world
+                      chance: 2
+                    - biome: biome_dark_swamp
+                      chance: 2
+                    - biome: biome_forest
+                      chance: 2
+                    - biome: biome_grassland
+                      chance: 2
+                    - biome: biome_mountainous
+                      chance: 2
+                    - biome: biome_cavernous
+                      chance: 2
+                    - biome: biome_cybernetic
+                      chance: 2
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 25
+                    - biome: biome_radiated
+                      chance: 25
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 5
+                    - biome: biome_tundra
+                      chance: 5
+                    - biome: biome_arid
+                      chance: 0
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_young
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 20
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 31
+                    - biome: biome_barren
+                      chance: 26
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 0
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 14
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 23
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 4
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 4
+                    - biome: biome_radiated
+                      chance: 5
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 15
+                    - biome: biome_swamp
+                      chance: 12
+                    - biome: biome_terran
+                      chance: 21
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 12
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 16
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 15
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 11
+                    - biome: biome_terran
+                      chance: 7
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 10
+                    - biome: biome_barren
+                      chance: 45
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 6
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 4
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 20
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 16
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 2
+                    - biome: biome_inferno
+                      chance: 2
+                    - biome: biome_tropical
+                      chance: 2
+                    - biome: biome_coral_world
+                      chance: 2
+                    - biome: biome_dark_swamp
+                      chance: 2
+                    - biome: biome_forest
+                      chance: 2
+                    - biome: biome_grassland
+                      chance: 2
+                    - biome: biome_mountainous
+                      chance: 2
+                    - biome: biome_cavernous
+                      chance: 2
+                    - biome: biome_cybernetic
+                      chance: 2
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 20
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 0
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_average
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 20
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 28
+                    - biome: biome_barren
+                      chance: 26
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 0
+                    - biome: biome_arid
+                      chance: 7
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 14
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 23
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 4
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 4
+                    - biome: biome_radiated
+                      chance: 5
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 15
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 18
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 9
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 16
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 15
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 9
+                    - biome: biome_swamp
+                      chance: 11
+                    - biome: biome_terran
+                      chance: 7
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 10
+                    - biome: biome_barren
+                      chance: 35
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 6
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 4
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 20
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 16
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 2
+                    - biome: biome_inferno
+                      chance: 2
+                    - biome: biome_tropical
+                      chance: 2
+                    - biome: biome_coral_world
+                      chance: 2
+                    - biome: biome_dark_swamp
+                      chance: 2
+                    - biome: biome_forest
+                      chance: 2
+                    - biome: biome_grassland
+                      chance: 2
+                    - biome: biome_mountainous
+                      chance: 2
+                    - biome: biome_cavernous
+                      chance: 2
+                    - biome: biome_cybernetic
+                      chance: 2
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 21
+                    - biome: biome_barren
+                      chance: 22
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 3
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_old
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 20
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 31
+                    - biome: biome_barren
+                      chance: 26
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 0
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 14
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 23
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 4
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 4
+                    - biome: biome_radiated
+                      chance: 5
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 15
+                    - biome: biome_swamp
+                      chance: 12
+                    - biome: biome_terran
+                      chance: 21
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 12
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 16
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 15
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 11
+                    - biome: biome_terran
+                      chance: 7
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 10
+                    - biome: biome_barren
+                      chance: 45
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 6
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 4
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 20
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 16
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 2
+                    - biome: biome_inferno
+                      chance: 2
+                    - biome: biome_tropical
+                      chance: 2
+                    - biome: biome_coral_world
+                      chance: 2
+                    - biome: biome_dark_swamp
+                      chance: 2
+                    - biome: biome_forest
+                      chance: 2
+                    - biome: biome_grassland
+                      chance: 2
+                    - biome: biome_mountainous
+                      chance: 2
+                    - biome: biome_cavernous
+                      chance: 2
+                    - biome: biome_cybernetic
+                      chance: 2
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 3
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 20
+                    - biome: biome_barren
+                      chance: 20
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_very_old
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 17
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 31
+                    - biome: biome_barren
+                      chance: 29
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 0
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 12
+                    - biome: biome_toxic
+                      chance: 10
+                    - biome: biome_radiated
+                      chance: 23
+                    - biome: biome_barren
+                      chance: 27
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 4
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 4
+                    - biome: biome_radiated
+                      chance: 5
+                    - biome: biome_barren
+                      chance: 6
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 15
+                    - biome: biome_swamp
+                      chance: 12
+                    - biome: biome_terran
+                      chance: 21
+                    - biome: biome_gaia
+                      chance: 7
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 12
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 14
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 15
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 10
+                    - biome: biome_terran
+                      chance: 9
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 9
+                    - biome: biome_radiated
+                      chance: 9
+                    - biome: biome_barren
+                      chance: 40
+                    - biome: biome_desert
+                      chance: 5
+                    - biome: biome_tundra
+                      chance: 11
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 5
+                    - biome: biome_swamp
+                      chance: 5
+                    - biome: biome_terran
+                      chance: 5
+                    - biome: biome_gaia
+                      chance: 1
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 20
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 16
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 2
+                    - biome: biome_inferno
+                      chance: 2
+                    - biome: biome_tropical
+                      chance: 2
+                    - biome: biome_coral_world
+                      chance: 2
+                    - biome: biome_dark_swamp
+                      chance: 2
+                    - biome: biome_forest
+                      chance: 2
+                    - biome: biome_grassland
+                      chance: 2
+                    - biome: biome_mountainous
+                      chance: 2
+                    - biome: biome_cavernous
+                      chance: 2
+                    - biome: biome_cybernetic
+                      chance: 2
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 2
+                    - biome: biome_toxic
+                      chance: 15
+                    - biome: biome_radiated
+                      chance: 15
+                    - biome: biome_barren
+                      chance: 20
+                    - biome: biome_desert
+                      chance: 12
+                    - biome: biome_tundra
+                      chance: 12
+                    - biome: biome_arid
+                      chance: 6
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 6
+                    - biome: biome_terran
+                      chance: 2
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_very_lush
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 7
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 15
+                    - biome: biome_ocean
+                      chance: 11
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 12
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 4
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 13
+                    - biome: biome_tundra
+                      chance: 13
+                    - biome: biome_arid
+                      chance: 13
+                    - biome: biome_ocean
+                      chance: 16
+                    - biome: biome_swamp
+                      chance: 7
+                    - biome: biome_terran
+                      chance: 13
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 3
+                    - biome: biome_toxic
+                      chance: 2
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 5
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 17
+                    - biome: biome_swamp
+                      chance: 16
+                    - biome: biome_terran
+                      chance: 19
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 18
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 18
+                    - biome: biome_barren
+                      chance: 28
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 3
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 15
+                    - biome: biome_toxic
+                      chance: 18
+                    - biome: biome_radiated
+                      chance: 18
+                    - biome: biome_barren
+                      chance: 38
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 3
+                    - biome: biome_arid
+                      chance: 2
+                    - biome: biome_ocean
+                      chance: 1
+                    - biome: biome_swamp
+                      chance: 1
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 10
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 4
+                    - biome: biome_swamp
+                      chance: 7
+                    - biome: biome_terran
+                      chance: 4
+                    - biome: biome_gaia
+                      chance: 7
+                    - biome: biome_inferno
+                      chance: 3
+                    - biome: biome_tropical
+                      chance: 3
+                    - biome: biome_coral_world
+                      chance: 3
+                    - biome: biome_dark_swamp
+                      chance: 3
+                    - biome: biome_forest
+                      chance: 3
+                    - biome: biome_grassland
+                      chance: 3
+                    - biome: biome_mountainous
+                      chance: 3
+                    - biome: biome_cavernous
+                      chance: 3
+                    - biome: biome_cybernetic
+                      chance: 3
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 2
+                    - biome: biome_toxic
+                      chance: 15
+                    - biome: biome_radiated
+                      chance: 15
+                    - biome: biome_barren
+                      chance: 20
+                    - biome: biome_desert
+                      chance: 12
+                    - biome: biome_tundra
+                      chance: 12
+                    - biome: biome_arid
+                      chance: 6
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 6
+                    - biome: biome_terran
+                      chance: 2
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_lush
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 10
+                    - biome: biome_toxic
+                      chance: 5
+                    - biome: biome_radiated
+                      chance: 14
+                    - biome: biome_barren
+                      chance: 13
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 10
+                    - biome: biome_terran
+                      chance: 8
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 7
+                    - biome: biome_toxic
+                      chance: 5
+                    - biome: biome_radiated
+                      chance: 12
+                    - biome: biome_barren
+                      chance: 14
+                    - biome: biome_desert
+                      chance: 11
+                    - biome: biome_tundra
+                      chance: 11
+                    - biome: biome_arid
+                      chance: 13
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 7
+                    - biome: biome_terran
+                      chance: 9
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 4
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 4
+                    - biome: biome_barren
+                      chance: 6
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 17
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 19
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 13
+                    - biome: biome_toxic
+                      chance: 16
+                    - biome: biome_radiated
+                      chance: 14
+                    - biome: biome_barren
+                      chance: 23
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 4
+                    - biome: biome_swamp
+                      chance: 6
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 11
+                    - biome: biome_toxic
+                      chance: 15
+                    - biome: biome_radiated
+                      chance: 15
+                    - biome: biome_barren
+                      chance: 35
+                    - biome: biome_desert
+                      chance: 7
+                    - biome: biome_tundra
+                      chance: 6
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 3
+                    - biome: biome_swamp
+                      chance: 2
+                    - biome: biome_terran
+                      chance: 2
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 3
+                    - biome: biome_barren
+                      chance: 10
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 4
+                    - biome: biome_swamp
+                      chance: 7
+                    - biome: biome_terran
+                      chance: 4
+                    - biome: biome_gaia
+                      chance: 7
+                    - biome: biome_inferno
+                      chance: 3
+                    - biome: biome_tropical
+                      chance: 3
+                    - biome: biome_coral_world
+                      chance: 3
+                    - biome: biome_dark_swamp
+                      chance: 3
+                    - biome: biome_forest
+                      chance: 3
+                    - biome: biome_grassland
+                      chance: 3
+                    - biome: biome_mountainous
+                      chance: 3
+                    - biome: biome_cavernous
+                      chance: 3
+                    - biome: biome_cybernetic
+                      chance: 3
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 3
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 20
+                    - biome: biome_barren
+                      chance: 20
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_sparse
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 10
+                    - biome: biome_toxic
+                      chance: 5
+                    - biome: biome_radiated
+                      chance: 14
+                    - biome: biome_barren
+                      chance: 13
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 10
+                    - biome: biome_terran
+                      chance: 8
+                    - biome: biome_gaia
+                      chance: 4
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 7
+                    - biome: biome_toxic
+                      chance: 5
+                    - biome: biome_radiated
+                      chance: 12
+                    - biome: biome_barren
+                      chance: 14
+                    - biome: biome_desert
+                      chance: 11
+                    - biome: biome_tundra
+                      chance: 11
+                    - biome: biome_arid
+                      chance: 10
+                    - biome: biome_ocean
+                      chance: 8
+                    - biome: biome_swamp
+                      chance: 10
+                    - biome: biome_terran
+                      chance: 9
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 6
+                    - biome: biome_toxic
+                      chance: 5
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 8
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 14
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 16
+                    - biome: biome_gaia
+                      chance: 3
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 13
+                    - biome: biome_toxic
+                      chance: 16
+                    - biome: biome_radiated
+                      chance: 14
+                    - biome: biome_barren
+                      chance: 23
+                    - biome: biome_desert
+                      chance: 8
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 5
+                    - biome: biome_ocean
+                      chance: 4
+                    - biome: biome_swamp
+                      chance: 6
+                    - biome: biome_terran
+                      chance: 3
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 11
+                    - biome: biome_toxic
+                      chance: 15
+                    - biome: biome_radiated
+                      chance: 15
+                    - biome: biome_barren
+                      chance: 35
+                    - biome: biome_desert
+                      chance: 7
+                    - biome: biome_tundra
+                      chance: 6
+                    - biome: biome_arid
+                      chance: 4
+                    - biome: biome_ocean
+                      chance: 3
+                    - biome: biome_swamp
+                      chance: 2
+                    - biome: biome_terran
+                      chance: 2
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 13
+                    - biome: biome_toxic
+                      chance: 8
+                    - biome: biome_radiated
+                      chance: 8
+                    - biome: biome_barren
+                      chance: 35
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 20
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 0
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+        - key: galaxy_very_sparse
+          inhabitable_biome_chance:
+                - star_type: star_blue_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 7
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 10
+                    - biome: biome_arid
+                      chance: 15
+                    - biome: biome_ocean
+                      chance: 11
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 12
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_white
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 4
+                    - biome: biome_toxic
+                      chance: 3
+                    - biome: biome_radiated
+                      chance: 6
+                    - biome: biome_barren
+                      chance: 7
+                    - biome: biome_desert
+                      chance: 13
+                    - biome: biome_tundra
+                      chance: 13
+                    - biome: biome_arid
+                      chance: 13
+                    - biome: biome_ocean
+                      chance: 16
+                    - biome: biome_swamp
+                      chance: 7
+                    - biome: biome_terran
+                      chance: 13
+                    - biome: biome_gaia
+                      chance: 5
+                - star_type: star_yellow
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 7
+                    - biome: biome_toxic
+                      chance: 6
+                    - biome: biome_radiated
+                      chance: 7
+                    - biome: biome_barren
+                      chance: 9
+                    - biome: biome_desert
+                      chance: 9
+                    - biome: biome_tundra
+                      chance: 9
+                    - biome: biome_arid
+                      chance: 9
+                    - biome: biome_ocean
+                      chance: 13
+                    - biome: biome_swamp
+                      chance: 15
+                    - biome: biome_terran
+                      chance: 14
+                    - biome: biome_gaia
+                      chance: 2
+                - star_type: star_orange
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 18
+                    - biome: biome_toxic
+                      chance: 20
+                    - biome: biome_radiated
+                      chance: 18
+                    - biome: biome_barren
+                      chance: 28
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 4
+                    - biome: biome_arid
+                      chance: 3
+                    - biome: biome_ocean
+                      chance: 2
+                    - biome: biome_swamp
+                      chance: 3
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_red
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 15
+                    - biome: biome_toxic
+                      chance: 18
+                    - biome: biome_radiated
+                      chance: 18
+                    - biome: biome_barren
+                      chance: 38
+                    - biome: biome_desert
+                      chance: 4
+                    - biome: biome_tundra
+                      chance: 3
+                    - biome: biome_arid
+                      chance: 2
+                    - biome: biome_ocean
+                      chance: 1
+                    - biome: biome_swamp
+                      chance: 1
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 0
+                - star_type: star_brown
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 13
+                    - biome: biome_toxic
+                      chance: 8
+                    - biome: biome_radiated
+                      chance: 8
+                    - biome: biome_barren
+                      chance: 35
+                    - biome: biome_desert
+                      chance: 10
+                    - biome: biome_tundra
+                      chance: 8
+                    - biome: biome_arid
+                      chance: 8
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+                - star_type: star_real_black_hole
+                  biomes:
+                    - biome: biome_volcanic
+                      chance: 5
+                    - biome: biome_toxic
+                      chance: 25
+                    - biome: biome_radiated
+                      chance: 25
+                    - biome: biome_barren
+                      chance: 25
+                    - biome: biome_desert
+                      chance: 5
+                    - biome: biome_tundra
+                      chance: 5
+                    - biome: biome_arid
+                      chance: 0
+                    - biome: biome_ocean
+                      chance: 0
+                    - biome: biome_swamp
+                      chance: 0
+                    - biome: biome_terran
+                      chance: 0
+                    - biome: biome_gaia
+                      chance: 1
+                    - biome: biome_inferno
+                      chance: 1
+                    - biome: biome_tropical
+                      chance: 1
+                    - biome: biome_coral_world
+                      chance: 1
+                    - biome: biome_dark_swamp
+                      chance: 1
+                    - biome: biome_forest
+                      chance: 1
+                    - biome: biome_grassland
+                      chance: 1
+                    - biome: biome_mountainous
+                      chance: 1
+                    - biome: biome_cavernous
+                      chance: 1
+                    - biome: biome_cybernetic
+                      chance: 1
+...

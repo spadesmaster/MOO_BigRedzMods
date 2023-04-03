@@ -1,0 +1,42 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_planetology
+            name: TECHNOLOGY_PLANETOLOGY_NAME
+            description: TECHNOLOGY_PLANETOLOGY_DESCRIPTION
+            cost: 1600
+            x: 6
+            y: 9
+            icon: assets/techs/planetology.png
+            requires:
+                - technology: technode_advanced_construction
+                - technology: technode_genetic_mutations
+            unlocks:
+                - application: techapp_pollution_processor_5x
+                - application: techapp_terraforming
+            branches:
+                - unlocks:
+                     - application: techapp_giant_compression
+                - unlocks:
+                     - application: techapp_asteroid_compression
+                - unlocks:
+                     - application: techapp_arcology
+          - key: technode_superscalar_construction
+            name: TECHNOLOGY_SUPERSCALAR_CONSTRUCTION_NAME
+            description: TECHNOLOGY_SUPERSCALAR_CONSTRUCTION_DESCRIPTION
+            cost: 16200
+            x: 11
+            y: 10
+            icon: assets/techs/superscalar_construction.png
+            requires:
+                - technology: technode_astro_construction
+                - technology: technode_tectonic_engineering
+            unlocks:
+                - application: techapp_star_fortress
+                - application: techapp_scientific_victory_2
+            branches:
+                - unlocks:
+                     - application: techapp_artemis_system_net
+                - unlocks:
+                     - application: techapp_uber_arcology
+...

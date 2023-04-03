@@ -1,0 +1,347 @@
+Tactical Mod 3.4
+The goal of this mod is to make weapons more than just an upgrade and tactical battles well... more tactical. I'm attempting to do that by increasing the value of positioning and maneuvering. To that end, here's a not exhaustive list of changes:
+
+3.4
+Rebalanced starting fleets to account for differences in AI hull selections in Tatical Mod.
+Augmented Engines Bonus speed multiplier 3.0 -> 1.5
+Augmented Engines Duration 7.0s -> 15s
+Augmented Engines Cooldown 20s -> 10s
+Hull base speed reduced by 24% for all hulls relative to Bomb Ketch
+Hull best speed reduced by 20% for all hulls relative to Bomb Ketch
+Adjusted Engine tactical speed bonuses:
+	Fusion 40% -> 20%
+	Ion 80% -> 60%
+	Antimatter 120% -> 100%
+	Hyperdrive 160% -> 140%
+	Interphased 200% -> 180%
+	Interdimensonal 300% -> 220%
+Increased Phasor AP 10 -> 11
+Increased Fusion Beam AP 10 -> 11
+reduced Battle Scanner bonus to align with the new computer progression 30 -> 20
+ARU combat tick increased 1.5 -> 2.0
+Increased Frigate base hull space 65 -> 70
+CP Changes to reduce fleet sizes late game and make swarm fleets more viable:
+Frigate and Bomb Ketch CP increased 3 -> 4
+Destroyer/Ironclad CP increased to 8
+Cruiser/Gunship CP incresed to 16
+Battleship/Battlecruiser CP increased to 30
+Titan/Dreadnought CP incrased to 60
+Doomstar/Advanced Doomstar CP increased to 80
+Front and Rear arcs reduced 85deg -> 65deg
+Decreased Missile size 15 -> 14
+Increased Nuke damage 18 -> 20
+Increased Merculite damage 21 -> 23
+Increased Pulson damage 24 -> 26
+Increased Zeon damage 27 -> 29
+Increased Quantum damage 30 -> 32
+Adjusted Gnolam ships to better use missiles
+Adjusted Sakkra ships to better use missiles
+Adjusted Human ship profiles
+Adjusted Alkari ship profiles
+Ajusted Bulrathi ship profiles
+Adjusted Darlok ship profiles
+Adjusted Klackon ship profiles
+Adjusted Psilon ship profiles
+Adjusted Trilarian blueprints
+Adjusted Meklar blueprints
+Adjusted Antaran ship profiles
+Reset Eel visual scale because I can't define weapon points for it and the beams weren't in the correct location when scaled.
+Adjusted Eel loadout
+Adjusted Eel HP and space
+Adjusted Eel turn speed for better maneuvering.
+Adjusted Squid loadout, HP, and space.
+Adjusted Dragon loadout, HP, and space. Lower damage, more durable armor
+Increased number of Dragon Parasites.
+Adjusted Amoebas, increased HP and adjusted weapons settings.
+Reduced Orion Guardian HP and space to make it a viable target toward the end of mid game.
+
+
+3.3
+Adjusted personalities to match 5x.
+Pirate cannons size was incorrect increased 5 -> 10
+Increased Pirate Frigate HP to compensate for reduced firepower
+Updated Antarans to use higher level bombs.
+Adjusted Antaran Destroyer and Doomstar behavior to work better with updated behavior logic.
+Adjusted acceleration of all hulls to work better with their angular acceleration and reduce sliding.
+Adjusted AI ship design profiles to better handle updated behavior logic.
+Adjusted Gnolam destroyer to add generic bombs so the AI will build it more reliably.
+Adjusted Sakkra destroyer to add generic bombs so the AI will build it more reliably.
+Gave Silicoid access to Dreadnoughts.
+Added Doomstar blueprints for Alkari, Bulrathi, Darlok, Human, Klackon, Meklar, Mrrshan,Psilon, Sakkra, Silicoid, Terrans, Elerians, Gnolam, and Trilarian.
+Armor Penetration damage cap reduced to 10% to adjust for plasma's multiple hits. Doesn't affect other weapons.
+Fast Missile Racks hull size factor increased 2.0 -> 2.25
+Increased Lightning Field accuracy .5 -> .75
+Increased Lightning Field duration .75 -> 1.0 seconds
+Reduced Shield Capaciter to 25% of base hull.
+Reduced computer accuracy by 25 for better balance with missiles.
+Reduced Beam Defense of Inertial Nullifier 70 -> 60
+Reduced Beam Defense of Cloaking Device 65 -> 55
+Boosted HyperX Capaciters by 5% to make them more worthwhile.
+Boosted Nucleonic Charges to have a better radius to make them more useful.
+Reduced Cloaking Device size to make it more in line with other modules.
+Decreased Class I shield strength .7 -> .6
+Increased Class V shield strength 1.25 -> 1.4
+Increased Class VII shield strength 1.75 -> 1.8
+Decreased Class X shield strength 2.25 -> 2.0
+Decreased Class XII shield strength 2.75 -> 2.2
+Shield recharge rates adjusted
+Sheild recharge delay increased 3s -> 5s
+Adjusted armor HP bonus for AC20-AC35 to make battles a bit more forgiving.
+Reduced Reinforced Hull bonus slightly .65 -> .6
+Bomber Bay subtype changed to bomber for better AI drone management
+
+I'm attempting to account for weapon miniturization and the AF + HVY combo effectively making earlier weapons as good as later or role specific weapons like Graviton and Plasma:
+Decreased Neutron damage 13 -> 12
+Decreased Mass Driver damage 12 -> 11
+Decreased Graviton damage 10 -> 7
+Increased Graviton AP 30 -> 40
+Increased Phasor damage 13 -> 14
+Decreased Phasor AP 12 -> 10
+Decreased Gauss damage 24 -> 20
+Increased Disruptor cooldown 5s -> 10s
+Decreased Dusruptor size 25 -> 20
+Increased Dark Energy cooldown 5s -> 10s
+Decreased Fusion Beam damage 30 -> 25
+Decreased Ion Beam damage 35 -> 27
+Decreased Ion Beam AP 25 -> 20
+Decreased Ion Beam range 40 -> 35
+Increased Plasma Beam size 10 -> 15 to reduce overall DPS
+Reduced Plasma Beam AP 4 -> 2
+Reduced Antimatter Torpedo damage 60 -> 55
+Reduced Plasma Torpedo damage 70 -> 65
+
+Increased Nuke size to normalize with other missiles.
+Increased Missile Attack for all missile types to make PD more valuable.
+Reduced missile speed for Nukes 10.0 -> 7.0
+Reduced missile speed for Merculite 10.0 -> 7.0
+Reduced missile speed for Pulson 12.0 -> 8.0
+Reduced missile speed for Zeon 10.0 -> 9.0
+Reduced missile speed for Quantum 12.0 -> 10.0
+Increased Missile Defense for ECM Jammer to 50
+Changed Missile Defense of Cloaking Device to 60
+Nuke damage reduced 25 -> 18
+Nuke armor piercing increased 7 -> 10
+Merculite Missile damage reduced 35 -> 21
+Merculite Missle AP reduced 15 -> 13
+Pulson Missile damage reduced 40 -> 24
+Pulson Missile AP reduced 20 -> 16
+Zeon Missile damage reduced 45 -> 27
+Zeon Missile AP reduced 25 -> 19
+Quantum Missile Damage reduced 50 -> 30
+Quantum Missile AP reduced 30 -> 22
+Increased missile TTL to improve dauntless function.
+Increased range of PD slightly .3 -> .35
+Reduced accuracy bonus of PD due to UCP6.3 removal of range loss for PD 1.5 -> 1.25
+Increased size of PD weapons -.66 -> -.5
+Heavy mod damage factor reduced 2.0 -> 1.5
+Reduced damage of Antimatter Charges 30 -> 25
+MIRV mod size factor increase to match MOO2 .5 -> 1.0
+MIRV mod damage factor increased 2.0 -> 3.0
+MIRV fragments reduced to 3x to match damage increase.
+Removed range boost for Fast mods. This was too good combined with MIRV and reduced tactical positioning.
+Armored mod size reduced 25% -> 20%
+ECCM mod size reduced 25% -> 20%
+
+Blueprint Optimizations:
+Increased PD counts for defenses by 25% to keep the same weapon ratio and better defend against missiles
+Alkari. Adjusted specials and loadouts for more efficient builds, made them more likely to take higher grade engines, and gave access to Mass Drivers.
+Bulrathi. Adjusted specials and loadouts for more efficient builds.
+Darlok. Adjusted blueprints for better strength prior to cloak.
+Humans. Adjusted specials and loadouts to fix some build issues and eliniate 0 strength designs.
+Psilons. Adjusted loadouts to remove a few mauler devices and increase weapons efficiency.
+Meklar. Adjust weapons loadouts slightly for better efficiency.
+Mrrshan. Minor tweaks to weapon mods and ordering.
+Sakkra. adjustments to loadout distribution, bug fixes for blueprints, and adjustment to specials.
+Silicoid. Adjusted ironclad to better use space.
+Terrans. No changes.
+Elerians. Tweaked early frigates for better strength.
+Gnolam. adjusted blueprints to remove some unnecessary specials.
+Trilarian. adjusted blueprints for smaller ships for better efficiency.
+
+3.2a
+Corrected Silicoid battlecruiser to use sniper rather than blitzer.
+Adjusted starbase blueprint to include more missiles and prioritize heavy for some slots.
+
+3.2
+Reduced Orion Guardian hull to make attacking it a viable mid game strategy.
+Tweaked ship AI profiles slightly to make larger ships more likely to hang back.
+Added Fallback in case missiles are unavailable for AI blueprints
+Adjusted visual scale of ships in tactical to make the battle field feel larger and give more space to maneuver.
+Tweaked Dragon loadout to have 5 parasites per bay.
+Tweaked parasite weapons to ignore shields.
+Adjusted Dragon Parasites to be less durable.
+Reduced Antaran victory chances slightly to better manage the size of their fleets.
+Increased all ECM missile avoidance by 5 make it more useful.
+Multiwave ECM Hull size factor reduced 1.7 -> 1.5
+Increased Displacement Device range 30 -> 50.
+Increased Displacement Device Cooldown 7s -> 15s
+Increased Displacement Device warmup 0.5s -> 1.0s
+Increased Subspace Teleporter range 75 -> 100.
+Increased Subspace Teleporter Cooldown 15s -> 20s
+Increased Subspace Teleporter warmup 0.5s -> 1.25s
+Drone regen upped .25 -> .5
+Reduced Fighter HP 8 -> 4
+Reduced Bomber HP 6 -> 2
+Reduced Heavy Fighter HP 10 -> 8
+Reduced front and rear arcs 90deg -> 85deg
+Adjusted bomb damage for use on bombers
+Adjusted bomber bomb cooldown to follow turn times
+Adjusted bomb AP for better scaling with bombers
+Increased PD accuracy 1.25 -> 1.5
+Increased AP of Neucleonic charges 10 -> 15
+Increased AP of Antimatter Charges 15 -> 20
+Nuclear Missile size reduced 15 -> 10 to boost slow research races
+Nuclear Missile given MIRV to boost races with slow research
+Nuclear Missile damage increased 25 -> 30
+Nuclear Missile AP increased 5 -> 7
+Merculite Missile AP increased 10 -> 15
+Pulson Missile AP increased 15 -> 20
+Zeon Missile AP increased 20 -> 25
+Quantum missile AP increased 25 -> 30
+Missile cooldown (Merculite, Pulson, Zeon, Quantum) increased 15s -> 20s
+MIRV size factor reduced 0.75 -> 0.5
+Fast Missile Racks hull size factor increased 1.9 -> 2.0
+Proton Torpedo damage increased 40 -> 45
+Antimatter Torpedo damage inceased 55 -> 60
+Plasma Torpedo damage increased 65 -> 70
+Energy Absorber damage reduction increased 50% -> 70%
+Energy Absorber duration increased 10s -> 20s
+Energy Absorber cooldown increased to 45s
+Cloaking Device cooldown 3s -> 2s
+Cloaking Device Beam Defense decreased 60 -> 55
+High Energy Focus damage boost reduced 50% -> 25%
+High Energy Focus hull size factor reduced 1.9 -> 1.75
+Increased Shield Capaciter bonus 0.75 -> 1.0
+Phasor Damage reduced 15 -> 13
+Phasor ap reduced 15 -> 12
+Gauss AP reduced 20 -> 18
+Gauss Damage reduced 25 -> 24
+Pulsar damage reduced to 45 -> 25
+Pulsar cooldown reduced 10s -> 5s
+Pulsar AP reduced 30 -> 10
+Shield strength increased for Class V, VII, X, and XII shields
+Shield Recharge slightly increased for Class III, V, VII, X, and XII shields
+Hard Shield damage mitigation increased 3 -> 5
+Plasma Web splash area set to 5
+Plasma Web duration set to .25s
+Plasma Web hits set to 30
+Plasma Web hit interval set to 2.0s
+Plasma Web damage set to 40
+
+3.1
+Drone Bay cooldowns increased to 10s
+Fighters: speed increased
+Fighters: Base HP increased to 8
+Fighters: reduced to 3 fighters per bay
+Bombers: speed reduced
+Bombers: Base HP decreased to 6
+Bombers: reduced to 2 bombers per bay
+Bombers: range increased to 20
+Heavy Fighters: speed slightly increased
+Heavy Fighters: Base HP increased to 10
+Heavy Fighters: increased to 3 per bay
+Heavy Fighters: Weapon changed to 2x cannon
+English Localization updates for weapons mod tooltips to accurately reflect mods unlocked
+Missiles: Adjusted Time to Live to allow skillful maneuvering and teleportation to dodge misiles.
+Missiles: adjusted HP to maintain similar effectiveness with PD changes
+Advanced Fighter Garrison: Increased space slightly to boost strength.
+Point Defense: reduced cooldown by 50%
+Point Defense: reduced damage by 10%
+Laser Cannon: Damage decreased 10 -> 9
+Laser Cannon: AP increased 5 -> 6
+Neutron Blaster: Damage decreased 15 -> 13
+Neutron Blaster: AP increased 7 -> 8
+Mass Driver: Damage increased 10 -> 12
+Mass Driver: AP reduced 15 -> 10
+Mass Driver: cooldown reduced 10s -> 5s
+Phasors: Damage decreased 16 -> 15
+Gauss Cannon: Damage deacreased 26 -> 25
+Dark Energy Cannon: Damage decreased 50 -> 40
+Dark Energy Cannon: Accuracy increased 20%
+Mauler Device: Accuracy increased to 50%
+Mauler Device: Damage increased 100 -> 125
+Fusion Beam: increased dissipation to focus role better.
+Fusion Beam: AP reduced 15 -> 10
+Shield Capaciter: bonus shield increased from 50% -> 75% of base hull.
+Reinforced Hull: bonus reduced from 75% -> 65%
+Rebalanced Pirates: Pirates are more random in their spawn times and spawn stronger fleets with longer intervals between spawns.
+Pirate blueprints: updated to give better defenses and weapon converage. Removed bombs. Added limited specials.
+Pirate hulls: increased HP and space availble to be more in line with regular hull classes.
+Pirate fleet spawn settings and numbers adjusted to account for UCP6.1 changes.
+Blockades can now cause Revolts on planets. Blockades now take 100% of the planet's income. This was added to make up for the removal of bombs on Pirates.
+Monster blueprints and hulls updated for better progression. Eel > Squid > Dragon > Amoeba > Guardian.
+Antaran attack fleet composition adjusted to scale better through the game. You should see more frigates and destroyers and fewer battleships and titans until late game.
+
+3.0
+Added blueprints and race settings for Terrans.
+Added "trade" tech to race blueprints
+Adjusted Antaran attack and defense fleet settings for better balance
+Adjusted Orion Guardian blueprint to make the fight more challenging.
+Displacement device recharge increased 5s -> 7s
+Subspace Teleporter recharge increased 10s ->15s
+Plasma Torpedo 70 -> 65 damage
+Quantum Torpedo 90 -> 80 damage
+Black Hole Generator crush changed to 70 damage/sec with 10ap. This change makes it good at swarm control and delaying large ships.
+ARU tweaked to 1% per 1.25 seconds.
+Category "mine" added to Nucleonic Charges and Antimatter Charges to stop the AI from equipping both modules at the same time.
+Side arc increased 90 -> 100 degrees.
+Reduced time to live for missiles. Makes using speed or teleportation a viable tactic to avoid missiles.Later game missiles live longer.
+
+2.9a
+UCP and 5x updates for AI tech prefs and reworked antarans.
+
+2.8 Changes:
+Bug fixes, blueprint fixes, balance tweaks to Phasors and a few specials. Updates to planetary defense bleuprints and AI preferences for building them.
+
+2.7 Changes:
+Tweaks to weapons and defensive specials. Bug fixes for AI blueprints. Firing arcs reduced to 90 degrees per quadrant from 120 degrees. Minor balance tweaks to weapons and specials.
+
+2.6 Additions:
+Tweaks to balance between cannons/beams/missiles. Base energy accuracy changed from 25 to 0 to make cannon/beam accuracy increase more gradually. This change boosts races with beam attack bonuses and increases the value of the Battle Scanner and advanced computers.
+
+Missile attack has increased to give them a better base accuracy and missile HP have been adjusted to make early game point defenses weaker and late game point defense more powerful. ECM has seen significant boosts to make and should be more valuable.
+
+Multiphased Shields increased to 175% base hull. These shields just weren't that great compared to hard shields.
+
+Minor adjustments to defenses. Range boost reduced so ships aren't immediately under fire. Damage and accuracy boosted to compensate.
+
+2.5 Additions:
+Second pass on cannons and beams. Adjustments have been made to add back in differing accuracies and a few cooldown periods adjusted. First pass on missiles. Missiles now take 15 space and have 15s cooldowns along with increased damage. The goal is to make missiles more of a standoff volley weapon. High upfront damage, low rate of fire.
+
+Other tweaks:
+All torpedoes got a slight speed boost but accelerate slower. Should make them more useful.
+Inertial Stabilizer and Nullifier significantly reduced. Their avoidance was so high even late game computers missed most of the time.
+All missile attack ratings decreased. ECM should now be a viable alternative and scale better late game.
+Fighters adjusted a bit to make them less overwhelming.
+Pulsar and Lightning field tweaked.
+Futher adjustments to shields. Overall increase in strength but less gain for each shield level. Multiphased shields now give 150% base hull value additional shields. Hopefully makes them a bit more attractive compared to hard shields.
+
+
+2.0 Additions:
+This update fixes a few balance issues with weapons and implements phase two. Phase two is the first pass redesign of ship blueprint templates and fleet composition for Alkari, Bulrathi, Darlok, Human, Klackon, Meklar, Mrrshan, Psilon, Sakkra, Silicoid, Elerian, Gnolam, and Trilarian. This update allows these races to take advantage of the weapons changes the mod makes. You can expect to see favorite weapons technologies, favorite special equipment, fleet composition, and maybe a few other surprises geared to make the AI ships more challenging to fight and requiring different strategies to combat different races.
+
+Global changes:
+All ship classes have reduced turning an get less speed benefit from better drives in tactical combat the larger they are. This results in more variance between classes and situations where small, fast ships can evade larger slow ones.
+
+Size costs for arcs has increased significantly. All around weapons should significantly affect the total firepower you can mount on a ship for the advantage of never having to turn. They are currently set to 125% for left/right and 250% for all around arcs.
+
+Armor resilience max reduction has been increased to 75% damage reduction from 25%. This gives added benefit to armor and weapons that ignore resilience as the game progresses.
+
+Shields have been adjusted to reduce damage mitigation. The amount of mitigation matches the shield class. Overall shield amounts have been tweaked a bit. Even early game weapons can overcome their mitigation until you hit class VII or X shields.
+
+Shipbuilding changes:
+I've normalized space requirements for beams and cannon weapons. This is in response to overall changes in how these weapons perform and to make it easier to adapt your ships as needed. Weapons are now grouped as "classes" with the size requirements for a class being the same. The general result is that a modded weapon can compete with an unmodded new unlock making weapons viable longer.
+
+Weapons Changes:
+The goal with weapons changes is to make them have more tactical variety so that weapons aren't just about unlocking a stat boost. This means some weapons can last far into a game upgraded with mods. It also means that weapons utility can change a lot based on the situation. For example, Graviton doesn't do a good job taking down shields, but it ignores resilience damage reduction and has very high AP making it very dangerous against unshield ships even late game.
+
+All cannons and beams now fall off to 75% of their total damage. The exceptions are weapons with 2x dissipation that are reduced to 50% of their total damage and weapons with no dissipation that have 100% damage at range.
+
+All cannons now falloff faster closer to max range making them more powerful farther away.
+
+All beams now fall off more evenly throughout their entire range making them lose effectiveness at a higher rate than cannons. This makes them more powerful the closer you are to the firing ship.
+
+Beam weapons have had significant changes in how they function. Instead of multiple small hits, each beam now does one single hit for higher damage. This makes them better against shield damage mitigation and allows for specials like Plasma Beam to get 4x hits like Moo2.
+
+Individual weapon damages, ap, and weapon mods allowed have been significantly reworked for beams and cannons. Damage reduction helps to make ships feel tougher across the board without having to edit each ship to add more HP and makes tactical a bit more forgiving of mistakes. Weapons now mimic MOO2 with what mods are allowed and, where possible, how they work.
+

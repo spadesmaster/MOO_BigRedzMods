@@ -1,0 +1,76 @@
+---
+- collection: &Backend.Fleets.ShipModuleModType
+    items:
+      #BEAM MODS
+      - key: modifier_heavy_mount
+        name: SHIP_MODULE_MOD_HEAVY_MOUNT
+        shorthand: SHIP_MODULE_MOD_HEAVY_MOUNT_SHORT
+        description: SHIP_MODULE_MOD_HEAVY_MOUNT_DESCRIPTION
+        costFactor: 1.0
+        sizeFactor: 0.5
+        rangeFactor: 1.5
+        damageFactor: 1.5
+        coolDownFactor: 1.25
+        model: _heavy_mount
+        isHeavyMount: true
+        excludes:
+          - modifier: modifier_point_defense
+      - key: modifier_point_defense
+        name: SHIP_MODULE_MOD_POINT_DEFENSE
+        shorthand: SHIP_MODULE_MOD_POINT_DEFENSE_SHORT
+        description: SHIP_MODULE_MOD_POINT_DEFENSE_DESCRIPTION
+        costFactor: -0.5
+        sizeFactor: -0.5
+        coolDownFactor: 0.5
+        rangeFactor: 0.35
+        damageFactor: 0.5
+        accuracyFactor: 1.25
+        model: _point_defense
+        isPointDefense: true
+        excludes:
+          - modifier: modifier_heavy_mount
+          - modifier: modifier_enveloping
+          - modifier: modifier_continuous_fire_lasers
+          - modifier: modifier_continuous_fire_beams
+          - modifier: modifier_auto_fire
+
+      #MISSILE MODS
+      - key: modifier_fast
+        name: SHIP_MODULE_MOD_FAST
+        shorthand: SHIP_MODULE_MOD_FAST_SHORT
+        description: SHIP_MODULE_MOD_FAST_DESCRIPTION
+        costFactor: 0.5
+        sizeFactor: 0.25
+        rangeFactor: 1.0
+        speedFactor: 1.5
+        model: _fast
+        isFast: true
+      - key: modifier_mirv
+        name: SHIP_MODULE_MOD_MIRV
+        shorthand: SHIP_MODULE_MOD_MIRV_SHORT
+        description: SHIP_MODULE_MOD_MIRV_DESCRIPTION
+        costFactor: 1.0
+        sizeFactor: 1.0
+        model: _mirv
+        mirvFragCount: 3
+        mirvDistance: 6.5 # was 5.5
+        mirvDamageFactor: 3
+        isMIRV: true
+      - key: modifier_heavy_armor
+        name: SHIP_MODULE_MOD_HEAVY_ARMOR
+        shorthand: SHIP_MODULE_MOD_HEAVY_ARMOR_SHORT
+        description: SHIP_MODULE_MOD_HEAVY_ARMOR_DESCRIPTION
+        costFactor: 0.25
+        sizeFactor: 0.20
+        armorFactor: 2
+        model: _heavy_armor
+        isHeavyArmor: true
+      - key: modifier_eccm
+        name: SHIP_MODULE_MOD_ECCM
+        shorthand: SHIP_MODULE_MOD_ECCM_SHORT
+        description: SHIP_MODULE_MOD_ECCM_DESCRIPTION
+        costFactor: 0.25
+        sizeFactor: 0.20
+        jamResistFactor: 0.5
+        model: _eccm
+        isECCM: true

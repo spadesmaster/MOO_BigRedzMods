@@ -1,0 +1,346 @@
+---
+- collection: &Backend.Galaxy.GalaxyAge
+    items:
+        - key: galaxy_very_young
+          name: GALAXY_AGE_VERY_YOUNG
+          displayOrder: 1
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 39
+                  highChance: 42
+                - starType: star_white
+                  lowChance: 37
+                  highChance: 40
+                - starType: star_yellow
+                  lowChance: 16
+                  highChance: 18
+                - starType: star_orange
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_red
+                  lowChance: 2
+                  highChance: 3
+                - starType: star_brown
+                  lowChance: 1
+                  highChance: 2
+                - starType: star_real_black_hole
+                  lowChance: 0
+                  highChance: 1
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_young
+          name: GALAXY_AGE_YOUNG
+          displayOrder: 2
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 29
+                  highChance: 32
+                - starType: star_white
+                  lowChance: 26
+                  highChance: 29
+                - starType: star_yellow
+                  lowChance: 18
+                  highChance: 20
+                - starType: star_orange
+                  lowChance: 14
+                  highChance: 15
+                - starType: star_red
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_brown
+                  lowChance: 2
+                  highChance: 3
+                - starType: star_real_black_hole
+                  lowChance: 1
+                  highChance: 2
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_average
+          name: GALAXY_AGE_AVERAGE
+          displayOrder: 3
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 13
+                  highChance: 14
+                - starType: star_white
+                  lowChance: 16
+                  highChance: 18
+                - starType: star_yellow
+                  lowChance: 19
+                  highChance: 21
+                - starType: star_orange
+                  lowChance: 21
+                  highChance: 23
+                - starType: star_red
+                  lowChance: 27
+                  highChance: 30
+                - starType: star_brown
+                  lowChance: 3
+                  highChance: 4
+                - starType: star_real_black_hole
+                  lowChance: 2
+                  highChance: 3
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_old
+          name: GALAXY_AGE_OLD
+          displayOrder: 4
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_white
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_yellow
+                  lowChance: 28
+                  highChance: 30
+                - starType: star_orange
+                  lowChance: 30
+                  highChance: 33
+                - starType: star_red
+                  lowChance: 20
+                  highChance: 22
+                - starType: star_brown
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_real_black_hole
+                  lowChance: 3
+                  highChance: 4
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_very_old
+          name: GALAXY_AGE_VERY_OLD
+          displayOrder: 5
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 1
+                  highChance: 2
+                - starType: star_white
+                  lowChance: 3
+                  highChance: 4
+                - starType: star_yellow
+                  lowChance: 17
+                  highChance: 19
+                - starType: star_orange
+                  lowChance: 46
+                  highChance: 49
+                - starType: star_red
+                  lowChance: 20
+                  highChance: 22
+                - starType: star_brown
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_real_black_hole
+                  lowChance: 4
+                  highChance: 5
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_very_lush
+          name: GALAXY_AGE_VERY_LUSH
+          displayOrder: 6
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 37
+                  highChance: 40
+                - starType: star_white
+                  lowChance: 35
+                  highChance: 38
+                - starType: star_yellow
+                  lowChance: 16
+                  highChance: 18
+                - starType: star_orange
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_red
+                  lowChance: 2
+                  highChance: 3
+                - starType: star_brown
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_real_black_hole
+                  lowChance: 0
+                  highChance: 1
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_lush
+          name: GALAXY_AGE_LUSH
+          displayOrder: 7
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 30
+                  highChance: 33
+                - starType: star_white
+                  lowChance: 26
+                  highChance: 29
+                - starType: star_yellow
+                  lowChance: 18
+                  highChance: 20
+                - starType: star_orange
+                  lowChance: 13
+                  highChance: 14
+                - starType: star_red
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_brown
+                  lowChance: 3
+                  highChance: 4
+                - starType: star_real_black_hole
+                  lowChance: 1
+                  highChance: 2
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_sparse
+          name: GALAXY_AGE_SPARSE
+          displayOrder: 8
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_white
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_yellow
+                  lowChance: 23
+                  highChance: 25
+                - starType: star_orange
+                  lowChance: 33
+                  highChance: 36
+                - starType: star_red
+                  lowChance: 21
+                  highChance: 22
+                - starType: star_brown
+                  lowChance: 5
+                  highChance: 6
+                - starType: star_real_black_hole
+                  lowChance: 4
+                  highChance: 5
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+        - key: galaxy_very_sparse
+          name: GALAXY_AGE_VERY_SPARSE
+          displayOrder: 9
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 1
+                  highChance: 2
+                - starType: star_white
+                  lowChance: 3
+                  highChance: 4
+                - starType: star_yellow
+                  lowChance: 17
+                  highChance: 19
+                - starType: star_orange
+                  lowChance: 41
+                  highChance: 44
+                - starType: star_red
+                  lowChance: 23
+                  highChance: 25
+                - starType: star_brown
+                  lowChance: 9
+                  highChance: 10
+                - starType: star_real_black_hole
+                  lowChance: 6
+                  highChance: 7
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 10
+                - starType: star_white
+                  chance: 10
+                - starType: star_yellow
+                  chance: 30
+                - starType: star_orange
+                  chance: 25
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 5
+...

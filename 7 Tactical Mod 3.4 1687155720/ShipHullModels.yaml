@@ -1,0 +1,33 @@
+---
+- collection: &Backend.Fleets.ShipHullModel
+    items:
+          - key: hullmodel_militaty_outpost
+            hullType: hull_military_outpost
+            model: starbase
+          - key: hullmodel_advanced_military_outpost
+            hullType: hull_advanced_military_outpost
+            model: battlestation
+          - key: hullmodel_frigate_antaran
+            hullType: hull_frigate_antaran
+            model: frigate
+            model: frigate_b
+          - key: hullmodel_destroyer_antaran
+            hullType: hull_destroyer_antaran
+            model: destroyer
+            model: destroyer_b
+          - key: hullmodel_cruiser_antaran
+            hullType: hull_cruiser_antaran
+            model: cruiser
+            model: cruiser_b
+          - key: hullmodel_battleship_antaran
+            hullType: hull_battleship_antaran
+            model: battleship
+            model: battleship_b
+          - key: hullmodel_titan_antaran
+            hullType: hull_titan_antaran
+            model: titan
+            model: titan_b
+          - key: hullmodel_doomstar_antaran
+            hullType: hull_doomstar_antaran
+            model: doomstar
+...

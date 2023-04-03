@@ -1,0 +1,550 @@
+---
+- collection: &Backend.Fleets.ShipHullType
+    items:
+      ## PLANETARY DEFENSES
+      - key: hull_missile_base
+        space: 350
+        hp: 450
+        weaponSlots: 6
+        specialSlots: 6
+        tacticalVisualScale: 4
+        angularAcceleration: 0.04
+        maxAngularVelocity: 0.1
+      - key: hull_advanced_missile_base
+        space: 700
+        hp: 940
+        weaponSlots: 7
+        tacticalVisualScale: 4
+        angularAcceleration: 0.04
+        maxAngularVelocity: 0.1
+      - key: hull_ground_batteries
+        space: 325
+        hp: 450
+        weaponSlots: 5
+        specialSlots: 7
+        tacticalVisualScale: 4
+        angularAcceleration: 0.05
+        maxAngularVelocity: 0.3
+      - key: hull_advanced_ground_batteries
+        space: 600
+        hp: 940
+        weaponSlots: 7
+        tacticalVisualScale: 4
+        angularAcceleration: 0.05
+        maxAngularVelocity: 0.3
+      - key: hull_fighter_garrison
+        space: 250
+        hp: 540
+      - key: hull_advanced_fighter_garrison
+        space: 650
+        hp: 1125
+      - key: hull_military_outpost
+        space: 450
+        hp: 540
+        weaponSlots: 8
+        specialSlots: 7
+        tacticalVisualScale: 3.75
+      - key: hull_advanced_military_outpost
+        space: 1200
+        hp: 1600
+        weaponSlots: 8
+        tacticalVisualScale: 3.75
+      - key: hull_starbase
+        space: 400
+        hp: 540
+        weaponSlots: 8
+        specialSlots: 7
+        tacticalVisualScale: 3.75
+      - key: hull_battlestation
+        space: 800
+        hp: 1125
+        weaponSlots: 8
+        tacticalVisualScale: 3.75
+      - key: hull_starfortress
+        space: 1600
+        hp: 2400
+        weaponSlots: 8
+        specialSlots: 8
+        tacticalVisualScale: 4.25
+      ## SHIPS
+      - key: hull_scout
+        angularAcceleration: 3.9
+        maxAngularVelocity: 3
+      - key: hull_bomber_frigate
+        acceleration: 1.2
+        angularAcceleration: 1.2
+        baseDriveVelocity: 1.2
+        bestDriveVelocity: 2.8
+        maxAngularVelocity: 3
+        fleetSupportCost: 4
+        shipDesignScale: 1.3
+        tacticalVisualScale: 1.3
+      - key: hull_frigate
+        acceleration: 4.0
+        angularAcceleration: 2.8
+        baseDriveVelocity: 2.2
+        bestDriveVelocity: 3.8
+        maxAngularVelocity: 3.5
+        canAutoExplore: false
+        fleetSupportCost: 4
+        space: 70
+        shipDesignScale: 1.3
+        tacticalVisualScale: 1.3
+      - key: hull_destroyer
+        acceleration: 1.9
+        angularAcceleration: 1.375
+        baseDriveVelocity: 1.4
+        bestDriveVelocity: 2.8
+        maxAngularVelocity: 2.75
+        fleetSupportCost: 8
+        shipDesignScale: 1.4
+        tacticalVisualScale: 1.3
+      - key: hull_ironclad
+        acceleration: 1.2
+        angularAcceleration: .667
+        baseDriveVelocity: 2.0
+        bestDriveVelocity: 3.4
+        maxAngularVelocity: 2
+        hp: 250
+        fleetSupportCost: 8
+        shipDesignScale: 1.4
+        tacticalVisualScale: 1.3
+      - key: hull_cruiser
+        acceleration: 1.2
+        angularAcceleration: .467
+        baseDriveVelocity: 1.2
+        bestDriveVelocity: 2.4
+        maxVelocity: 2.5
+        maxAngularVelocity: 1.4
+        fleetSupportCost: 16
+        shipDesignScale: 1.65
+        tacticalVisualScale: 1.7
+      - key: hull_gunship
+        acceleration: .9
+        angularAcceleration: .75
+        baseDriveVelocity: .6
+        bestDriveVelocity: 1.8
+        maxVelocity: 2
+        maxAngularVelocity: 1.65
+        hp: 280
+        fleetSupportCost: 16
+        shipDesignScale: 1.65
+        tacticalVisualScale: 1.7
+      - key: hull_battleship
+        acceleration: 1.0
+        angularAcceleration: 0.256
+        baseDriveVelocity: .8
+        bestDriveVelocity: 2.0
+        maxVelocity: 1.5
+        maxAngularVelocity: 1.15
+        fleetSupportCost: 30
+        shipDesignScale: 1.3
+        tacticalVisualScale: 2
+      - key: hull_battlecruiser
+        acceleration: .9
+        angularAcceleration: 0.284
+        baseDriveVelocity: 1.04
+        bestDriveVelocity: 2.32
+        maxVelocity: 1.75
+        maxAngularVelocity: 1.25
+        fleetSupportCost: 30
+        shipDesignScale: 1.3
+        tacticalVisualScale: 2
+      - key: hull_titan
+        acceleration: 0.2
+        angularAcceleration: 0.05
+        baseDriveVelocity: .48
+        bestDriveVelocity: 1.48
+        maxVelocity: 0.75
+        maxAngularVelocity: .3
+        fleetSupportCost: 60
+        shipDesignScale: 1.75
+        tacticalVisualScale: 2.25
+      - key: hull_dreadnought
+        acceleration: 0.15
+        angularAcceleration: 0.038
+        baseDriveVelocity: .56
+        bestDriveVelocity: 1.56
+        maxVelocity: 1
+        maxAngularVelocity: .25
+        fleetSupportCost: 60
+        shipDesignScale: 1.75
+        tacticalVisualScale: 2.25
+      - key: hull_doomstar
+        acceleration: .7
+        angularAcceleration: 0.04
+        baseDriveVelocity: .2
+        bestDriveVelocity: .6
+        maxVelocity: .75
+        maxAngularVelocity: .1
+        fleetSupportCost: 80
+        shipDesignScale: 1.65
+        tacticalVisualScale: 2.55
+      - key: hull_advanced_doomstar
+        acceleration: .7
+        angularAcceleration: 0.05
+        baseDriveVelocity: .28
+        bestDriveVelocity: .68
+        maxVelocity: 1
+        maxAngularVelocity: 0.15
+        fleetSupportCost: 80
+        shipDesignScale: 1.65
+        tacticalVisualScale: 2.55
+      ## ATTACK CRAFT
+      - key: hull_fighter
+        space: 100
+        hp: 4
+        weaponSlots: 1
+        baseDriveVelocity: 10.00
+        bestDriveVelocity: 20.00
+        maxVelocity: 20.0
+      - key: hull_bomber
+        space: 100
+        hp: 2
+        baseDriveVelocity: 3.00
+        bestDriveVelocity: 5.00
+        maxVelocity: 5.0
+        weaponSlots: 1
+      - key: hull_heavy_fighter
+        space: 100
+        hp: 8
+        baseDriveVelocity: 3.00
+        bestDriveVelocity: 7.00
+        maxVelocity: 7.0
+      - key: hull_parasite
+        hp: 2
+      ## PIRATES
+      - key: hull_pirate_frigate
+        space: 65 #normal: 30
+        hp: 75 #normal: 30
+        acceleration: 4.5
+        angularAcceleration: 2.8
+        baseDriveVelocity: 2.2
+        bestDriveVelocity: 3.8
+        maxAngularVelocity: 3.5
+        tacticalVisualScale: 1.0
+        weaponSlots: 4
+        specialSlots: 2
+      - key: hull_pirate_destroyer
+        space: 135 #normal: 90
+        hp: 160 #normal 110
+        acceleration: 2.0
+        angularAcceleration: 1.375
+        baseDriveVelocity: 2.0
+        bestDriveVelocity: 3.4
+        maxAngularVelocity: 2.75
+        tacticalVisualScale: 1.0
+        weaponSlots: 6
+        specialSlots: 2
+      - key: hull_pirate_cruiser
+        space: 270 #normal: 200
+        hp: 365 #normal: 300
+        acceleration: 1.25
+        angularAcceleration: 0.55
+        baseDriveVelocity: 1.2
+        bestDriveVelocity: 2.4
+        maxAngularVelocity: 1.65
+        tacticalVisualScale: 1.2
+        weaponSlots: 4
+        specialSlots: 4
+      ## MONSTERS
+      - key: hull_eel
+        space: 145
+        hp: 850
+        hullScale: 2.0
+        #tacticalVisualScale: 4.4 #Can't set weapon point to fix beam origin
+        angularAcceleration: 1.6
+        baseDriveVelocity: 4
+        bestDriveVelocity: 4
+        maxVelocity: 4
+        maxAngularVelocity: 2.0
+      - key: hull_squid
+        space: 145
+        hp: 1550
+        hullScale: 2.0
+        tacticalVisualScale: 5.1
+        angularAcceleration: 0.5
+        baseDriveVelocity: 3.25
+        bestDriveVelocity: 3.25
+        maxVelocity: 3.25
+        maxAngularVelocity: 1.4
+      - key: hull_amoeba
+        space: 130
+        hp: 3500
+        angularAcceleration: 0.2
+        maxAngularVelocity: 0.25
+        spawnCount: 2
+      - key: hull_amoeba_medium
+        space: 100
+        hp: 1100
+        angularAcceleration: 0.45
+        maxAngularVelocity: 0.5
+        spawnCount: 4
+      - key: hull_amoeba_small
+        space: 100
+        hp: 700
+        angularAcceleration: 0.45
+        maxAngularVelocity: 0.5
+      - key: hull_dragon
+        space: 325
+        hp: 2700
+        hullScale: 2.0
+        tacticalVisualScale: 5.6
+        angularAcceleration: 0.175
+        baseDriveVelocity: 2
+        bestDriveVelocity: 2
+        maxVelocity: 2
+        maxAngularVelocity: 0.275
+      # - key: hull_leviathan
+      #   angularAcceleration: 4.0
+      #   maxAngularVelocity: 4.0
+      # - key: hull_ikaroa
+      #   angularAcceleration: 4.0
+      #   maxAngularVelocity: 4.0
+      ## ORION GUARDIAN
+      - key: hull_orion_guardian
+        space: 3500 #normal: 4600
+        hp: 1500 #Normal: 2000
+        tacticalVisualScale: 5.5
+        angularAcceleration: 0.75
+        baseDriveVelocity: 2.75
+        bestDriveVelocity: 2.75
+        maxVelocity: 2.75
+        maxAngularVelocity: 1.65
+      ## ANTARAN SHIPS
+      - key: hull_frigate_antaran
+        name: HULL_FRIGATE_NAME
+        description: SHIP_TYPE_FRIGATE_DESCRIPTION
+        cost: 5
+        space: 180 #added +30 space for 3 additional bombs
+        hp: 115 #Normal:90
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/frigate.png
+        icon: assets/ships/%civ%/%type%/ship_frigate.png
+        hullScale: 1
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_frigate
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_frigate.prefab
+        introSlot: frigate
+        tacticalLong: 0.5
+        tacticalWide: 0.5
+        tacticalTall: 0.25
+        tacticalVisualScale: 0.9
+        tacticalTriggerCooldown: 0.17
+        shipDesignScale: 1.8
+        hullClass: 1
+        acceleration: 6
+        angularAcceleration: 2.8
+        baseDriveVelocity: 2.75
+        bestDriveVelocity: 4.75
+        maxVelocity: 3.5
+        maxAngularVelocity: 4.0
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: frigate
+        flagPriority: 10
+        specialSlots: 4
+        weaponSlots: 4
+        fleetSupportCost: 1
+        maxShipsProperty: maxShipsHullFrigate
+        allowMassProduction: true
+        allowedShipDesign: true
+        CPAffectedByTechAch: true
+      - key: hull_destroyer_antaran
+        name: HULL_DESTROYER_NAME
+        description: SHIP_TYPE_DESTROYER_DESCRIPTION
+        cost: 10
+        space: 315 #added +40 for additionional bombs
+        hp: 225 #Normal:175
+        detectionRange: 0.5
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/destroyer.png
+        icon: assets/ships/%civ%/%type%/ship_destroyer.png
+        hullScale: 1
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_destroyer
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_destroyer.prefab
+        shipDesignScale: 1.8
+        hullClass: 2
+        introSlot: destroyer
+        tacticalLong: 1.0
+        tacticalWide: 0.5
+        tacticalTall: 0.25
+        tacticalVisualScale: 1.1
+        tacticalTriggerCooldown: 0.17
+        acceleration: 3
+        angularAcceleration: 1.375
+        baseDriveVelocity: 1.75
+        bestDriveVelocity: 3.5
+        maxVelocity: 3.1
+        maxAngularVelocity: 2.75
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: destroyer
+        flagPriority: 4
+        specialSlots: 5
+        weaponSlots: 5
+        fightersGroups: 1
+        fleetSupportCost: 7
+        maxShipsProperty: maxShipsHullDestroyer
+        allowMassProduction: true
+        allowedShipDesign: true
+        CPAffectedByTechAch: true
+      - key: hull_cruiser_antaran
+        name: HULL_CRUISER_NAME
+        description: SHIP_TYPE_CRUISER_DESCRIPTION
+        cost: 20
+        space: 640 #added +40 for additional bombs
+        hp: 550 #Normal:360
+        detectionRange: 1
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/cruiser.png
+        icon: assets/ships/%civ%/%type%/ship_cruiser.png
+        hullScale: 1.0
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_cruiser
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_cruiser.prefab
+        introSlot: cruiser
+        tacticalLong: 2.5
+        tacticalWide: 1.5
+        tacticalTall: 0.75
+        tacticalVisualScale: 1.25
+        tacticalTriggerCooldown: 0.17
+        shipDesignScale: 2.0
+        hullClass: 3
+        tacticalVictoryDelay: 4.0
+        acceleration: 1.75
+        angularAcceleration: .467
+        baseDriveVelocity: 1.5
+        bestDriveVelocity: 3
+        maxVelocity: 2.5
+        maxAngularVelocity: 1.4
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: cruiser
+        flagPriority: 3
+        specialSlots: 6
+        weaponSlots: 6
+        fightersGroups: 2
+        fleetSupportCost: 12
+        maxShipsProperty: maxShipsHullCruiser
+        allowMassProduction: true
+        allowedShipDesign: true
+        CPAffectedByTechAch: true
+      - key: hull_battleship_antaran
+        name: HULL_BATTESHIP_NAME
+        description: SHIP_TYPE_BATTLESHIP_DESCRIPTION
+        cost: 40
+        space: 1300 #Normal: 1675
+        hp: 1300 #Normal:750
+        detectionRange: 1.5
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/battleship.png
+        icon: assets/ships/%civ%/%type%/ship_battleship.png
+        hullScale: 1.0
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_battleship
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_battleship.prefab
+        introSlot: battleship
+        tacticalLong: 4
+        tacticalWide: 2.5
+        tacticalTall: 1.25
+        tacticalVisualScale: 2.15
+        tacticalTriggerCooldown: 0.17
+        shipDesignScale: 2.0
+        hullClass: 4
+        tacticalVictoryDelay: 5.0
+        acceleration: .25
+        angularAcceleration: 0.256
+        baseDriveVelocity: 1
+        bestDriveVelocity: 2.5
+        maxVelocity: 1.5
+        maxAngularVelocity: 1.15
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: battleship
+        flagPriority: 2
+        specialSlots: 7
+        weaponSlots: 7
+        fightersGroups: 4
+        fleetSupportCost: 20
+        lookTowardsObjective: false
+        battleshipConstructionRequired: true
+        maxShipsProperty: maxShipsHullBattleship
+        allowMassProduction: true
+        allowedShipDesign: true
+        CPAffectedByTechAch: true
+      - key: hull_titan_antaran
+        name: HULL_TITAN_NAME
+        description: SHIP_TYPE_TITAN_DESCRIPTION
+        cost: 80
+        space: 3200 #normal: 3550
+        hp: 3000 #Normal:1800
+        detectionRange: 2
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/titan.png
+        icon: assets/ships/%civ%/%type%/ship_titan.png
+        hullScale: 1.0
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_titan
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_titan.prefab
+        introSlot: titan
+        tacticalLong: 5.5
+        tacticalWide: 3.5
+        tacticalTall: 1.75
+        tacticalVisualScale: 2.3
+        tacticalTriggerCooldown: 0.17
+        shipDesignScale: 2.2
+        hullClass: 5
+        tacticalVictoryDelay: 5.0
+        acceleration: 0.125
+        angularAcceleration: 0.05
+        baseDriveVelocity: .6
+        bestDriveVelocity: 1.85
+        maxVelocity: 0.75
+        maxAngularVelocity: .3
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: titan
+        flagPriority: 1
+        specialSlots: 8
+        weaponSlots: 8
+        fightersGroups: 6
+        fleetSupportCost: 35
+        lookTowardsObjective: false
+        battleshipConstructionRequired: true
+        maxShipsProperty: maxShipsHullTitan
+        allowMassProduction: true
+        allowedShipDesign: true
+        CPAffectedByTechAch: true
+      - key: hull_doomstar_antaran
+        name: HULL_DOOMSTAR_NAME
+        description: SHIP_TYPE_DOOM_STAR_DESCRIPTION
+        cost: 200
+        space: 6400 #Normal: 6800
+        hp: 5000 #Normal:3300
+        detectionRange: 3
+        tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/doomstar.png
+        icon: assets/ships/%civ%/%type%/ship_doomstar.png
+        hullScale: 1.0
+        hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_doomstar
+        hologram: /ContentPrefabs/Tactical/Holographic_Ships/%civ%/hologram_%civ%_doomstar.prefab
+        introSlot: doomstar
+        tacticalLong: 3
+        tacticalWide: 3
+        tacticalTall: 1.5
+        tacticalVisualScale: 2.7
+        tacticalTriggerCooldown: 0.17
+        shipDesignScale: 2.2
+        hullClass: 6
+        tacticalVictoryDelay: 7.0
+        acceleration: 0.125
+        angularAcceleration: 0.04
+        baseDriveVelocity: .25
+        bestDriveVelocity: .75
+        maxVelocity: .75
+        maxAngularVelocity: .1
+        velocityFriction: 0.02
+        angularFriction: 0.05
+        flagType: doomstar
+        flagPriority: 0
+        specialSlots: 8
+        weaponSlots: 8
+        fightersGroups: 16
+        fleetSupportCost: 60
+        lookTowardsObjective: false
+        battleshipConstructionRequired: true
+        maxShipsProperty: maxShipsHullDoomstar
+        empireUnique: true
+        allowMassProduction: false
+        allowedShipDesign: true

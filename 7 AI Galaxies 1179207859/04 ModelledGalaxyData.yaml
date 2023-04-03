@@ -1,0 +1,4778 @@
+---
+- collection: &Backend.Galaxy.GalaxyModels.GalaxyType
+    items:
+        - key: galaxy_circle
+          name: GALAXY_TYPE_CIRCLE
+          galaxySizes:
+            - key: miniscule_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_MINISCULE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_small_spiral_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_small_spiral_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TinyCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 6
+              cameraOffset: 200
+              minorCivCount: 0
+              monsterCount: 0
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 10
+              recommendedPlayerCount: 2
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 10
+                    maxStarCount: 15
+                    starLaneReach: 5
+                    maxWarpGates: 5
+                    minGateProximity: 30
+                    minBlueHoops: 2
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    minSolarDistance: 2.5
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: tiny_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_TINY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_small_spiral_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_small_spiral_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/SmallCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 7
+              cameraOffset: 170
+              minorCivCount: 0
+              monsterCount: 1
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 3
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 20
+                    maxStarCount: 25
+                    starLaneReach: 5
+                    maxWarpGates: 5
+                    minGateProximity: 30
+                    minBlueHoops: 3
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    minSolarDistance: 2.5
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: small_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_SMALL
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/MediumCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              maxDegreesOfSepparation: 8
+              cameraOffset: 140
+              minorCivCount: 0
+              monsterCount: 3
+              minBlackHoles: 0
+              maxBlackHoles: 1
+              blackHoleSeparation: 6
+              maxPlayerCount: 17
+              recommendedPlayerCount: 4
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 35
+                  maxStarCount: 40
+                  starLaneReach: 6
+                  maxWarpGates: 5
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 0
+                  blueLaneImprovement: 0.7
+                  redLaneImprovement: 0
+                  minSolarDistance: 2.5
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                  allowOrion: true
+            - key: medium_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_MEDIUM
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              maxDegreesOfSepparation: 9
+              cameraOffset: 110
+              minorCivCount: 3
+              monsterCount: 5
+              minBlackHoles: 1
+              maxBlackHoles: 2
+              blackHoleSeparation: 7
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 55
+                    maxStarCount: 60
+                    minSolarDistance: 2.5
+                    starLaneReach: 6
+                    maxWarpGates: 5
+                    minGateProximity: 30
+                    minBlueHoops: 4
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: large_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_LARGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              maxDegreesOfSepparation: 10
+              cameraOffset: 80
+              minorCivCount: 6
+              monsterCount: 7
+              minBlackHoles: 2
+              maxBlackHoles: 3
+              blackHoleSeparation: 8
+              maxPlayerCount: 17
+              recommendedPlayerCount: 7
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 85
+                    maxStarCount: 95
+                    minSolarDistance: 3.5
+                    starLaneReach: 7
+                    maxWarpGates: 5
+                    minGateProximity: 30
+                    minBlueHoops: 4
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: huge_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_HUGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 5
+              maxDegreesOfSepparation: 11
+              cameraOffset: 50
+              minorCivCount: 9
+              monsterCount: 9
+              minBlackHoles: 3
+              maxBlackHoles: 4
+              blackHoleSeparation: 9
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 125
+                    maxStarCount: 140
+                    starLaneReach: 7
+                    minSolarDistance: 2.5
+                    maxWarpGates: 6
+                    minGateProximity: 30
+                    minBlueHoops: 5
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: massive_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_MASSIVE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 6
+              maxDegreesOfSepparation: 12
+              cameraOffset: 25
+              minorCivCount: 9
+              monsterCount: 11
+              minBlackHoles: 4
+              maxBlackHoles: 5
+              blackHoleSeparation: 10
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 170
+                    maxStarCount: 190
+                    starLaneReach: 8
+                    minSolarDistance: 2
+                    maxWarpGates: 6
+                    minGateProximity: 30
+                    minBlueHoops: 5
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: gargantuan_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_GARGANTUAN
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LeastDistanceTest.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 7
+              maxDegreesOfSepparation: 13
+              cameraOffset: 0
+              minorCivCount: 9
+              monsterCount: 13
+              minBlackHoles: 5
+              maxBlackHoles: 6
+              blackHoleSeparation: 11
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 225
+                    maxStarCount: 250
+                    starLaneReach: 9
+                    minSolarDistance: 3.25
+                    maxWarpGates: 6
+                    minGateProximity: 30
+                    minBlueHoops: 6
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: brobdingnagian_circle_galaxy
+              name: CIRCULAR_GALAXY_SIZE_BROBDINGNAGIAN
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LeastDistanceTest.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 7
+              maxDegreesOfSepparation: 14
+              cameraOffset: 0
+              minorCivCount: 9
+              monsterCount: 15
+              minBlackHoles: 6
+              maxBlackHoles: 7
+              blackHoleSeparation: 12
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 300
+                    maxStarCount: 330
+                    starLaneReach: 10
+                    minSolarDistance: 2.25
+                    maxWarpGates: 6
+                    minGateProximity: 30
+                    minBlueHoops: 6
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+        - key: galaxy_spiral
+          name: GALAXY_TYPE_SPIRAL
+          galaxySizes:
+            - key: tiny_spiral_galaxy
+              name: GRID_GALAXY_SIZE_TINY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/MediumSpiralGalaxy3Points.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 6
+              cameraOffset: 115
+              monsterCount: 3
+              minorCivCount: 0
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 3
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 1
+                  maxStarCount: 1
+                  minSolarDistance: 1.2
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 1
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: true
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                  starTypeChancesOverride:
+                        - starType: star_real_black_hole
+                          lowChance: 100
+                          highChance: 100
+                - minStarCount: 8
+                  maxStarCount: 8
+                  minSolarDistance: 3
+                  starLaneReach: 6
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 8
+                  maxStarCount: 8
+                  minSolarDistance: 3
+                  starLaneReach: 6
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 8
+                  maxStarCount: 8
+                  minSolarDistance: 3
+                  starLaneReach: 6
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+            - key: small_spiral_galaxy
+              name: GRID_GALAXY_SIZE_SMALL
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/MediumSpiralGalaxy3Points.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 6
+              cameraOffset: 115
+              monsterCount: 3
+              minorCivCount: 2
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 8
+                  maxStarCount: 13
+                  minSolarDistance: 1.4
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: true
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 2.75
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 2.75
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 2.75
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 1
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+            - key: smallfourarm_spiral_galaxy
+              name: GRID_GALAXY_SIZE_SMALL_FOURARM
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_small_spiral_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/MediumSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 6
+              cameraOffset: 115
+              monsterCount: 4
+              minorCivCount: 2
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 4
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 8
+                  maxStarCount: 12
+                  minSolarDistance: 2
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: true
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                - minStarCount: 7
+                  maxStarCount: 7
+                  minSolarDistance: 2.5
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 7
+                  maxStarCount: 7
+                  minSolarDistance: 2.5
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 7
+                  maxStarCount: 7
+                  minSolarDistance: 2.5
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 7
+                  maxStarCount: 7
+                  minSolarDistance: 2.5
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 2
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 4
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+            - key: medium_spiral_galaxy
+              name: GRID_GALAXY_SIZE_MEDIUM
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/MediumSpiralGalaxy3Points.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              maxDegreesOfSepparation: 6
+              cameraOffset: 115
+              monsterCount: 3
+              minorCivCount: 3
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 13
+                  maxStarCount: 18
+                  minSolarDistance: 1.2
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: false
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                - minStarCount: 14
+                  maxStarCount: 14
+                  minSolarDistance: 1.75
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 14
+                  maxStarCount: 14
+                  minSolarDistance: 1.75
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 14
+                  maxStarCount: 14
+                  minSolarDistance: 1.75
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 1
+                  wormholeReach: 100
+                  maxConnectionCount: 1
+            - key: mediumfourarm_spiral_galaxy
+              name: GRID_GALAXY_SIZE_MEDIUM_FOURARM
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              maxDegreesOfSepparation: 6
+              cameraOffset: 80
+              monsterCount: 4
+              minorCivCount: 3
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 15
+                  maxStarCount: 20
+                  minSolarDistance: 2.25
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 5
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: true
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                - minStarCount: 10
+                  maxStarCount: 10
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 10
+                  maxStarCount: 10
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 10
+                  maxStarCount: 10
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 10
+                  maxStarCount: 10
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: false
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 4
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+            - key: large_spiral_galaxy
+              name: GRID_GALAXY_SIZE_LARGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              cameraOffset: 80
+              monsterCount: 4
+              minorCivCount: 4
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 20
+                  maxStarCount: 30
+                  minSolarDistance: 2.3
+                  starLaneReach: 5
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 5
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: false
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                - minStarCount: 16
+                  maxStarCount: 16
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 16
+                  maxStarCount: 16
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 16
+                  maxStarCount: 16
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 16
+                  maxStarCount: 16
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 10
+                  minGateProximity: 30
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 0
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 2
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 4
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+            - key: huge_spiral_galaxy
+              name: GRID_GALAXY_SIZE_HUGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              cameraOffset: 80
+              minorCivCount: 8
+              monsterCount: 8
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 25
+                     maxStarCount: 40
+                     minSolarDistance: 1.8
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: true
+                     allowMonsters: false
+                     allowBlackHoles: false
+                     allowOrion: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 1
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+            - key: massive_spiral_galaxy
+              name: GRID_GALAXY_SIZE_MASSIVE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 5
+              cameraOffset: 80
+              minorCivCount: 8
+              monsterCount: 12
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 30
+                     maxStarCount: 50
+                     minSolarDistance: 1.5
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: true
+                     allowMonsters: false
+                     allowBlackHoles: false
+                     allowOrion: true
+                   - minStarCount: 35
+                     maxStarCount: 35
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 35
+                     maxStarCount: 35
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 35
+                     maxStarCount: 35
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 35
+                     maxStarCount: 35
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 1
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+        - key: galaxy_cluster
+          name: GALAXY_TYPE_CLUSTER
+          galaxySizes:
+             - key: small_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_SMALL
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/MediumClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 2
+               cameraOffset: 80
+               monsterCount: 4
+               minorCivCount: 4
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 8
+               recommendedPlayerCount: 4
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 8
+                     maxStarCount: 8
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 8
+                     maxStarCount: 8
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 8
+                     maxStarCount: 8
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 8
+                     maxStarCount: 8
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+               connections:
+                    ##CONECTION 0 to 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   ##CONECTION 0 to 3
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   ##CONECTION 0 to 5
+                   - sectorAIndex: 0
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 6
+                   - sectorAIndex: 1
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 5
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 5
+                   - sectorAIndex: 6
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 4
+                   - sectorAIndex: 6
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 5 to 3
+                   - sectorAIndex: 5
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 3
+                   - sectorAIndex: 4
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 3
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+             - key: medium_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_MEDIUM
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_medium_blue_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/MediumClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 4
+               cameraOffset: 80
+               monsterCount: 7
+               minorCivCount: 7
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 14
+               recommendedPlayerCount: 6
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 9
+                     maxStarCount: 9
+                     minSolarDistance: 2
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+               connections:
+                    ##CONECTION 0 to 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 0 to 3
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 0 to 5
+                   - sectorAIndex: 0
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 6
+                   - sectorAIndex: 1
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 5
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 5
+                   - sectorAIndex: 6
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 4
+                   - sectorAIndex: 6
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 5 to 3
+                   - sectorAIndex: 5
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 3
+                   - sectorAIndex: 4
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 3
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+             - key: large_seven_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_LARGE_SEVEN
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/MediumClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 5
+               cameraOffset: 80
+               monsterCount: 7
+               minorCivCount: 7
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 17
+               recommendedPlayerCount: 7
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 14
+                     maxStarCount: 14
+                     minSolarDistance: 1.5
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+               connections:
+                    ##CONECTION 0 to 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 0 to 3
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 0 to 5
+                   - sectorAIndex: 0
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 6
+                   - sectorAIndex: 1
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 1 to 5
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 5
+                   - sectorAIndex: 6
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 6 to 4
+                   - sectorAIndex: 6
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 5 to 3
+                   - sectorAIndex: 5
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 4 to 3
+                   - sectorAIndex: 4
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION 2 to 3
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+             - key: large_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_LARGE
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_large_cluster_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_large_cluster_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 5
+               cameraOffset: 80
+               monsterCount: 9
+               minorCivCount: 9
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 17
+               recommendedPlayerCount: 8
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 10
+                     maxStarCount: 10
+                     minSolarDistance: 1.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+               connections:
+                    ##CONECTION A to B
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION A to C
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION C to E
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to A
+                   - sectorAIndex: 3
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to C
+                   - sectorAIndex: 3
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION E to I
+                   - sectorAIndex: 4
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to G
+                   - sectorAIndex: 5
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to E
+                   - sectorAIndex: 5
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to E
+                   - sectorAIndex: 6
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to I
+                   - sectorAIndex: 6
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to D
+                   - sectorAIndex: 7
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to I
+                   - sectorAIndex: 7
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION I to C
+                   - sectorAIndex: 8
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+             - key: huge_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_HUGE
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 5
+               cameraOffset: 80
+               monsterCount: 9
+               minorCivCount: 9
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 17
+               recommendedPlayerCount: 9
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 15
+                     maxStarCount: 15
+                     minSolarDistance: 1.4
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+               connections:
+                    ##CONECTION A to B
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION A to C
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION C to E
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to A
+                   - sectorAIndex: 3
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to C
+                   - sectorAIndex: 3
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION E to I
+                   - sectorAIndex: 4
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to G
+                   - sectorAIndex: 5
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to E
+                   - sectorAIndex: 5
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to E
+                   - sectorAIndex: 6
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to I
+                   - sectorAIndex: 6
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to D
+                   - sectorAIndex: 7
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to I
+                   - sectorAIndex: 7
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION I to C
+                   - sectorAIndex: 8
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+             - key: massive_cluster_galaxy
+               name: CLUSTER_GALAXY_SIZE_MASSIVE
+               closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+               farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+               contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+               distributionMethod: LeastDistanceDistribution
+               civDegreesOfSepparation: 5
+               cameraOffset: 80
+               monsterCount: 9
+               minorCivCount: 9
+               minBlackHoles: 0
+               maxBlackHoles: 0
+               maxPlayerCount: 17
+               recommendedPlayerCount: 9
+               earlyGamePlanetCount: 1
+               sectors:
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 20
+                     maxStarCount: 20
+                     minSolarDistance: 0.8
+                     starLaneReach: 4
+                     maxWarpGates: 5
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+               connections:
+                    ##CONECTION A to B
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION A to C
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION C to E
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to A
+                   - sectorAIndex: 3
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION D to C
+                   - sectorAIndex: 3
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION E to I
+                   - sectorAIndex: 4
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to G
+                   - sectorAIndex: 5
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION F to E
+                   - sectorAIndex: 5
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to E
+                   - sectorAIndex: 6
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION G to I
+                   - sectorAIndex: 6
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to D
+                   - sectorAIndex: 7
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION H to I
+                   - sectorAIndex: 7
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                    ##CONECTION I to C
+                   - sectorAIndex: 8
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+        - key: galaxy_snake
+          name: GALAXY_TYPE_SNAKE
+          galaxySizes:
+            - key: small_snake_galaxy
+              name: SMALL_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              maxDegreesOfSepparation: 8
+              cameraOffset: 140
+              minorCivCount: 0
+              monsterCount: 3
+              minBlackHoles: 1
+              maxBlackHoles: 3
+              blackHoleSeparation: 8
+              maxPlayerCount: 17
+              recommendedPlayerCount: 5
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 35
+                    maxStarCount: 40
+                    minSolarDistance: 2
+                    starLaneReach: 15
+                    maxWarpGates: 2
+                    minGateProximity: 90
+                    minBlueHoops: 0
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: medium_snake_galaxy
+              name: MEDIUM_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              maxDegreesOfSepparation: 10
+              cameraOffset: 110
+              minorCivCount: 3
+              monsterCount: 5
+              minBlackHoles: 3
+              maxBlackHoles: 5
+              blackHoleSeparation: 10
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 55
+                    maxStarCount: 60
+                    minSolarDistance: 1.5
+                    starLaneReach: 15
+                    maxWarpGates: 2
+                    minGateProximity: 90
+                    minBlueHoops: 0
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: large_snake_galaxy
+              name: LARGE_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              maxDegreesOfSepparation: 12
+              cameraOffset: 80
+              minorCivCount: 6
+              monsterCount: 7
+              minBlackHoles: 4
+              maxBlackHoles: 6
+              blackHoleSeparation: 12
+              maxPlayerCount: 17
+              recommendedPlayerCount: 7
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 85
+                    maxStarCount: 95
+                    minSolarDistance: 2
+                    starLaneReach: 20
+                    maxWarpGates: 2
+                    minGateProximity: 90
+                    minBlueHoops: 0
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: huge_snake_galaxy
+              name: HUGE_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 5
+              maxDegreesOfSepparation: 14
+              cameraOffset: 50
+              minorCivCount: 9
+              monsterCount: 9
+              minBlackHoles: 6
+              maxBlackHoles: 8
+              blackHoleSeparation: 14
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 125
+                    maxStarCount: 140
+                    starLaneReach: 20
+                    minSolarDistance: 1.5
+                    maxWarpGates: 2
+                    minGateProximity: 90
+                    minBlueHoops: 0
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: massive_snake_galaxy
+              name: MASSIVE_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 6
+              maxDegreesOfSepparation: 16
+              cameraOffset: 25
+              minorCivCount: 9
+              monsterCount: 11
+              minBlackHoles: 8
+              maxBlackHoles: 10
+              blackHoleSeparation: 16
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 170
+                    maxStarCount: 190
+                    starLaneReach: 20
+                    minSolarDistance: 1
+                    maxWarpGates: 2
+                    minGateProximity: 90
+                    minBlueHoops: 0
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+        - key: galaxy_strange
+          name: GALAXY_TYPE_STRANGE
+          galaxySizes:
+            - key: tiny_strange_galaxy
+              name: TINY_STRANGE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 1
+              maxDegreesOfSepparation: 4
+              cameraOffset: 110
+              minorCivCount: 0
+              monsterCount: 1
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 4
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 20
+                    maxStarCount: 25
+                    minSolarDistance: 2
+                    starLaneReach: 20
+                    maxWarpGates: 5
+                    minGateProximity: 20
+                    minBlueHoops: 3
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: small_strange_galaxy
+              name: SMALL_STRANGE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              maxDegreesOfSepparation: 6
+              cameraOffset: 110
+              minorCivCount: 0
+              monsterCount: 3
+              minBlackHoles: 0
+              maxBlackHoles: 1
+              blackHoleSeparation: 6
+              maxPlayerCount: 17
+              recommendedPlayerCount: 5
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 35
+                    maxStarCount: 40
+                    minSolarDistance: 1.5
+                    starLaneReach: 22.5
+                    maxWarpGates: 5
+                    minGateProximity: 20
+                    minBlueHoops: 3
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: medium_strange_galaxy
+              name: MEDIUM_STRANGE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              maxDegreesOfSepparation: 8
+              cameraOffset: 80
+              minorCivCount: 3
+              monsterCount: 5
+              minBlackHoles: 1
+              maxBlackHoles: 2
+              blackHoleSeparation: 7
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 55
+                    maxStarCount: 60
+                    minSolarDistance: 2.5
+                    starLaneReach: 25
+                    maxWarpGates: 5
+                    minGateProximity: 20
+                    minBlueHoops: 4
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: large_strange_galaxy
+              name: LARGE_STRANGE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeCircleGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              maxDegreesOfSepparation: 10
+              cameraOffset: 80
+              minorCivCount: 6
+              monsterCount: 7
+              minBlackHoles: 2
+              maxBlackHoles: 3
+              blackHoleSeparation: 8
+              maxPlayerCount: 17
+              recommendedPlayerCount: 7
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 85
+                    maxStarCount: 95
+                    minSolarDistance: 1.5
+                    starLaneReach: 27.5
+                    maxWarpGates: 5
+                    minGateProximity: 20
+                    minBlueHoops: 4
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: huge_strange_galaxy
+              name: HUGE_SNAKE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LeastDistanceTest.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 5
+              maxDegreesOfSepparation: 12
+              cameraOffset: 50
+              minorCivCount: 9
+              monsterCount: 9
+              minBlackHoles: 3
+              maxBlackHoles: 4
+              blackHoleSeparation: 9
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 125
+                    maxStarCount: 140
+                    starLaneReach: 30
+                    minSolarDistance: 2
+                    maxWarpGates: 5
+                    minGateProximity: 20
+                    minBlueHoops: 5
+                    minRedHoops: 0
+                    blueLaneImprovement: 0.7
+                    redLaneImprovement: 0.3
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+        - key: galaxy_unstable
+          name: GALAXY_TYPE_UNSTABLE
+          galaxySizes:
+            - key: medium_unstable_galaxy
+              name: CIRCULAR_GALAXY_SIZE_MEDIUM
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TrianglePickingTest.bin
+              distributionMethod: TrianglePointPicking
+              civDegreesOfSepparation: 3
+              maxDegreesOfSepparation: 7
+              cameraOffset: 110
+              minorCivCount: 4
+              monsterCount: 4
+              minBlackHoles: 0
+              maxBlackHoles: 2
+              blackHoleSeparation: 5
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 55
+                    maxStarCount: 60
+                    minSolarDistance: 4
+                    starLaneReach: 10
+                    maxWarpGates: 4
+                    minGateProximity: 31
+                    minBlueHoops: 3
+                    minRedHoops: 1
+                    blueLaneImprovement: 0.6
+                    redLaneImprovement: 0.7
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: large_unstable_galaxy
+              name: CIRCULAR_GALAXY_SIZE_LARGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_medium_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TrianglePickingTest.bin
+              distributionMethod: TrianglePointPicking
+              civDegreesOfSepparation: 4
+              maxDegreesOfSepparation: 9
+              cameraOffset: 80
+              minorCivCount: 5
+              monsterCount: 5
+              minBlackHoles: 1
+              maxBlackHoles: 3
+              blackHoleSeparation: 6
+              maxPlayerCount: 17
+              recommendedPlayerCount: 7
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 85
+                     maxStarCount: 95
+                     starLaneReach: 9.5
+                     minSolarDistance: 3.5
+                     maxWarpGates: 4
+                     minGateProximity: 32
+                     minBlueHoops: 4
+                     minRedHoops: 2
+                     blueLaneImprovement: 0.6
+                     redLaneImprovement: 0.7
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: false
+                     allowOrion: true
+            - key: huge_unstable_galaxy
+              name: CIRCULAR_GALAXY_SIZE_HUGE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TrianglePickingTest.bin
+              distributionMethod: TrianglePointPicking
+              civDegreesOfSepparation: 5
+              maxDegreesOfSepparation: 11
+              cameraOffset: 50
+              minorCivCount: 6
+              monsterCount: 6
+              minBlackHoles: 2
+              maxBlackHoles: 4
+              blackHoleSeparation: 7
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 125
+                    maxStarCount: 140
+                    starLaneReach: 9
+                    minSolarDistance: 3
+                    maxWarpGates: 4
+                    minGateProximity: 33
+                    minBlueHoops: 4
+                    minRedHoops: 2
+                    blueLaneImprovement: 0.6
+                    redLaneImprovement: 0.7
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: massive_unstable_galaxy
+              name: CIRCULAR_GALAXY_SIZE_MASSIVE
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TrianglePickingTest.bin
+              distributionMethod: TrianglePointPicking
+              civDegreesOfSepparation: 6
+              maxDegreesOfSepparation: 13
+              cameraOffset: 25
+              minorCivCount: 8
+              monsterCount: 8
+              minBlackHoles: 3
+              maxBlackHoles: 5
+              blackHoleSeparation: 8
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 170
+                    maxStarCount: 190
+                    starLaneReach: 8.5
+                    minSolarDistance: 2.5
+                    maxWarpGates: 4
+                    minGateProximity: 34
+                    minBlueHoops: 5
+                    minRedHoops: 3
+                    blueLaneImprovement: 0.6
+                    redLaneImprovement: 0.7
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+            - key: gargantuan_unstable_galaxy
+              name: CIRCULAR_GALAXY_SIZE_GARGANTUAN
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/TrianglePickingTest.bin
+              distributionMethod: TrianglePointPicking
+              civDegreesOfSepparation: 7
+              maxDegreesOfSepparation: 15
+              cameraOffset: 0
+              minorCivCount: 9
+              monsterCount: 10
+              minBlackHoles: 4
+              maxBlackHoles: 6
+              blackHoleSeparation: 9
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                  - minStarCount: 225
+                    maxStarCount: 250
+                    starLaneReach: 8
+                    minSolarDistance: 2
+                    maxWarpGates: 4
+                    minGateProximity: 35
+                    minBlueHoops: 5
+                    minRedHoops: 3
+                    blueLaneImprovement: 0.6
+                    redLaneImprovement: 0.7
+                    allowMajorCivs: true
+                    allowMinorCivs: true
+                    allowPirates: true
+                    allowMonsters: true
+                    allowBlackHoles: true
+                    allowOrion: true
+        - key: galaxy_special
+          name: GALAXY_TYPE_SPECIAL
+          galaxySizes:
+            - key: tiny_web_galaxy
+              name: TINY_WEB_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 5
+              cameraOffset: 80
+              monsterCount: 0
+              minorCivCount: 0
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 8
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 3
+                     maxStarCount: 3
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 1
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                     starTypeChancesOverride:
+                        - starType: star_real_black_hole
+                          lowChance: 100
+                          highChance: 100
+               connections:
+                    ##CONECTION A to B
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION A to C
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION C to E
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION D to A
+                   - sectorAIndex: 3
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION D to C
+                   - sectorAIndex: 3
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION E to I
+                   - sectorAIndex: 4
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 4
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 4
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION F to G
+                   - sectorAIndex: 5
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 5
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 5
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION F to E
+                   - sectorAIndex: 5
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION G to E
+                   - sectorAIndex: 6
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION G to I
+                   - sectorAIndex: 6
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION H to D
+                   - sectorAIndex: 7
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION H to I
+                   - sectorAIndex: 7
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION I to C
+                   - sectorAIndex: 8
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+            - key: small_ring_galaxy
+              name: SMALL_RING_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              cameraOffset: 80
+              monsterCount: 4
+              minorCivCount: 4
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 14
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                - minStarCount: 1
+                  maxStarCount: 1
+                  minSolarDistance: 10
+                  starLaneReach: 10
+                  maxWarpGates: 5
+                  minGateProximity: 30
+                  minBlueHoops: 0
+                  minRedHoops: 0
+                  blueLaneImprovement: 100
+                  redLaneImprovement: 0
+                  allowMajorCivs: false
+                  allowMinorCivs: false
+                  allowPirates: false
+                  allowMonsters: false
+                  allowBlackHoles: false
+                  allowOrion: true
+                  starTypeChancesOverride:
+                        - starType: star_real_black_hole
+                          lowChance: 100
+                          highChance: 100
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 2
+                  minGateProximity: 90
+                  minBlueHoops: 0
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 2
+                  minGateProximity: 90
+                  minBlueHoops: 0
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 2
+                  minGateProximity: 90
+                  minBlueHoops: 3
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+                - minStarCount: 9
+                  maxStarCount: 9
+                  minSolarDistance: 3
+                  starLaneReach: 4
+                  maxWarpGates: 2
+                  minGateProximity: 90
+                  minBlueHoops: 0
+                  minRedHoops: 5
+                  blueLaneImprovement: 60
+                  redLaneImprovement: 0
+                  allowMajorCivs: true
+                  allowMinorCivs: true
+                  allowPirates: true
+                  allowMonsters: true
+                  allowBlackHoles: true
+              connections:
+                - sectorAIndex: 0
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 0
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 1
+                  sectorBIndex: 2
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 2
+                  sectorBIndex: 3
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 3
+                  sectorBIndex: 4
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+                - sectorAIndex: 4
+                  sectorBIndex: 1
+                  wormholeReach: 50
+                  maxConnectionCount: 1
+            - key: medium_web_galaxy
+              name: MEDIUM_WEB_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              cameraOffset: 80
+              monsterCount: 0
+              minorCivCount: 0
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 8
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 7
+                     maxStarCount: 7
+                     minSolarDistance: 3
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 6
+                     starLaneReach: 20
+                     maxWarpGates: 1
+                     minGateProximity: 30
+                     minBlueHoops: 4
+                     minRedHoops: 5
+                     blueLaneImprovement: 50
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: true
+                     starTypeChancesOverride:
+                        - starType: star_real_black_hole
+                          lowChance: 100
+                          highChance: 100
+               connections:
+                    ##CONECTION A to B
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION A to C
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 0
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION B to F
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 1
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION C to E
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 2
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION D to A
+                   - sectorAIndex: 3
+                     sectorBIndex: 0
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION D to C
+                   - sectorAIndex: 3
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 5
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 3
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION E to I
+                   - sectorAIndex: 4
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 4
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 4
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION F to G
+                   - sectorAIndex: 5
+                     sectorBIndex: 6
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 5
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                   - sectorAIndex: 5
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION F to E
+                   - sectorAIndex: 5
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION G to E
+                   - sectorAIndex: 6
+                     sectorBIndex: 7
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION G to I
+                   - sectorAIndex: 6
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION H to D
+                   - sectorAIndex: 7
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION H to I
+                   - sectorAIndex: 7
+                     sectorBIndex: 8
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+                    ##CONECTION I to C
+                   - sectorAIndex: 8
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 0
+            - key: medium_double_galaxy
+              name: MEDIUM_DOUBLE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/LargeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 3
+              cameraOffset: 80
+              minorCivCount: 4
+              monsterCount: 4
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 6
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: false
+                     allowOrion: true
+                   - minStarCount: 27
+                     maxStarCount: 27
+                     minSolarDistance: 1.5
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 27
+                     maxStarCount: 27
+                     minSolarDistance: 1.5
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+            - key: large_double_galaxy
+              name: LARGE_DOUBLE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              cameraOffset: 80
+              minorCivCount: 6
+              monsterCount: 6
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 2
+                     maxStarCount: 2
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: false
+                     allowOrion: true
+                   - minStarCount: 40
+                     maxStarCount: 40
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 2
+                     maxStarCount: 2
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 40
+                     maxStarCount: 40
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                     allowOrion: false
+                   - minStarCount: 2
+                     maxStarCount: 2
+                     minSolarDistance: 4
+                     starLaneReach: 10
+                     maxWarpGates: 2
+                     minGateProximity: 30
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 1
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+            - key: large_triple_galaxy
+              name: LARGE_TRIPLE_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              cameraOffset: 80
+              minorCivCount: 6
+              monsterCount: 6
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 9
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 30
+                     maxStarCount: 30
+                     minSolarDistance: 1.5
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: false
+                     allowOrion: false
+                   - minStarCount: 30
+                     maxStarCount: 30
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: false
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 6
+                     starLaneReach: 8
+                     maxWarpGates: 6
+                     minGateProximity: 15
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 30
+                     maxStarCount: 30
+                     minSolarDistance: 1.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: false
+                     allowOrion: false
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 6
+                     starLaneReach: 8
+                     maxWarpGates: 6
+                     minGateProximity: 15
+                     minBlueHoops: 0
+                     minRedHoops: 0
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 1
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+            - key: large_annulus_galaxy
+              name: LARGE_ANNULUS_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 4
+              cameraOffset: 80
+              minorCivCount: 8
+              monsterCount: 8
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 8
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 1
+                     maxStarCount: 1
+                     minSolarDistance: 1.8
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: false
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: false
+                     allowOrion: true
+                     starTypeChancesOverride:
+                        - starType: star_real_black_hole
+                          lowChance: 100
+                          highChance: 100
+                   - minStarCount: 28
+                     maxStarCount: 28
+                     minSolarDistance: 2.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 28
+                     maxStarCount: 28
+                     minSolarDistance: 2.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 28
+                     maxStarCount: 28
+                     minSolarDistance: 2.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2.5
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: true
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 1
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 1
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 1
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+            - key: huge_reverse_spiral_galaxy
+              name: HUGE_REVERSE_SPIRAL_GALAXY
+              closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_close.prefab
+              farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/Glxy_huge_blue_far.prefab
+              contentPath: GameplayData/GalaxyGenerationTables/HugeSpiralGalaxy.bin
+              distributionMethod: LeastDistanceDistribution
+              civDegreesOfSepparation: 2
+              cameraOffset: 80
+              minorCivCount: 9
+              monsterCount: 3
+              minBlackHoles: 0
+              maxBlackHoles: 0
+              maxPlayerCount: 17
+              recommendedPlayerCount: 5
+              earlyGamePlanetCount: 1
+              sectors:
+                   - minStarCount: 25
+                     maxStarCount: 40
+                     minSolarDistance: 1.8
+                     starLaneReach: 6
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 100
+                     redLaneImprovement: 0
+                     allowMajorCivs: true
+                     allowMinorCivs: false
+                     allowPirates: true
+                     allowMonsters: true
+                     allowBlackHoles: false
+                     allowOrion: false
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: true
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: true
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: true
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+                   - minStarCount: 25
+                     maxStarCount: 25
+                     minSolarDistance: 2
+                     starLaneReach: 7
+                     maxWarpGates: 10
+                     minGateProximity: 30
+                     minBlueHoops: 5
+                     minRedHoops: 5
+                     blueLaneImprovement: 60
+                     redLaneImprovement: 0
+                     allowMajorCivs: false
+                     allowMinorCivs: true
+                     allowPirates: false
+                     allowMonsters: false
+                     allowBlackHoles: true
+                     allowOrion: true
+              connections:
+                   - sectorAIndex: 0
+                     sectorBIndex: 1
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 2
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 3
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 0
+                     sectorBIndex: 4
+                     wormholeReach: 50
+                     maxConnectionCount: 2
+                   - sectorAIndex: 1
+                     sectorBIndex: 2
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 2
+                     sectorBIndex: 3
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 3
+                     sectorBIndex: 4
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+                   - sectorAIndex: 4
+                     sectorBIndex: 1
+                     wormholeReach: 100
+                     maxConnectionCount: 2
+            # - key: huge_web_galaxy
+              # name: Huge Web
+              # closeGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_close.prefab
+              # farGalaxyPrefab: ContentPrefabs/Galaxy/Visuals/glxy_large_cluster_far.prefab
+              # contentPath: GameplayData/GalaxyGenerationTables/LargeClusterGalaxy.bin
+              # distributionMethod: LeastDistanceDistribution
+              # civDegreesOfSepparation: 5
+              # cameraOffset: 80
+              # monsterCount: 0
+              # minorCivCount: 0
+              # minBlackHoles: 0
+              # maxBlackHoles: 0
+              # maxPlayerCount: 8
+              # recommendedPlayerCount: 8
+              # sectors:
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 16
+                     # maxStarCount: 16
+                     # minSolarDistance: 1
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 5
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: false
+                   # - minStarCount: 1
+                     # maxStarCount: 1
+                     # minSolarDistance: 6
+                     # starLaneReach: 20
+                     # maxWarpGates: 1
+                     # minGateProximity: 30
+                     # minBlueHoops: 4
+                     # minRedHoops: 5
+                     # blueLaneImprovement: 50
+                     # redLaneImprovement: 0
+                     # allowMajorCivs: true
+                     # allowMinorCivs: true
+                     # allowPirates: true
+                     # allowMonsters: true
+                     # allowBlackHoles: true
+                     # allowOrion: true
+               # connections:
+                    # ##CONECTION A to B
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 1
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION A to C
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 2
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 4
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 5
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 0
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION B to F
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 5
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION B to F
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 4
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 3
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 2
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 1
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION C to E
+                   # - sectorAIndex: 2
+                     # sectorBIndex: 4
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 2
+                     # sectorBIndex: 3
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 2
+                     # sectorBIndex: 5
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 2
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 2
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION D to A
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 0
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION D to C
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 2
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 4
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 5
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 3
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION E to I
+                   # - sectorAIndex: 4
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 4
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 4
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION F to G
+                   # - sectorAIndex: 5
+                     # sectorBIndex: 6
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 5
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                   # - sectorAIndex: 5
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION F to E
+                   # - sectorAIndex: 5
+                     # sectorBIndex: 4
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION G to E
+                   # - sectorAIndex: 6
+                     # sectorBIndex: 7
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION G to I
+                   # - sectorAIndex: 6
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION H to D
+                   # - sectorAIndex: 7
+                     # sectorBIndex: 3
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION H to I
+                   # - sectorAIndex: 7
+                     # sectorBIndex: 8
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+                    # ##CONECTION I to C
+                   # - sectorAIndex: 8
+                     # sectorBIndex: 2
+                     # wormholeReach: 50
+                     # maxConnectionCount: 0
+...

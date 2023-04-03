@@ -1,0 +1,101 @@
+---
+- collection: &Backend.Civilizations.RaceType
+    items:
+          - key: race_independent_1
+            focus: Farmer
+            class: minor_civ_class_farmers
+            homeworldBiomeChances:
+                - biome: biome_terran
+                  chance: 0.33
+                - biome: biome_arid
+                  chance: 0.33
+                - biome: biome_tundra
+                  chance: 0.33
+
+          - key: race_independent_2
+            focus: Economic
+            class: minor_civ_class_traders
+            homeworldBiomeChances:
+                - biome: biome_grassland
+                  chance: 0.33
+                - biome: biome_terran
+                  chance: 0.33
+                - biome: biome_arid
+                  chance: 0.33
+
+          - key: race_independent_3
+            focus: Technological
+            class: minor_civ_class_researchers
+            homeworldBiomeChances:
+                - biome: biome_arid
+                  chance: 0.5
+                - biome: biome_desert
+                  chance: 0.5
+
+          - key: race_independent_4
+            focus: Farmer
+            class: minor_civ_class_farmers
+            homeworldBiomeChances:
+                - biome: biome_gaya
+                  chance: 0.25
+                - biome: biome_grassland
+                  chance: 0.25
+                - biome: biome_tropical
+                  chance: 0.25
+                - biome: biome_terran
+                  chance: 0.25
+
+          - key: race_independent_5
+            focus: Farmer
+            class: minor_civ_class_farmers
+            homeworldBiomeChances:
+                - biome: biome_ocean
+                  chance: 0.5
+                - biome: biome_swamp
+                  chance: 0.5
+
+          - key: race_independent_6
+            focus: Industrial
+            class: minor_civ_class_workers
+            homeworldBiomeChances:
+                - biome: biome_grassland
+                  chance: 0.2
+                - biome: biome_terran
+                  chance: 0.2
+                - biome: biome_arid
+                  chance: 0.2
+                - biome: biome_tundra
+                  chance: 0.2
+                - biome: biome_desert
+                  chance: 0.2
+
+          - key: race_independent_7
+            focus: Industrial
+            class: minor_civ_class_workers
+            homeworldBiomeChances:
+                - biome: biome_cavernous
+                  chance: 0.25
+                - biome: biome_terran
+                  chance: 0.25
+                - biome: biome_arid
+                  chance: 0.25
+                - biome: biome_desert
+                  chance: 0.25
+
+          - key: race_independent_8
+            focus: Economic
+            class: minor_civ_class_traders
+            homeworldBiomeChances:
+                - biome: biome_cavernous
+                  chance: 1.0
+
+          - key: race_independent_9
+            focus: Technological
+            class: minor_civ_class_researchers
+            homeworldBiomeChances:
+                - biome: biome_swamp
+                  chance: 0.5
+                - biome: biome_tundra
+                  chance: 0.5
+...
+# to reintegration to mainline
