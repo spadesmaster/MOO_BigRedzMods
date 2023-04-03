@@ -1,0 +1,46 @@
+#5X 6X BigRedz All-in-One Combo this mod should be loaded after all other mods (esp. Colony Base)
+#This mod surgically changes just the values we want to tweak without repeating everything and potentially breaking other stuff
+#Updated 26Mar Create, added  JumpTravelSpeed
+#Updated 31Mar Merged in BattlePodsRevert's ShipModules changes and also fixed output_log.txt showing bad YAML error
+---
+- collection: &Backend.Fleets.ShipModule
+    items:  #DRIVES
+            # Drive base values (incl. travel speed) from 5X defaults in commented, uncomment any line to change/override bad mod changes for that drive
+            # 5X ...077 Also adds shipmodule_augmented_engines which add +1 travel speed to whatever the base engine, no changes there although less imp mid/lategame
+            # +0 starting drive with no tech and no bonuses (same as UCP and Spd)        
+            #- key: shipmodule_nuclear_drive
+       
+            # +1 travel BigRedz suggested so can up engines instead of/in addition to augmented very early game (UCP/Spd both didn't have this)
+            - key: shipmodule_fusion_drive
+              travelSpeed: 1
+                
+            # +3 travel BigRedz/Spd suggested, 5X is +2
+            - key: shipmodule_ion_drive       
+              travelSpeed: 3
+              
+            # +6 travel BigRedz suggested (+3 each up after), SpeedMod uses +5, 5X is +2
+            - key: shipmodule_antimatter_drive
+              travelSpeed: 6
+              
+            # +9 travel BigRedz suggested (+3 each up after), SpeedMod uses +10, 5X is +2
+            - key: shipmodule_hyper_drive
+              travelSpeed: 9
+          
+            # +15 travel BigRedz and SpeedMod suggested
+            - key: shipmodule_interphased_drive
+              travelSpeed: 15
+          
+            # +25 travel BigRedz suggested for uber endgame (instantaneous)
+            - key: shipmodule_interdimensional_drive
+              travelSpeed: 25
+      
+      
+            # SPECIAL WEAPONS
+            # Merged Battle Pods Revert here which increases space given by pods
+            - key: shipmodule_battle_pods
+              availableSpaceMultiplierBonus: 0.50   #UCP says 0.25
+              baseCost: 2                           #UCP says 4
+              costHullFactor: 2.7                   #UCP says 1.5
+              sizeHullFactor: 0
+              size: 0
+...

@@ -1,0 +1,7 @@
+---
+- collection: &Backend.Fleets.ShipHullType
+    items:
+          - key: hull_doomstar
+            empireUnique: false
+            allowMassProduction: true
+...

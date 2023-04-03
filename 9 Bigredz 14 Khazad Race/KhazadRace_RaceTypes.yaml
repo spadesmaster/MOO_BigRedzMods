@@ -1,0 +1,76 @@
+#race_khazad cold space dwarves Brilliant, Prosperous, Numerous
+#Cyber-being, Growth, R from Pop, Fant Trd, Ship $ Huge 
+#Traits I usually choose (PG50 Cyb Arts Shp Spd/$ Trd Trt $):
+
+##TODOS:    Create/find a new dwarven model to show in game (Asset Store?)
+##          Create/find new ship models (Asset Store?) or ala carte from the other race's that I like
+##          Create a new fuschia color for Khazad, BG logo, and match character's hair and ship color theme to match
+##          Fix CustomRace/Khazad dependency
+##          Create AllInOne Asset loader to include art for this mod
+##          Create           
+---
+- collection: &Backend.Civilizations.RaceType
+    items:       
+          # key: race_khazad #pick Alkari because they are listed first and will default on Custom Race screen         
+          - key: race_alkari
+            racialPerks:
+                - racialPerk: perk_cyberpunk
+                  level: 1
+                - racialPerk: perk_tinkerer
+                  level: 1
+                - racialPerk: perk_delicate_hands
+                  level: 1
+                - racialPerk: perk_fantastic_traders 
+                  level: 1
+                - racialPerk: perk_population_growth_modifier
+                  level: 2
+                - racialPerk: perk_homeworld_icegiant
+                  level: 1              
+
+            # Khazad personalities (does this matter for a human player?)
+            personalities:
+                - personality: primary
+                  chance: 100
+                  territoriality: 7                  
+                  pacifist: 7
+                  respectful: 8
+                  expansionist: 8
+                  opportunist: 8
+                  defensiveness: 5
+                  cohesivity: 6
+                  growthInclination: 6
+                  technologist: 9
+                  boldness: 9
+                  grateful: 8
+                  tradeInclination: 9
+              
+            # Khazad favor certain types of planets
+            secondaryPlanetBiomeChances:
+                - biome: biome_gas_giant
+                  chance: 1
+                - biome: biome_asteroid_field
+                  chance: 1
+            earlyGamePlanetBiomeChances:
+                - biome: biome_tundra
+                  chance: 0.5
+                - biome: biome_terran
+                  chance: 0.25     
+                - biome: biome_ocean
+                  chance: 0.25                    
+                - biome: biome_gaia
+                  chance: 0.25
+            earlyGamePlanetSizeChances: # we dont want high G planets due to LowG penalty prefer Med Rich and Large Abundant planets
+                - size: planetsize_medium
+                  chance: 0.33
+                - size: planetsize_large
+                  chance: 0.34
+                - size: planetsize_massive
+                  chance: 0.33
+            earlyGamePlanetRichnessChances:
+                - richness: planetmineralrichness_abundant
+                  chance: 0.4 
+                - richness: planetmineralrichness_rich
+                  chance: 0.4
+                - richness: planetmineralrichness_ultra_rich
+                  chance: 0.2
+...

@@ -1,0 +1,80 @@
+---
+### Colony Base Mod v1.5
+    ### No change to this file
+### Colony Base Mod v1.4 - 5X/UPC/Split Tech Tree
+    ### Updated to match changes Spud made to the root, Power5, and Power12 technodes
+    ### Added sublight_drive to root technode
+    ### Added sublight_colony_ship to Power0 (Pre Warp Power) technode
+    ### Added sublight_advanced_colony_ship to Power5 (Power V) technode
+    ### Added sublight_hyper_advanced_colony_ship to Power12 (Power XII) technode
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_root
+            cost: 0
+            isTechTreeRoot: true
+            x: -1
+            y: 7
+            icon: assets/techs/notfound.png
+            unlocks:
+                - application: techapp_capitol
+                - application: techapp_sublight_drive
+                - application: techapp_nuclear_drive
+                - application: techapp_worker_1
+                - application: techapp_surveilliance_system
+                - application: techapp_asteroid_mine
+                - application: techapp_asteroid_laboratory
+                - application: techapp_superscalar_gas_harvester
+                - application: techapp_repair_cannon
+                - application: techapp_trade_goods
+                - application: techapp_titanium_armor
+                - application: techapp_marine_barracks
+                - application: techapp_armor_hp_bonus
+        ##WEAPON_MODIFIERS
+                - application: techapp_modifications_death_ray
+          - key: technode_power0
+            name: Power
+            description: TECHNOLOGY_PLANAR_TRANSCENDENCE_DESCRIPTION
+            cost: 50
+            x: 0
+            y: 2
+            icon: assets/techs/space_travel.png
+            requires:
+                - technology: technode_root
+            unlocks:
+                - application: techapp_nuclear_bomb
+                - application: techapp_sublight_colony_ship
+                - application: techapp_colony_ship
+                - application: techapp_augmented_engines
+          - key: technode_power5
+            name: Power V
+            description: TECHNOLOGY_PLANAR_TRANSCENDENCE_DESCRIPTION
+            cost: 1600
+            x: 5
+            y: 1
+            icon: assets/techs/high_energy_distribution.png
+            requires:
+                - technology: technode_power4
+            unlocks:
+                - application: techapp_advanced_colony_ship
+                - application: techapp_sublight_advanced_colony_ship
+                - application: techapp_military_upgrade
+            branches:
+                - unlocks:
+                     - application: techapp_shield_capacitor
+                - unlocks:
+                     - application: techapp_powered_armor
+          - key: technode_power12
+            name: Power XII
+            description: TECHNOLOGY_PLANAR_TRANSCENDENCE_DESCRIPTION
+            cost: 32400
+            x: 12
+            y: 2
+            icon: assets/techs/interphased_fission.png
+            requires:
+                - technology: technode_power10
+            unlocks:
+                - application: techapp_miniaturization_bombs_4
+                - application: techapp_chromodynamic_bomb
+                - application: techapp_hyper_advanced_colony_ship
+                - application: techapp_sublight_hyper_advanced_colony_ship
+...

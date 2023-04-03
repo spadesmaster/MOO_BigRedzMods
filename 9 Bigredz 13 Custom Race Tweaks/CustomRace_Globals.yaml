@@ -1,0 +1,5 @@
+﻿#5X BigRedz 13 Custom Race Tweaks
+---
+- globals: &Backend.Civilizations.Civilization   # maximum perk points for custom race selection (Vanilla 10, PerkPoints 15, 5X+ 20, BigRedz 25) #794294890 PerkPoints15 removed
+    PERK_MAX_SCORE: 25
+...

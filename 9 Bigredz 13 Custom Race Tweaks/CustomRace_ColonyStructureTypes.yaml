@@ -1,0 +1,41 @@
+# 5X BigRedz 03 Custom Race Tweaks - Add Tundra biome and Rare Crystal Homeworld resources
+#This mod surgically changes just the values we want to tweak without repeating everything and potentially breaking other stuff
+#Created 31Mar For Khazad race, allow cybernetic trading factory on Tundra planets and count Rare Crystals as both Artifacts and Morale/Tourism 
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:  ##General structures
+          - key: structure_artifacts_research_facility
+            compatiblePlanetaryResource:
+                - planetary_resource_artifact
+                - planetary_resource_rare_crystals                
+          - key: structure_advanced_artifacts_research_facility
+            compatiblePlanetaryResource:
+                - planetary_resource_artifact
+                - planetary_resource_rare_crystals
+            ##also AdvEng? search for Orion?
+
+          - key: structure_tourism_infrastructure
+            compatiblePlanetaryResource:
+                - planetary_resource_natural_wonders
+                - planetary_resource_rare_crystals
+          - key: structure_advanced_tourism_infrastructure
+            compatiblePlanetaryResource:
+                - planetary_resource_natural_wonders
+                - planetary_resource_rare_crystals
+
+          # BUG: this will probably give any custom race that picks a tundra homeworld this special building so perhaps this should be moved to Khazad race mod instead?
+          # Unfortunately, with my custom Khazad race it won't let me build a 
+          - key: structure_trade_goods_factory
+            canBuy: true   # was false, enable for testing until i can figure out how to prebuild it for Khazad race
+            cost: 0        # was 60, reduced cost for any 'cantBuy buildings' in half
+            compatibleBiomes:
+                - biome_tundra
+                - biome_cybernetic
+
+          - key: structure_galactic_trade_network
+            canBuy: true   # was false, enable for testing until i can figure out how to prebuild it for Khazad race
+            cost: 0        # was 120, want 60 reduced cost for any 'cantBuy buildings' in half, set to 0 until I can get TGF to work on their homeworld
+            compatibleBiomes:
+                - biome_tundra
+                - biome_cybernetic
+...

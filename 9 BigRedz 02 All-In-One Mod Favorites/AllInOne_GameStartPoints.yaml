@@ -1,0 +1,17 @@
+#5X BigRedz 01 All-In-One Combo mod this mod MUST BE LOADED LAST to override/correct any previous mods changes
+#This mod surgically changes just the values we want to tweak without changing structure breaking other stuff
+
+#Created 2Apr Prewarp starts 100 credits, one scout, and barracks since Starbase not available yet.  Pirates earlier now T50 not T80
+---
+- collection: &Backend.MatchSetup.GameStartPoint
+    items:
+          - key: prewarp
+            piratesStartingShipsSpawnTurn: 50
+            startingWealth: 100
+            majorStartingStructures:
+              - structure: structure_capitol
+              - structure: structure_marine_barracks
+              - structure: structure_trade_goods_factory   # BUG: temporary fix until I can get my Khazan race to either start with or at least be able to build a TGF
+            #fleet:
+            #  - design: design_scout    # nope cant do this unless we also give them chem I starting tech, thinking not
+...

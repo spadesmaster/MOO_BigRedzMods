@@ -1,0 +1,33 @@
+﻿#5X BigRedz 01 All-In-One Combo mod this mod MUST BE LOADED LAST to override/correct any previous mods changes
+#This mod surgically changes just the values we want to tweak without changing structure breaking other stuff
+#Created 26Mar Added PerkPoints and ScrapShip/StructureValue JumpGateSpeed (from Speed Mod) 
+#Updated 1Apr Moved PerkPoints 25 to Bigredz 13 Custom Race Tweaks see Readme.txt for a list of changes and mods included
+
+# Globals main game tweaks are located here, even more are available
+---
+- globals: &Backend.Civilizations.Civilization
+    # jump gate speed (Vanilla 0.5 2x, 5X 0.75 1.25x, SpeedMod 0.25 = 3x, BigRedz 2.5x?) #also ShipModules AHI drives 5,10,15 #1607128700 SpeedMod removed
+    JUMP_GATE_TRAVEL_FACTOR: 0.25
+    
+    # how much of original cost do we get from scrapping ships? (Vanilla/PerkPoints 0.25 = 25%, 5X 1.0, BigRedz Harder 0.75 = 75%) #800155077 5X earlier
+    SCRAP_SHIP_VALUE_FACTOR: 0.75
+
+    # how much value do we get from scrapping structures? (Vanilla/5X = 25%, 5X 6X BigRedz AutoScrap 0.5 = 50%)
+    SCRAP_STRUCTURE_VALUE_FACTOR: 0.75
+
+# AI CantIgnore 860669097 our diplomacy if they get pissed off    
+- globals: &Backend.Diplomacy.Relationship
+    FATIGUE_CEASE_FIRE_NEGATIVE_ANSWER: 0
+    FATIGUE_WAR_DECLARATION: 0
+    FATIGUE_BREAK_ALLIANCE: 0
+    FATIGUE_DEMAND: 0
+
+# No Random Bad Events 795190759 (am I still getting random good events?)        
+- globals: &Backend.RandomEvents.RandomEvent
+    fromTurn: 10      # I like 10, previous mod was 25 
+    initialChance: 5  # I like 5, previous mod was 1
+    chancePerTurn: 10
+    cooldown: 10
+    positiveEventChance: 100
+    notificationCooldown: 10
+...

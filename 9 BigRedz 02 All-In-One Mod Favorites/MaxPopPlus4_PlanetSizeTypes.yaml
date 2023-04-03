@@ -1,0 +1,16 @@
+---
+- collection: &Backend.Galaxy.PlanetSizeType
+    items:
+          - key: planetsize_tiny
+            maxTiles: 12
+          - key: planetsize_small
+            maxTiles: 16
+          - key: planetsize_medium
+            maxTiles: 20
+          - key: planetsize_large
+            maxTiles: 24
+          - key: planetsize_huge
+            maxTiles: 28
+          - key: planetsize_massive
+            maxTiles: 36
+...

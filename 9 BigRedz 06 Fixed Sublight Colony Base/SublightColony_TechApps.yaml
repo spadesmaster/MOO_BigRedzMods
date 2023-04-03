@@ -1,0 +1,45 @@
+---
+### Colony Base Mod v1.5
+    ### No change to this file
+### Colony Base Mod v1.4
+    ### No change to this file
+### Colony Base Mod v1.3 - 5X/UPC/Split Tech Tree
+    ### Added: techapp_sublight_colony
+    ### Added: techapp_sublight_advanced_colony
+    ### Added: techapp_sublight_hyper_advanced_colony
+    ### Added: techapp_sublight_drive
+- collection: &Backend.Research.TechApplication
+    items:
+          - key: techapp_sublight_drive
+            #name: TECH_APPLICATION_TYPE_SUBLIGHT_DRIVE_NAME
+            #description: TECH_APPLICATION_TYPE_SUBLIGHT_DRIVE_DESCRIPTION
+            icon: assets/tech_apps/tech_engines.png
+            type: techapptype_shipmodule
+            hologram: ContentPrefabs/Research/nuclear_drive.prefab
+            unlocks:
+               - shipmodule_sublight_drive
+          - key: techapp_sublight_colony_ship
+            #name: TECH_APPLICATION_TYPE_SUBLIGHT_COLONY_SHIP_NAME
+            #description: TECH_APPLICATION_TYPE_SUBLIGHT_COLONY_SHIP_DESCRIPTION
+            icon: assets/tech_apps/tech_ships_civil.png
+            type: techapptype_ship
+            hologram: ContentPrefabs/Research/%civ%/colony.prefab
+            unlocks:
+               - hull_sublight_colony
+          - key: techapp_sublight_advanced_colony_ship
+            #name: TECH_APPLICATION_TYPE_SUBLIGHT_ADVANCED_COLONY_SHIP_NAME
+            #description: TECH_APPLICATION_TYPE_SUBLIGHT_ADVANCED_COLONY_SHIP_DESCRIPTION
+            icon: assets/tech_apps/tech_ships_civil.png
+            type: techapptype_ship
+            hologram: ContentPrefabs/Research/%civ%/colony.prefab
+            unlocks:
+               - hull_sublight_advanced_colony
+          - key: techapp_sublight_hyper_advanced_colony_ship
+            #name: TECH_APPLICATION_TYPE_SUBLIGHT_HYPER_ADVANCED_COLONY_SHIP_NAME
+            #description: TECH_APPLICATION_TYPE_SUBLIGHT_HYPER_ADVANCED_COLONY_SHIP_DESCRIPTION
+            icon: assets/tech_apps/tech_ships_civil.png
+            type: techapptype_ship
+            hologram: ContentPrefabs/Research/%civ%/colony.prefab
+            unlocks:
+               - hull_sublight_hyper_advanced_colony
+...

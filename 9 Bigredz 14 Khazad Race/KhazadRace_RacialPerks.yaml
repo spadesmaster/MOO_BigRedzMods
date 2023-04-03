@@ -1,0 +1,148 @@
+#race_khazad cold space dwarves Brilliant, Prosperous, Numerous
+#Cyber-being, Growth, R from Pop, Fant Trd, Ship $ Huge 
+#Traits I usually choose (PG50 Cyb Arts Shp Spd/$ Trd Trt $):
+---
+- collection: &Backend.Civilizations.RacialPerk
+    items:       
+            
+            # PERK_SHIP_COST_HALF since I was having trouble adding a new level to the existing perk_ship_cost_modifier of level 3
+            - key: perk_ship_cost_half
+              category: PERK_CATEGORY_SHIP_COST
+              valueType: float
+              displayOrder: 0
+              levels:
+                - value: 0
+                - displayName: SHIP_COST_REDUCED_NAME
+                  description: SHIP_COST_REDUCED_DESCRIPTION
+                  value: -0.5
+                  score: 6
+                  displayIcon: assets/racial_traits/ship_cost_reduced.png
+              exclusions:
+                - perk_strategists
+               
+
+               # PERK TINKERER for new Khazad race: Research High, Income Low, Production Low, 
+            - key: perk_tinkerer
+              category: PERK_CATEGORY_SPECIAL
+              isHiddenPerk: true
+              valueType: bool
+              displayOrder: 0
+              levels:
+                - value: false
+                - displayName: "Tinkerer"
+                  description: "These natural-born tinkerers excel at %Research, but their many cybernetic gadgets interfere with fleet communications. However, they more than make up for that with a much cheaper cost for shipbuilding."         
+                  value: true
+                  score: 5
+                  displayIcon: assets/racial_traits/ship_auto_repair.png   # TODO: switch these to use my new allin one resources Workshop link
+              perks:
+                - perk: perk_research_bonus
+                  level: 3
+                - perk: perk_command_points_bonus
+                  level: 1               
+                - perk: perk_ship_cost_half  
+                  level: 1
+
+
+            # DELICATE HANDS perk for new Khazad race poor production / combat, fast travel/combat speed
+            - key: perk_delicate_hands
+              category: PERK_CATEGORY_SPECIAL
+              isHiddenPerk: true
+              valueType: bool
+              displayOrder: 0
+              levels:
+                - value: false
+                - displayName: "Delicate Hands"
+                  description: "This race's delicate hands make them poor at production and all forms of combat. They have adapted by exceling at running away quickly."           
+                  value: true
+                  score: -10
+                  displayIcon: assets/racial_traits/production_low.png              
+
+              perks:
+                - perk: perk_production_bonus
+                  level: 1
+                - perk: perk_ship_defense
+                  level: 1
+                - perk: perk_ship_attack
+                  level: 1
+                - perk: perk_ground_combat_rating
+                  level: 1
+                - perk: perk_ship_improvements_combat_speed_bonus
+                  level: 2
+                - perk: perk_ship_improvements_travel_speed_bonus
+                  level: 2
+
+
+            # CYBERPUNK COMBINES THE CYBERNETIC AND CYBERBEING PERKS FROM MEKLAR
+            - key: perk_cyberpunk
+              category: PERK_CATEGORY_SPECIAL
+              isHiddenPerk: true
+              valueType: bool
+              displayOrder: 0
+              levels:
+                - value: false
+                - displayName: Cyberpunk
+                  description: "Cyberpunks stole and built on the Cybernetic technologies from the Meklar.  Make a pink version of Cybernetic icon?"
+                  value: true
+                  score: 8
+                  displayIcon: assets/racial_traits/cybernetic.png
+              perks:
+                - perk: perk_food_consumption_modifier
+                  level: 2
+                - perk: perk_ship_auto_repair
+                  level: 1
+                - perk: perk_uber_planet
+                  level: 9
+                - perk: perk_research_cybernetic            # this gives us access to trade goods factory and eventually trade network
+                  level: 1
+
+
+            # FANTASTIC TRADERS (UPDATED WITH MAX TREATY AND GOODS BONUSES)
+            - key: perk_fantastic_traders
+              category: PERK_CATEGORY_SPECIAL
+              isHiddenPerk: true
+              valueType: bool
+              displayOrder: 0
+              levels:
+                - value: false
+                - displayName: FANTASTIC_TRADERS_NAME
+                  description: FANTASTIC_TRADERS_DESCRIPTION
+                  value: true
+                  score: 4
+                  displayIcon: assets/racial_traits/fantastictraders.png
+              perks:
+                - perk: perk_trade_treaty_bonus
+                  level: 3
+                - perk: perk_trade_goods_bonus
+                  level: 2
+                - perk: perk_diplomacy_high_acceptance
+                  level: 2                  
+              exclusions:
+                - perk_trade_treaty_bonus
+                - perk_trade_goods_bonus
+                - perk_traders
+
+                    
+            # HOMEWORLD ICE GIANT = MASSIVE BIOME TUNDRA WITH RARE CRYSTALS AND HIGH GRAVITY
+            - key: perk_homeworld_icegiant
+              category: PERK_CATEGORY_SPECIAL
+              isHiddenPerk: true
+              valueType: bool
+              displayOrder: 0
+              levels:
+                - value: false
+                - displayName: "Homeworld: Ice Giant"
+                  description: "This race's homeworld is an Ice Giant - a massive planet with deionized water that has warmed to barely habitable Tundra temperatures resulting in a massive world with low gravity."
+                  value: true
+                  score: -5
+                  displayIcon: assets/racial_traits/home_research_crystals.png
+              perks:
+                - perk: perk_homeworld_biome
+                  level: 2 #tundra
+                - perk: perk_homeworld_size
+                  level: 5 #massive
+                - perk: perk_homeworld_gravity_low
+                  level: 1
+                - perk: perk_homeworld_resource 
+                  level: 9 #rare crystals requires CustomRaces, combine/duplicate to remove dependency?
+
+...

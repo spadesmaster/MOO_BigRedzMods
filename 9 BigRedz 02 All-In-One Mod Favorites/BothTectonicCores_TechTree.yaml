@@ -1,0 +1,8 @@
+---
+- collection: &Backend.Research.Technology
+    items:
+          - key: technode_tectonic_engineering
+            unlocks:  # now unlocks both mandatory endgame techs even if not creative
+                - application: techapp_deep_core_mine
+                - application: techapp_core_waste_dump
+...

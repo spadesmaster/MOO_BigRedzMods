@@ -1,0 +1,30 @@
+---
+- collection: &Backend.Civilizations.AntaranSettings
+    items:
+        - key: antaran_default_settings
+          ANTARAN_ATTACK_SPAWN_PORTAL_MIN_DISTANCE: 2 #increase spawn distance to give time to prepare defense
+          ANTARAN_ATTACK_SPAWN_PORTAL_MAX_DISTANCE: 4
+            
+          ANTARANS_TURNS_TO_FIRST_MIN: 100            #change arrival to between turn 100 and 150
+          ANTARANS_TURNS_TO_FIRST_MAX: 150
+          ANTARANS_TURNS_TO_NEXT_MIN: 30              #change frequency to 30-60 turns after last atk
+          ANTARANS_TURNS_TO_NEXT_MAX: 60
+            
+          ANTARAN_ATTACK_MAX_FRIGATES: 2              #allow only 1 single frigate on first attack
+          ANTARAN_ATTACK_MAX_DESTROYERS: 2
+          ANTARAN_ATTACK_MAX_BATTLESHIPS: 1
+          ANTARAN_ATTACK_MAX_CRUISERS: 1
+          ANTARAN_ATTACK_MAX_TITANS: 1
+          ANTARAN_ATTACK_MAX_DOOMSTARS: 0
+
+          ANTARAN_FRIGATE_CHANCES: 50                 #increase frigates and lessens bigger stuff
+          ANTARAN_DESTROYER_CHANCES: 25
+          ANTARAN_CRUISER_CHANCES: 15
+          ANTARAN_BATTLESHIP_CHANCES: 5
+          ANTARAN_TITAN_CHANCES: 5
+          ANTARAN_DOOMSTAR_CHANCES: 0
+
+          ANTARAN_SHIP_MODULE_BEAM_KEY: shipmodule_graviton_beam      # weaken beam -1 from death_ray
+          ANTARAN_SHIP_MODULE_CANNON_KEY: shipmodule_phasors          # weaken cannon -2 from disruptor_cannon
+          ANTARAN_SHIP_MODULE_ARMOR_KEY: shipmodule_neutronium_armor  # weaken armor -3 down from xentromium
+...

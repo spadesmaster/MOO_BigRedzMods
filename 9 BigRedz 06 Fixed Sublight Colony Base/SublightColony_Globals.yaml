@@ -1,0 +1,44 @@
+﻿---
+### Colony Base Mod v1.5
+    ### No change to this file
+### Colony Base Mod v1.4
+    ### No change to this file
+### Colony Base Mod v1.3 - 5X/UPC/Split Tech Tree
+    ### Added design_sublight_colony, design_sublight_advanced_colony, and design_sublight_hyper_advanced_colony to player
+- globals: &Backend.Civilizations.Civilization
+    PLAYER_BLUEPRINT_TEMPLATES:
+        - design_sublight_colony
+        - design_sublight_advanced_colony
+        - design_sublight_hyper_advanced_colony 
+        - design_colony
+        - design_advanced_colony
+        - design_hyper_advanced_colony
+        - design_outpost
+        - design_transport
+        - design_freighter
+        - design_space_factory
+        - design_scout
+        - design_frigate_player
+        - design_bomber_frigate_player
+        - design_destroyer_player
+        - design_ironclad_player
+        - design_cruiser_player
+        - design_gunship_player
+        - design_battleship_player
+        - design_battlecruiser_player
+        - design_titan_player
+        - design_dreadnought_player
+        - design_doomstar_player
+        - design_advanced_doomstar_player
+        - design_advanced_transport
+        - design_fighter
+        - design_bomber
+        - design_heavy_fighter
+        - design_military_outpost
+        - design_missile_base
+        - design_ground_batteries
+        - design_fighter_garrison
+        - design_star_base
+        - design_battlestation
+        - design_starfortress
+...

@@ -1,0 +1,14 @@
+---
+- collection: &Backend.Civilizations.RaceType
+    items:
+          - key: race_space_pirates
+            type: PirateCivilization
+            rewardChance: 100
+            rewardChances:
+                - reward: credits
+                  chance: 50    # was 90, mod author used 10, BigRedz suggests 50
+                  min: 200      # was 30, mod author used 100, BigRedz suggests 100
+                  max: 1000     # was 100, mod author used 3000, BigRedz suggests 1000
+                - reward: population
+                  chance: 50    # was 10, mod author used 90, BigRedz suggests 50
+...

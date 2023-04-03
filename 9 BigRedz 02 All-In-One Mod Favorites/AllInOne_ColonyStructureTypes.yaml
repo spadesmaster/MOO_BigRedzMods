@@ -1,0 +1,99 @@
+﻿## BigRedz AllInOne reduce the production cost of 'can't buy' buildings so they don't take forever to build
+
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+        ###General structures
+ 
+          - key: structure_geosynchronic_wharf
+            cost: 60            # was 120
+
+          - key: structure_animal_control_administration
+            cost: 60           # was 120
+
+          ## Outposts_Anywhere (Steel) allows military outposts and jump gates to be built even in systems we haven't yet colonized a planet in for more strategic map control
+          - key: structure_military_outpost
+            requiresColonyInSystem: false
+          - key: structure_advanced_military_outpost
+            requiresColonyInSystem: false
+          - key: structure_jump_gate_orbital
+            requiresColonyInSystem: false
+
+
+          
+          ## Pollution Structures Boost (Mituna) makes pollution structures a little more effective by changing the reduction multiplier
+          - key: structure_atmospheric_renewer
+            #cost: 60
+            #upkeep: 2
+            pollutionMultiplierReduction: 0.75                  # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            #pollutionCleaningRate: 10
+          - key: structure_pollution_processor
+            #ost: 140
+            #pkeep: 3
+            pollutionMultiplierReduction: 0.75                  # UCP defaults 0.5, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            #pollutionCleaningRate: 30
+
+          - key: structure_core_waste_dump
+            #cost: 300
+            #upkeep: 5
+            upgrades: structure_pollution_processor
+            pollutionMultiplierReduction: 0.75                   # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            #pollutionCleaningRate: 1000
+
+          - key: structure_toxics_processor
+            #cost: 160
+            #upkeep: 3
+            pollutionMultiplierReduction: 0.75                   # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            #pollutionCleaningRate: 15
+            
+          ## BigRedz also added the other (newer 5X UCP) buildings that cleanup Pollution here mostly for reference and easy tweaking in the future
+          - key: structure_recyclotron
+            #cost: 120
+            #upkeep: 4
+            #pollutionCleaningRate: 20
+
+          - key: structure_atmospheric_renewer 
+            # cost: 60
+            # upkeep: 1
+            # # pollutionMultiplierReduction: 0.25
+            # pollutionCleaningRate: 10
+            # compatibleRichness:
+               # - planetmineralrichness_abundant
+               # - planetmineralrichness_rich
+               # - planetmineralrichness_ultra_rich
+               
+          - key: structure_dimensional_energy_harvester
+            #cost: 1000
+            #upkeep: 100
+            #pollutionCleaningRate: 150
+          
+          - key: structure_matter_converter_mod
+            #cost: 120
+            #upkeep: 3
+            #pollutionCleaningRate: 20
+            #compatiblePlanetSize:
+               # - planetsize_large
+               # - planetsize_huge
+               # add massive colossal and gigantic from DSMP and Even Bigger Planets as well?)
+
+          - key: structure_pollution_processor_5x
+            #cost: 80
+            #upkeep: 2
+            # pollutionMultiplierReduction: 0.5 already disabled in 5X
+            #pollutionCleaningRate: 15
+            
+          - key: structure_planetary_radiation_shield
+            #cost: 160
+            #upkeep: 2
+            #pollutionCleaningRate: 5
+
+          - key: structure_planetary_flux_shield
+            #cost: 300
+            #upkeep: 5
+            #pollutionCleaningRate: 25
+
+          - key: structure_planetary_barrier_shield
+            #cost: 500
+            #upkeep: 10
+            #pollutionCleaningRate: 50        
+...

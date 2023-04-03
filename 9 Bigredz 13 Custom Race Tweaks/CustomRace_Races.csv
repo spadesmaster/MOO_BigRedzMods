@@ -1,0 +1,12 @@
+## 5X BigRedz 03 Custom Race Tweaks - Add Tundra biome and Rare Crystal Homeworld resources
+ID,Reserved,English,Russian,German,French,Polish,Czech,Turkish,Spanish (Spain),Spanish (Latin America),Portuguese (Brazil),Korean,Japanese,Traditional Chinese,Simplified Chinese
+
+#Setup Tundra as a new possible homeworld biome for Custom Races (and later Khazad)
+TRAIT_TUNDRA_HOMEWORLD_NAME,,Tundra
+TRAIT_TUNDRA_HOMEWORLD_DESCRIPTION,,This race's homeworld is a Tundra planet.
+HOMEWORLD_BIOME_TUNDRA_NAME,,Tundra
+HOMEWORLD_BIOME_TUNDRA_DESCRIPTION,,This race's homeworld is a Tundra planet.
+
+#Setup Rare Crystals as a new possible homeworld resource for Custom Races (and later Khazad)
+PLANETARY_RESOURCE_RARE_CRYSTALS_NAME,,Rare Crystals
+PLANETARY_RESOURCE_RARE_CRYSTALS_DESCRIPTION,,Rare crystals give a %Research %Credits and %Morale bonus to the colony.

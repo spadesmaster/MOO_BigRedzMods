@@ -1,0 +1,19 @@
+---
+### Colony Base Mod v1.5
+    ### No change to this file
+### Colony Base Mod v1.4
+    ### No change to this file
+### Colony Base Mod v1.3 - 5X/UPC/Split Tech Tree
+    ### Added new keys, hullTypes, and models: hullmodel_sublight_colony, hullmodel_sublight_advanced_colony, and hullmodel_sublight_hyper_advanced_colony
+- collection: &Backend.Fleets.ShipHullModel
+    items:
+          - key: hullmodel_sublight_colony
+            hullType: hull_sublight_colony
+            model: colony
+          - key: hullmodel_sublight_advanced_colony
+            hullType: hull_sublight_advanced_colony
+            model: colony
+          - key: hullmodel_sublight_hyper_advanced_colony
+            hullType: hull_sublight_hyper_advanced_colony
+            model: colony
+...

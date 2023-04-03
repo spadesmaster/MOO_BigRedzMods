@@ -1,0 +1,19 @@
+---
+#original mod used 0.01 so it always takes forever (100T) to reach next galaxy               
+#sublight colony drive has 1/4 the speed of BASE game engines, way slower but not forever if you accidentally make one ALLOWS GATE USE?
+- collection: &Backend.Fleets.ShipModule
+    items:
+        #DRIVES
+          - key: shipmodule_sublight_drive
+            name: $SHIP_MODULE_SUBLIGHT_DRIVE_NAME
+            shortDescription: $SHIP_MODULE_SUBLIGHT_DRIVE_DESCRIPTION_SHORT
+            description: $SHIP_MODULE_SUBLIGHT_DRIVE_DESCRIPTION
+            slot: shipslot_drive
+            baseCost: 1.5
+            costHullFactor: 1.5
+            baseSize: 2
+            sizeHullFactor: 1.5
+            impulseFactor: 0
+            travelSpeed: 0.25       # was 0.01 so it always takes forever (100T) to reach next galaxy, lets go with 25% of BASE drive
+            icon: assets/ship_modules/thorium_fuel_cells.png 
+...

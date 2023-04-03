@@ -1,0 +1,20 @@
+ID,Reserved,English,Russian,German,French,Polish,Czech,Turkish,Spanish (Spain),Spanish (Latin America),Portuguese (Brazil),Korean,Japanese,Traditional Chinese,Simplified Chinese
+
+#Not sure if I still need this to have it sort at top
+RACE_TYPE_ALKARI_RACE_NAME,,Khazad
+RACE_TYPE_ALKARI_EMPIRE_NAME,,Khazad Knot
+RACE_TYPE_ALKARI_RACE_SHORT_DESCRIPTION,,"Brilliant, Biohackers, Prosporous"
+RACE_TYPE_ALKARI_RACE_DESCRIPTION,,"The freezing ice giant of Pengi gave rise to the tinkering traders known as the Khazad, but their hot temper almost proved to be their undoing. <br><br>Need some more backstory flavor text!"
+RACE_TYPE_ALKARI_RACE_NAME_ABBREVIATION,,ALK
+RACE_TYPE_ALKARI_HOME_SYSTEM,,Pengi
+RACE_TYPE_ALKARI_EMPEROR_TITLE,,,,,,,,,,,,,,,
+RACE_TYPE_ALKARI_EMPEROR_NAME_1,,BigRedz
+
+RACE_TYPE_KHAZAD_RACE_NAME,,Khazad
+RACE_TYPE_KHAZAD_EMPIRE_NAME,,Khazad Knot
+RACE_TYPE_KHAZAD_RACE_SHORT_DESCRIPTION,,"Brilliant, Biohackers, Prosporous"
+RACE_TYPE_KHAZAD_RACE_DESCRIPTION,,"The freezing ice giant of Pengi gave rise to the tinkering traders known as the Khazad, but their hot temper almost proved to be their undoing. <br><br>Need some more backstory flavor text!"
+RACE_TYPE_KHAZAD_RACE_NAME_ABBREVIATION,,KHZ
+RACE_TYPE_KHAZAD_HOME_SYSTEM,,Pengi
+RACE_TYPE_KHAZAD_EMPEROR_TITLE,,,,,,,,,,,,,,,
+RACE_TYPE_KHAZAD_EMPEROR_NAME_1,,BigRedz

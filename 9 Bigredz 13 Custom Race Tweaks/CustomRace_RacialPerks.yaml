@@ -1,0 +1,135 @@
+## 5X BigRedz 03 Custom Race Tweaks - Add Tundra biome and Rare Crystal Homeworld resources
+## Adds Rare Crystals to the top of the Homeworld Resource list at a cost of 3
+## Adds Tundra to the Homeworld Biome list at a cost of -4 (same as desert, although a tiny bit better)
+## Adds Trade Treaties +100% to the Trading list at a cost of 4
+---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+      - key: perk_homeworld_resource
+        category: PERK_CATEGORY_HOMEWORLD_RESOURCE
+        isHiddenPerk: false
+        valueType: string
+        displayOrder: 19
+        levels:
+          - value: 0
+          - displayName: PLANETARY_RESOURCE_ARTIFACT_NAME
+            description: PLANETARY_RESOURCE_ARTIFACT_DESCRIPTION
+            value: planetary_resource_artifact
+            score: 2
+            displayIcon: assets/resources/ruby.png
+          - displayName: PLANETARY_RESOURCE_RED_FUNGUS_NAME
+            description: PLANETARY_RESOURCE_RED_FUNGUS_DESCRIPTION
+            value: planetary_resource_red_fungus
+            score: 1
+            displayIcon: assets/resources/deuterium.png
+          - displayName: PLANETARY_RESOURCE_SEAGRASS_NAME
+            description: PLANETARY_RESOURCE_SEAGRASS_DESCRIPTION
+            value: planetary_resource_seagrass
+            score: 2
+            displayIcon: assets/resources/urridium.png
+          - displayName: PLANETARY_RESOURCE_DARK_QUARTZ_NAME
+            description: PLANETARY_RESOURCE_DARK_QUARTZ_DESCRIPTION
+            value: planetary_resource_dark_quartz
+            score: 2
+            displayIcon: assets/resources/thulium.png
+          - displayName: PLANETARY_RESOURCE_RARE_HEAVY_METALS_NAME
+            description: PLANETARY_RESOURCE_RARE_HEAVY_METALS_DESCRIPTION
+            value: planetary_resource_rare_heavy_metals
+            score: 2
+            displayIcon: assets/resources/adamantium.png
+          - displayName: PLANETARY_RESOURCE_GEM_NAME
+            description: PLANETARY_RESOURCE_GEM_DESCRIPTION
+            value: planetary_resource_gem
+            score: 2
+            displayIcon: assets/resources/zafire.png
+          - displayName: PLANETARY_RESOURCE_NATURAL_WONDERS_NAME
+            description: PLANETARY_RESOURCE_NATURAL_WONDERS_DESCRIPTION
+            value: planetary_resource_natural_wonders
+            score: 1
+            displayIcon: assets/leaders/bonuses/bonus_colony_morale.png
+          - displayName: PLANETARY_RESOURCE_PROLIFIC_WILDLIFE_NAME
+            description: PLANETARY_RESOURCE_PROLIFIC_WILDLIFE_DESCRIPTION
+            value: planetary_resource_prolific_wildlife
+            score: 3
+            displayIcon: assets/leaders/bonuses/bonus_colony_population_growth.png
+          - displayName: PLANETARY_RESOURCE_RARE_CRYSTALS_NAME
+            description: PLANETARY_RESOURCE_RARE_CRYSTALS_DESCRIPTION
+            value: planetary_resource_rare_crystals
+            score: 3
+            displayIcon: assets/resources/crystals.png       
+
+      - key: perk_trade_treaty_bonus
+        category: PERK_CATEGORY_TRADING
+        isHiddenPerk: false
+        valueType: float
+        displayOrder: 43
+        levels:
+          - value: 0
+          - displayName: TRADING_TREATIES_NAME
+            description: TRADING_TREATIES_DESCRIPTION
+            value: 0.25
+            score: 1
+            displayIcon: assets/racial_traits/trading_treaties.png
+          - displayName: TRADING_TREATIES_NAME
+            description: TRADING_TREATIES_DESCRIPTION
+            value: 0.50
+            score: 2
+            displayIcon: assets/racial_traits/trading_treaties.png
+          - displayName: TRADING_TREATIES_NAME
+            description: TRADING_TREATIES_DESCRIPTION
+            value: 1
+            score: 4
+            displayIcon: assets/racial_traits/trading_treaties.png
+        exclusions:
+          - perk_diplomacy_repulse_treaties
+
+      - key: perk_homeworld_biome
+        category: PERK_CATEGORY_HOMEWORLD_BIOME
+        isHiddenPerk: false
+        valueType: planetbiome
+        displayOrder: 24
+        levels:
+          - value: biome_terran
+          - displayName: HOMEWORLD_BIOME_VOLCANIC_NAME
+            description: HOMEWORLD_BIOME_VOLCANIC_DESCRIPTION
+            value: biome_volcanic
+            score: -6
+            displayIcon: assets/racial_traits/home_biome_volcanic.png
+            
+         # - displayName: HOMEWORLD_BIOME_DESERT_NAME disable to make screen space for Tundra
+            # description: HOMEWORLD_BIOME_DESERT_DESCRIPTION
+            # value: biome_desert
+            # score: -4
+            # displayIcon: assets/racial_traits/home_biome_desert.png
+            
+          - displayName: HOMEWORLD_BIOME_TUNDRA_NAME
+            description: HOMEWORLD_BIOME_TUNDRA_DESCRIPTION
+            value: biome_tundra
+            score: -5
+            displayIcon: assets/racial_traits/home_biome_tundra.png
+
+          - displayName: HOMEWORLD_BIOME_ARID_NAME
+            description: HOMEWORLD_BIOME_ARID_DESCRIPTION
+            value: biome_arid
+            score: -3
+            displayIcon: assets/racial_traits/home_biome_arid.png
+            
+          - displayName: HOMEWORLD_BIOME_SWAMP_NAME
+            description: HOMEWORLD_BIOME_SWAMP_DESCRIPTION
+            value: biome_swamp
+            score: -2
+            displayIcon: assets/racial_traits/home_biome_swamp.png
+            
+          - displayName: HOMEWORLD_BIOME_OCEAN_NAME
+            description: HOMEWORLD_BIOME_OCEAN_DESCRIPTION
+            value: biome_ocean
+            score: -1
+            displayIcon: assets/racial_traits/home_biome_ocean.png
+            
+          - displayName: HOMEWORLD_BIOME_GAIA_NAME
+            description: HOMEWORLD_BIOME_GAIA_DESCRIPTION
+            value: biome_gaia
+            score: 4
+            displayIcon: assets/racial_traits/home_biome_gaia.png
+       
+...

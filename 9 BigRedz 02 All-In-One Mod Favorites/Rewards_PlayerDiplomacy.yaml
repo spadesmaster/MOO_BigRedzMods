@@ -1,0 +1,25 @@
+﻿---
+- globals: &Backend.Diplomacy.Relationship
+    FATIGUE_DEMAND: 15          #was 15
+    dispositionChangeEvents:
+        - event: REJECTED_OPEN_BORDERS
+          weight: -0.025        #was -0.05
+          discountRate: 0.01    #was 0.05      
+        - event: BREAK_NON_AGGRESSION_PACT
+          weight: -0.04         #was -0.1
+        - event: DEMAND
+          weight: -.0005        #was -0.0001
+          discountRate: 0.05
+        - event: GIFT
+          weight: 0.0003        #was 0.0001
+          discountRate: 0.02
+        - event: DEMAND_REJECTED        
+          weight: -0.025        #was -0.3
+          discountRate: 0.05  
+        - event: NEW_ITEM_EXCHANGED
+          weight: 0.02          #was 0.006
+          discountRate: 0.02
+        - event: GIFT_ACCEPTED
+          weight: 0.003         #was 0.001       
+          discountRate: 0.02     
+...

@@ -1,0 +1,29 @@
+---
+### Colony Base Mod v1.5
+    ### No change to this file
+### Colony Base Mod v1.4
+    ### No change to this file
+### Colony Base Mod v1.3 - 5X/UPC/Split Tech Tree
+    ### Added new ship blueprints: design_sublight_colony, design_sublight_advanced_colony, and design_sublight_hyper_advanced_colony
+    ### Added sublight_drive to ship blueprints: sublight_colony, sublight_advanced_colony, and design_sublight_hyper_advanced_colony
+- collection: &Backend.Fleets.ShipBlueprintTemplate
+    items:
+          - key: design_sublight_colony
+            name: SHIP_DESIGN_SUBLIGHT_COLONY_SHIP
+            hull: hull_sublight_colony
+            baseSystems:
+                armor: shipmodule_titanium_armor
+                drive: shipmodule_sublight_drive
+          - key: design_sublight_advanced_colony
+            name: SHIP_DESIGN_SUBLIGHT_ADVANCED_COLONY_SHIP
+            hull: hull_sublight_advanced_colony
+            baseSystems:
+                armor: shipmodule_titanium_armor
+                drive: shipmodule_sublight_drive
+          - key: design_sublight_hyper_advanced_colony
+            name: SHIP_DESIGN_SUBLIGHT_HYPER_ADVANCED_COLONY_SHIP
+            hull: hull_sublight_hyper_advanced_colony
+            baseSystems:
+                armor: shipmodule_titanium_armor
+                drive: shipmodule_sublight_drive
+...

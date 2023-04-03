@@ -1,0 +1,21 @@
+﻿---
+- globals: &Backend.Diplomacy.Relationship
+    FATIGUE_DEMAND: 15
+    dispositionChangeEvents:
+        #  
+        #  Made it so killing a spy isn't a negative effect, as the enemy admits
+        #  sending a spy is wrong; and interrogation of the enemy spy benefits
+        #  the player spied upon before spy is executed by that player. The spy
+        #  simply goes "missing." Relations are not harmed.        
+        #
+        - event: SPY_ELIMINATED        
+          weight: .0001
+        # org weight= -0.2
+          discountRate: 0.01
+        # org discountRate: 0.05
+        - event: DEAL_REJECTED_NOT_SPIES
+          weight: -0.02
+        # org weight= -0.2
+          discountRate: 0.05
+        # org discountRate: 0.05
+...
