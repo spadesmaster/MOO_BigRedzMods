@@ -1,0 +1,23 @@
+---
+- globals: &AI.PlanetRating
+    hasResources: 3
+    hasGold: 0.1
+    hasArtifact: 0.1
+    sizeRatings:
+      - size: planetsize_gigantic
+        value: 5
+      - size: planetsize_colossal
+        value: 4
+      - size: planetsize_massive
+        value: 3    
+      - size: planetsize_huge
+        value: 2.5
+      - size: planetsize_large
+        value: 2.0
+      - size: planetsize_medium
+        value: 1.5
+      - size: planetsize_small
+        value: 1.2
+      - size: planetsize_tiny
+        value: .9        
+...

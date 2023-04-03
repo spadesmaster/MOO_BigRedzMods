@@ -1,0 +1,174 @@
+******* Xtra Xpanded Orbits - MeVII *******
+v01.05.02.21.22.35
+_________________
+- Location
+-----------------
+By default this mod is located at 
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2483620274
+
+_________________
+- Known Bugs
+-----------------
+01 - The Klackon
+02 - Adding extra orbits to a system strains the games galaxy creation processing.
+A circular Brobdinagarian very dense galaxy with 8 AIs, monsters,
+and minor civs, which according to the game log file had 300 and 1157 stars
+takes my system* ~5min. (AMD Ryzen 7 3700X 8-Core - 32GB)
+Even more complex galaxies such as 5Xs Irrelgular, can take even longer,
+or crash. If that happens, just try again.
+(It’s a good idea to take note of galaxy seeds that do and do not work.)
+03 - There was a very -very- large amount of cross connective data
+to keep track of for all the charts.
+I was diligent in checking for accuracy, but, the likelihood of there being errors
+(in the graphs) from copying the data from the yamls into all of the graphs, is high.
+
+_______________________________
+- Summary
+-------------------------------
+
+This mod is a detailed and comprehensive overhaul of a large portion of system spawn metrics.
+
+It also fully expands possible orbits from 5 to 7
+and is fully integrated into all aspects of additional 5X content added by WhatIsSol.
+
+Star and Biome chances for both Galaxy Age and Galaxy Density
+Planet Sizes, Number of Orbits, Number of Planets, Mineral Richness,
+and AI Planet Ratings have all been meticulously reworked.
+
+The data and changes would be far too much to list or explain.
+There is a very large quantity of graphs with fully itemized data-tables
+presented in the image list on the Steam Workshop page for this mod.
+
+_______________________________
+- Compatibility Information
+-------------------------------
+
+This Mod requires UCP, 5X, and UCP5X Compatibility mods.
+(It will function without Custom 5X and DSMP Assets,
+however, some game images will be blank)
+It should always be loaded after (below) UCP, 5X, and UCP5X Compatibility mods.
+
+Files Modified | Globals.yaml | PlanetRating.yaml | GalaxyAges.yaml | BiomeChances.yaml
+PlanetSizeChances.yaml | PlanetaryDensityPackages.yaml | StarTypes.yaml | PlanetSizeTypes.yaml
+
+-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.
+
+_______________________________
+- Data Entries Changed
+-------------------------------
+This mod changes content under the the following data points.
+PlanetaryOrbits, biomeRatings, mineralRichnessRatings, sizeRatings,
+
+The below have been changed for ALL galaxys -
+VeryYoung,Young,Average,Old,VeryOld,VeryLush,Lush, Sparse,VerySparse
+starTypeChances, inhabitable_biome_chance, star_...blue_white,
+,white,yellow,orange,red,brown,wormhole,blackhole,
+biome_...orion,volcanic,toxic,radiated,barren,desert,tundra,arid,
+ocean,swamp,terran,gaia,inferno,tropical,coral_world,dark_swamp,forest,
+grassland,mountainous,cavernous,cybernetic,
+orbit, planetChance, asteroidFieldChance, gasGiantChance, multipleObjectChance
+for ALL orbits, ALL planetsize_...tiny,small,medium,large,huge,
+scaleFactor, satelliteChance, satelliteSizeChances
+for ALL planet sizes ALL mineral_richness...
+ultrapoor,poor,abundant,rich, ultrarich
+for ALL galaxies, system types, planets and biomes.
+
+-> It will conflict with / overwrite this information
+of any mod loaded before (above) this mod loads.
+-> Any mod loaded after (below) this mod
+will conflict with / overwrite the information this mod loads.
+
+__________________________________
+Mod Details - Xpanded Xtra Orbits
+----------------------------------
+See graphs displayed on the Steam mod page showing a full break down.
+Below is a summary of the largest changes and differences...
+
+- Orbits increased from 5 to 7.
+
+- Every standard biome has a 2% chance to be each of its uber-biomes.
+
+- Star Type determines biomes present, not galaxy age.
+The star is its age because of the galaxys age,
+and so planets have the biomes they do because of
+the star that governs their home system.
+-- Biome chances are identical for Very Young, Young,
+Average, Old and Very Old Galaxy ages.
+Very Lush, Lush, Sparse and Very Sparse settings while in the drop down for galaxy age,
+are not "Ages", and so, I have set biome chances for those separately.
+
+! IMPORTANT NOTE !
+For the Very Lush, Lush, Sparse and Very Sparse settings
+I still follow the *character* of the star.
+White stars are not flooded with gaia planets in Lush.
+Yellow Stars are not surrounded by barren planets for Sparse.
+(See posted charts)
+
+- Biome possibilities have been brought sharply into line with the description of the star.
+- Almost all data now follows a cascading linearly progressive shift.
+In some cases I even created spreadsheet formulas to auto calculate / distribute percentiles.
+(You really are going to want to spend time looking at the charts.)
+- Im a sucker for extremes and bell-curves. Options are now more sharply contrasted,
+while at the same time distribution is nearly always set into a bell-curve.
+- Biomes follow the "character" of the star. From the hotest and youngest blue-white star,
+to the coldest and oldest red stars.
+-- Blue-whites = hot, harsh and burned away planets.
+-- Whites = Minimaly cooler, and so very slightly shifted in that direction.
+-- Yellow = Much more mild, few harsh planets.
+-- Orange = Very mild, nothing but habitable planets.
+-- Red = Once orange stars, now much older, have expanded in size considerable.
+So have done significant damage to planets that have not have their atmospheres burned away.
+-- Brown - Brown stars are very rare and very old.
+All planets are gone, possibly scavenged for resources by whatever long forgotten race,
+when they transcended to a new different dimension,
+and left behind a single planet that they terraformed into a uber-biome.
+-- Black Holes are mysterious, and odd anomalies can occur
+where space and time are under such extreme conditions.
+There is a 10% chance that an uber-biome will spawn in a black hole system.
+Uber gaia planets can now spawn in black hole systems.
+(Psudo-Lore : Orions were studying black holes from the planet.)
+-- Worm Holes can now spawn a planet.
+The vast amount of unstable energies assures such planets will be intensely uninhabitable.
+There is a very slim chance that a Cybernetic planet will be in a wormhole system.
+(Psudo-Lore : Someone was studying the worm hole from the planet.)
+
+______________
+Closing Notes
+--------------
+
+In order to minimize crashes during galaxy generation, I have reduced the diameter of systems.
+Then, to fit adding planets, while shrinking system diameters, I reduced the diameter of planets.
+Thees chances are *visual* only. They have no impact on game mechanics.
+There is no way to shrink the display size of asteroids. This would cause them to often cover planets.
+To mitigate that, asteroid fields *are still present*, but *mostly* (not all) moved to outer orbits.
+
+I have separated very nearly every attribute into its own individual yaml file.
+This essentially makes this mod modable.
+Simply remove / delete the items you dont want changed,
+and they will revert to whatever settings are loaded before them.
+
+I thoroughly organize and annotate yaml files in my mods.
+VERY MUCH SO in this mod.
+To the point that this mod could almost double as a tutorial!
+Individuals are encouraged to look into the files located at
+[DRIVE LETTER]:\SteamLibrary\steamapps\workshop\content\298050\2483620274
+should be able to very easily modify the contents to suit their play style.
+
+If you have no modding experience but are interested,
+be sure to read over the following guide,
+Modding Basics - By Spud Dastardly
+https://steamcommunity.com/sharedfiles/filedetails/?id=772694134
+
+~ MeVII †
+
+~ ~ ~ ~ ~ ~ ~
+
+You are not a lost cause.
+You are not a hopeless case.
+John 3:16
+Romans 5:8
+
+### END ###

@@ -1,0 +1,52 @@
+# Xpanded Xtra Orbits - STAR CHANCES BY GALAXY AGE / GALAXY TYPE - OLD GALAXY
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of star chances for a single galaxy type
+# ***** taken out from GalaxyAges.yaml
+# ***** You can select which galaxy type use the modified / default settings
+# ***** by keeping / removing its file from this folder
+# *****
+---
+- collection: &Backend.Galaxy.GalaxyAge
+    items:
+# ***** OLD GALAXY
+        - key: galaxy_old
+          name: GALAXY_AGE_OLD
+          displayOrder: 4
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 0
+                  highChance: 2
+                - starType: star_white
+                  lowChance: 1
+                  highChance: 4
+                - starType: star_yellow
+                  lowChance: 4
+                  highChance: 8
+                - starType: star_orange
+                  lowChance: 14
+                  highChance: 18
+                - starType: star_red
+                  lowChance: 23
+                  highChance: 27
+                - starType: star_brown
+                  lowChance: 26
+                  highChance: 31
+                - starType: star_real_black_hole
+                  lowChance: 20
+                  highChance: 22
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 4
+                - starType: star_white
+                  chance: 6
+                - starType: star_yellow
+                  chance: 10
+                - starType: star_orange
+                  chance: 20
+                - starType: star_red
+                  chance: 28
+                - starType: star_brown
+                  chance: 32
+...

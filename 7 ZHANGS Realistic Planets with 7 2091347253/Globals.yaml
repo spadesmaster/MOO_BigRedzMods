@@ -1,0 +1,32 @@
+﻿---
+- globals: &Backend.Galaxy.SolarSystemGenerator
+    PLANETARY_ORBITS:
+        - minOrbitRadius: 0.40
+          maxOrbitRadius: 0.40
+          bodyCapacity: 1
+        - minOrbitRadius: 0.55
+          maxOrbitRadius: 0.55
+          bodyCapacity: 1
+        - minOrbitRadius: 0.70
+          maxOrbitRadius: 0.70
+          bodyCapacity: 1
+        - minOrbitRadius: 0.9
+          maxOrbitRadius: 0.9
+          bodyCapacity: 1
+        - minOrbitRadius: 1.1
+          maxOrbitRadius: 1.1
+          bodyCapacity: 1
+        - minOrbitRadius: 1.3
+          maxOrbitRadius: 1.3
+          bodyCapacity: 1
+        - minOrbitRadius: 1.5
+          maxOrbitRadius: 1.5
+          bodyCapacity: 1
+    LUNAR_ORBITS:
+        - minOrbitRadius: 0.12
+          maxOrbitRadius: 0.12
+          bodyCapacity: 1
+        - minOrbitRadius: 0.16
+          maxOrbitRadius: 0.16
+          bodyCapacity: 1
+...

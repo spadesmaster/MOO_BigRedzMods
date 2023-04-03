@@ -1,0 +1,7 @@
+ID,Reserved,English,Russian,German,French,Polish,Czech,Turkish,Spanish (Spain),Spanish (Latin America),Portuguese (Brazil),Korean,Japanese
+HOMEWORLD_SIZE_MASSIVE_NAME,,Massive,,,,,,,,,,,,
+HOMEWORLD_SIZE_MASSIVE_DESCRIPTION,,This race's homeworld is a massive planet. It supports a bigger population than huge planets.,,,,,,,,,,,,
+HOMEWORLD_SIZE_COLOSSAL_NAME,,Colossal,,,,,,,,,,,,
+HOMEWORLD_SIZE_COLOSSAL_DESCRIPTION,,This race's homeworld is a colossal planet. It supports a population twice as big as large planets.,,,,,,,,,,,,
+HOMEWORLD_SIZE_GIGANTIC_NAME,,Gigantic,,,,,,,,,,,,
+HOMEWORLD_SIZE_GIGANTIC_DESCRIPTION,,This race's homeworld is a gigantic planet. It supports a bigger population than two huge planets put together.,,,,,,,,,,,,

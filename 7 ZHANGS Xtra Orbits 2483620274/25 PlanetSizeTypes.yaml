@@ -1,0 +1,76 @@
+# Xpanded Xtra Orbits - PLANET SIZE TYPES CONFIGURATION
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the listing of planet size configurations
+# ***** This is a complete copy of PlanetRating.yaml
+# ***** You can select to have the default settings
+# ***** by keeping / removing this file.
+# *****
+---
+- collection: &Backend.Galaxy.PlanetSizeType
+    items:
+# ***** TINY PLANET
+          - key: planetsize_tiny
+# ***** VISUAL SCALE / SIZE OF PLANET AS DISPLAYED ON SCREEN
+            scaleFactor: .3
+# ***** HOW MANY MOON ORBITS ARE POSSIBLE
+            satelliteOrbits: 1
+# ***** CHANCES OF PLANET HAVING A MOON
+            satelliteChance: 0.1
+# ***** IF PLANET HAS MOON CHANCES OF WHAT SIZE THE MOON WILL BE
+            satelliteSizeChances:
+                - satellitesize_small: 1
+# ***** SMALL PLANET
+          - key: planetsize_small
+            scaleFactor: .45
+            satelliteChance: 0.25
+            satelliteSizeChances:
+                - satellitesize_small: 1
+# ***** MEDIUM PLANET
+          - key: planetsize_medium
+            scaleFactor: .6
+            satelliteOrbits: 1
+            satelliteChance: 0.33
+            satelliteSizeChances:
+                - satellitesize_small: 0.7
+                - satellitesize_medium: 0.3
+# ***** LARGE PLANET
+          - key: planetsize_large
+            scaleFactor: .75
+            satelliteOrbits: 2
+            satelliteChance: 0.4
+            satelliteSizeChances:
+                - satellitesize_small: 0.55
+                - satellitesize_medium: 0.3
+                - satellitesize_large: 0.15
+# ***** HUGE PLANET
+          - key: planetsize_huge
+            scaleFactor: .9
+            satelliteOrbits: 2
+            satelliteChance: 0.5
+            satelliteSizeChances:
+                - satellitesize_small: 0.3
+                - satellitesize_medium: 0.4
+                - satellitesize_large: 0.3
+# ***** GAS GIANT PLANET
+          - key: planetsize_gasgiant
+            level: 6
+            scaleFactor: 1.05
+            satelliteOrbits: 2
+            satelliteChance: 0.5
+            satelliteSizeChances:
+                - satellitesize_small: 0.2
+                - satellitesize_medium: 0.4
+                - satellitesize_large: 0.4
+# ***** SATELLITES / MOONS
+          - key: satellitesize_small
+            name: SATELLITE_SIZE_TYPE_SMALL
+            scaleFactor: 0.1
+          - key: satellitesize_medium
+            name: SATELLITE_SIZE_TYPE_MEDIUM
+            scaleFactor: 0.15
+          - key: satellitesize_large
+            name: SATELLITE_SIZE_TYPE_LARGE
+            scaleFactor: 0.2
+...

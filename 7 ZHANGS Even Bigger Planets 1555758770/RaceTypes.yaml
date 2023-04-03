@@ -1,0 +1,47 @@
+---
+- collection: &Backend.Civilizations.RaceType
+    items:
+          - key: race_orions
+            type: OrionCivilization
+            isAvailable: false
+            name: RACE_TYPE_ORION_RACE_NAME
+            empireName: RACE_TYPE_ORION_EMPIRE_NAME
+            neutralDemonymKey: RACE_TYPE_ORION_DEMONYM_NEUTRAL
+            femaleSingularDemonymKey: RACE_TYPE_ORION_DEMONYM_SINGULAR_F
+            maleSingularDemonymKey: RACE_TYPE_ORION_DEMONYM_SINGULAR_M
+            femalePluralDemonymKey: RACE_TYPE_ORION_DEMONYM_PLURAL_F
+            malePluralDemonymKey: RACE_TYPE_ORION_DEMONYM_PLURAL_M
+            description: RACE_TYPE_ORION_RACE_DESCRIPTION
+            filename: ORION
+            iconIndexInUI: 14
+            thumbnail: assets/races/ORION/thumbnail.png
+            logo: assets/races/ORION/logo.png
+            logoBig: assets/races/ORION/logo_big.png
+            cityLight: /City_Lights/CityLights_Alkari.psd
+            colorR: 255
+            colorG: 255
+            colorB: 255
+            government: government_democracy
+            government_advanced: government_federation
+            homeSystem: RACE_TYPE_ORION_HOME_SYSTEM
+            emperorNames:
+                - RACE_TYPE_ORION_EMPEROR_NAME_1
+            rewardChance: 100
+            rewardChances:
+                - reward: tech
+                  chance: 100
+            homeworldSizeChances:
+                - size: planetsize_gigantic
+                  chance: 1
+            homeworldRichnessChances:
+                - richness: planetmineralrichness_ultra_rich
+                  chance: 1
+            secondaryPlanetBiomeChances:
+                - biome: biome_gas_giant
+                  chance: 1
+            moralBase: 1
+            moralBlockadedBonus: -0.1
+            availableBlueprintTemplates:
+                - design_orion_guardian
+...
+# to reintegration to mainline

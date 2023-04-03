@@ -1,0 +1,21 @@
+﻿---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+        ###General structures
+          - key: structure_matter_converter_mod
+            name: COLONY_STRUCTURE_MATTER_CONVERTER_NAME
+            description: COLONY_STRUCTURE_MATTER_CONVERTER_DESCRIPTION
+            icon: assets/structures/matter_converter.png
+            cost: 120
+            upkeep: 3
+            pollutionCleaningRate: 20
+            compatiblePlanetSize:
+                - planetsize_large
+                - planetsize_huge
+                - planetsize_massive
+                - planetsize_colossal
+                - planetsize_gigantic
+            structureTypes:
+                - 6
+            workingStatus: true
+...

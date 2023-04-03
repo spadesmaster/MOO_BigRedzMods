@@ -1,0 +1,52 @@
+# Xpanded Xtra Orbits - STAR CHANCES BY GALAXY AGE / GALAXY TYPE - LUSH GALAXY
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of star chances for a single galaxy type
+# ***** taken out from GalaxyAges.yaml
+# ***** You can select which galaxy type use the modified / default settings
+# ***** by keeping / removing its file from this folder
+# *****
+---
+- collection: &Backend.Galaxy.GalaxyAge
+    items:
+# ***** LUSH GALAXY
+        - key: galaxy_lush
+          name: GALAXY_AGE_LUSH
+          displayOrder: 7
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 0
+                  highChance: 0
+                - starType: star_white
+                  lowChance: 12
+                  highChance: 14
+                - starType: star_yellow
+                  lowChance: 23
+                  highChance: 27
+                - starType: star_orange
+                  lowChance: 23
+                  highChance: 25
+                - starType: star_red
+                  lowChance: 23
+                  highChance: 27
+                - starType: star_brown
+                  lowChance: 12
+                  highChance: 14
+                - starType: star_real_black_hole
+                  lowChance: 0
+                  highChance: 0
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 0
+                - starType: star_white
+                  chance: 13
+                - starType: star_yellow
+                  chance: 26
+                - starType: star_orange
+                  chance: 22
+                - starType: star_red
+                  chance: 26
+                - starType: star_brown
+                  chance: 13
+...

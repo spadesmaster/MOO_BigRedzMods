@@ -1,0 +1,48 @@
+Realistic Stars with 7 Planets, v1.1
+
+The mod changes the parameters of star systems in the game, making them a little more realistic and corresponding to scientific data.
+
+List of changes:
+
+1. Maximum possible number of orbits in star systems has been increased from 5 to 7. If there is a sixth or seventh orbit, the size of the star system increases.
+The radiuses of 1-5 orbits, the orbits of the satellites, and the sizes of the planets and their satellites have been slightly adjusted.
+Most star systems have 3-4 objects (planets or asteroids), and additional distant orbits allow them to be placed in the system more realistic.
+
+2. Changed the distribution of planets of different sizes in their orbits. Only the smallest planet (or asteroid field) can be located directly near a star, and the largest planets are located in mid-far orbits.
+There are fewer medium-sized planets in the galaxy, much more tiny planets, and slightly large ones.
+
+3. The parameter "Planet density by star" from creating the galaxy screen, have a greater effect.
+According to the game description, systems with red stars now have slightly fewer objects than orange star systems.
+
+4. Star systems now have more objects on average. Approximately +1 object with Normal Planet density, and +2 - with a High.
+The number of the tiny planets is growing the most. Now you need to pick your priorities for colonization more carefully. At the same time, remains the potential for development of already habitable systems at later gameplay (through colonization of tiny and small planets, which was previously inexpedient).
+Systems with Minor civilizations are now even more valuable.
+Asteroid fields are also more common, which will provide additional job for your space factories. In addition, they also look beautiful :)
+If you don't like the increased number of planets, select "Low" in the "Planet density by star" parameters when generating a galaxy. In this case, there will be the usual number of planets.
+
+5. In original game, all orbits are filled evenly. Asteroids and Gas giants could only be in 4 and 5 orbits. The type of star system did not affect the distribution of orbits or the probability of asteroids and Gas giants.
+This mod makes the systems more realistic. The older the star (the "warmer" its color), the more distant orbits will meet objects and the greater the chance of meeting a Gas giant. And young systems have more asteroid fields which are closer to the star.
+
+6. Adjusted probability of planets of different types, depending on the age of the star. Planets favorable for colonization are now most commonly found in orange stars (according to their game description). There is a small chance to find uber-planets - Grassland, Tropical, Cavernous or Inferno.
+
+7. Adjusted the attractiveness of planets of different biomes for AI.
+Increased priorities for colonization of Gaya and uber-planets.
+Toxic planets are now slightly higher priority than radioactive ones. Toxic processor costs the same as a Planetary radiation shield, but closer to research.
+
+8. Changed the probability of distribution of minerals on planets depending on the type of star system.
+Red star systems contain mostly planets with poor minerals. Yellow stars are equally likely to have planets with both rich and poor mineral resources. Brown systems because of its poorly predictable composition have equal probability of the minerals all.
+
+Versions:
+1.0 - Initial release
+1.1 - Changed mineral's distribution in star systems different types (now it's more variable). Adjusted attractiveness of planets of different biomes for AI.
+1.2 - Small but important fix for correct processing of BiomeChances.yaml.
+
+For more information see attached screenshots.
+
+
+The latest version of the Unofficial Code Patch is required https://steamcommunity.com/sharedfiles/filedetails/?id=1109736522.
+
+This mod combines well with the "Realistic Galaxy Age" https://steamcommunity.com/sharedfiles/filedetails/?id=915130561 and "Realistic Minor Civilizations" https://steamcommunity.com/sharedfiles/filedetails/?id=2086260302, it is recommended to use together. No longer necessary "Realistic Planet Density" and "Uber planets".
+Compatible with the latest version of the game (from March 12, 2020). To work correctly with other mods, it must be placed at the bottom of the list of mods.
+
+Your comments are welcome.

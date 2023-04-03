@@ -1,0 +1,444 @@
+---
+- collection: &Backend.Galaxy.PlanetDensityPackage
+    items:
+      - key: tutorial_planetary_density
+        starDensities:
+          - star_type: star_blue_white
+            occupationChances:
+              - planetCount: 0
+                chance: 10
+              - planetCount: 1
+                chance: 15
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 5
+          - star_type: star_white
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_yellow
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 25
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_orange
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 5
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 25
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 10
+          - star_type: star_red
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 25
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_brown
+            occupationChances:
+              - planetCount: 0
+                chance: 20
+              - planetCount: 1
+                chance: 25
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 10
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+      - key: low_planetary_density
+        starDensities:
+          - star_type: star_blue_white
+            occupationChances:
+              - planetCount: 0
+                chance: 15
+              - planetCount: 1
+                chance: 25
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 10
+              - planetCount: 5
+                chance: 5
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+          - star_type: star_white
+            occupationChances:
+              - planetCount: 0
+                chance: 10
+              - planetCount: 1
+                chance: 25
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 10
+              - planetCount: 5
+                chance: 5
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 0
+          - star_type: star_yellow
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 20
+              - planetCount: 2
+                chance: 30
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 5
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 0
+          - star_type: star_orange
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 20
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 5
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 5
+          - star_type: star_red
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 20
+              - planetCount: 2
+                chance: 30
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 5
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 0
+          - star_type: star_brown
+            occupationChances:
+              - planetCount: 0
+                chance: 25
+              - planetCount: 1
+                chance: 35
+              - planetCount: 2
+                chance: 30
+              - planetCount: 3
+                chance: 10
+              - planetCount: 4
+                chance: 0
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+      - key: normal_planetary_density
+        starDensities:
+          - star_type: star_blue_white
+            occupationChances:
+              - planetCount: 0
+                chance: 10
+              - planetCount: 1
+                chance: 15
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 5
+              - planetCount: 7
+                chance: 5
+          - star_type: star_white
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_yellow
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 25
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_orange
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 5
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 25
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 10
+          - star_type: star_red
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 10
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 25
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 15
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 5
+          - star_type: star_brown
+            occupationChances:
+              - planetCount: 0
+                chance: 20
+              - planetCount: 1
+                chance: 25
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 10
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+      - key: high_planetary_density
+        starDensities:
+          - star_type: star_blue_white
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 5
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 15
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 20
+              - planetCount: 6
+                chance: 15
+              - planetCount: 7
+                chance: 10
+          - star_type: star_white
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 5
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 10
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 25
+              - planetCount: 6
+                chance: 20
+              - planetCount: 7
+                chance: 15
+          - star_type: star_yellow
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 0
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 10
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 25
+              - planetCount: 6
+                chance: 25
+              - planetCount: 7
+                chance: 20
+          - star_type: star_orange
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 0
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 5
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 20
+              - planetCount: 6
+                chance: 30
+              - planetCount: 7
+                chance: 25
+          - star_type: star_red
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 0
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 10
+              - planetCount: 4
+                chance: 15
+              - planetCount: 5
+                chance: 25
+              - planetCount: 6
+                chance: 25
+              - planetCount: 7
+                chance: 20
+          - star_type: star_brown
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 20
+              - planetCount: 2
+                chance: 25
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 20
+              - planetCount: 5
+                chance: 10
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+...

@@ -1,0 +1,52 @@
+# Xpanded Xtra Orbits - STAR CHANCES BY GALAXY AGE / GALAXY TYPE - SPARSE GALAXY
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of star chances for a single galaxy type
+# ***** taken out from GalaxyAges.yaml
+# ***** You can select which galaxy type use the modified / default settings
+# ***** by keeping / removing its file from this folder
+# *****
+---
+- collection: &Backend.Galaxy.GalaxyAge
+    items:
+# ***** SPARSE GALAXY
+        - key: galaxy_sparse
+          name: GALAXY_AGE_SPARSE
+          displayOrder: 8
+          starTypeChances:
+                - starType: star_blue_white
+                  lowChance: 6
+                  highChance: 7
+                - starType: star_white
+                  lowChance: 17
+                  highChance: 21
+                - starType: star_yellow
+                  lowChance: 17
+                  highChance: 20
+                - starType: star_orange
+                  lowChance: 12
+                  highChance: 12
+                - starType: star_red
+                  lowChance: 17
+                  highChance: 20
+                - starType: star_brown
+                  lowChance: 17
+                  highChance: 21
+                - starType: star_real_black_hole
+                  lowChance: 6
+                  highChance: 7
+          civNeighbourhoodChances:
+                - starType: star_blue_white
+                  chance: 7
+                - starType: star_white
+                  chance: 21
+                - starType: star_yellow
+                  chance: 20
+                - starType: star_orange
+                  chance: 12
+                - starType: star_red
+                  chance: 20
+                - starType: star_brown
+                  chance: 20
+...

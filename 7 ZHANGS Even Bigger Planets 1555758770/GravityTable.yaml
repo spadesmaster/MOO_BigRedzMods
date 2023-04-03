@@ -1,0 +1,114 @@
+---
+- collection: &Backend.Galaxy.GravityTable
+    items:
+          - key: default_gravity
+            gravityTable:
+                - planetSize: planetsize_tiny
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: Normal
+                - planetSize: planetsize_small
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: Normal
+                - planetSize: planetsize_medium
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Low
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+                - planetSize: planetsize_large
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+                - planetSize: planetsize_huge
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+                - planetSize: planetsize_massive
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: Normal
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High                      
+                - planetSize: planetsize_colossal
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+                - planetSize: planetsize_gigantic
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+                - planetSize: planetsize_gasgiant
+                  mineralRichnessTypes:
+                    - mineralRichness: planetmineralrichness_ultra_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_poor
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_abundant
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_rich
+                      gravityLevel: High
+                    - mineralRichness: planetmineralrichness_ultra_rich
+                      gravityLevel: High
+...

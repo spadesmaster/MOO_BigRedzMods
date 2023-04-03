@@ -1,0 +1,88 @@
+---
+- collection: &Backend.Galaxy.PlanetSizeChances
+    items:
+        - key: orbit_1
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 100
+                - size: planetsize_small
+                  chance: 0
+                - size: planetsize_medium
+                  chance: 0
+                - size: planetsize_large
+                  chance: 0
+                - size: planetsize_huge
+                  chance: 0
+        - key: orbit_2
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 30
+                - size: planetsize_small
+                  chance: 70
+                - size: planetsize_medium
+                  chance: 0
+                - size: planetsize_large
+                  chance: 0
+                - size: planetsize_huge
+                  chance: 0
+        - key: orbit_3
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 50
+                - size: planetsize_medium
+                  chance: 40
+                - size: planetsize_large
+                  chance: 10
+                - size: planetsize_huge
+                  chance: 0
+        - key: orbit_4
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 0
+                - size: planetsize_medium
+                  chance: 40
+                - size: planetsize_large
+                  chance: 40
+                - size: planetsize_huge
+                  chance: 20
+        - key: orbit_5
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 0
+                - size: planetsize_medium
+                  chance: 35
+                - size: planetsize_large
+                  chance: 40
+                - size: planetsize_huge
+                  chance: 25
+        - key: orbit_6
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 25
+                - size: planetsize_medium
+                  chance: 40
+                - size: planetsize_large
+                  chance: 25
+                - size: planetsize_huge
+                  chance: 10
+        - key: orbit_7
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 15
+                - size: planetsize_small
+                  chance: 35
+                - size: planetsize_medium
+                  chance: 40
+                - size: planetsize_large
+                  chance: 10
+                - size: planetsize_huge
+                  chance: 0
+...

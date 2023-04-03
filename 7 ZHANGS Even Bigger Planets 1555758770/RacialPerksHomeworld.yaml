@@ -1,0 +1,42 @@
+﻿---
+- collection: &Backend.Civilizations.RacialPerk
+    items:
+          - key: perk_homeworld_size
+            levels:
+              - value: planetsize_medium
+              - displayName: HOMEWORLD_SIZE_TINY_NAME
+                description: HOMEWORLD_SIZE_TINY_DESCRIPTION
+                value: planetsize_tiny
+                score: -3
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_SMALL_NAME
+                description: HOMEWORLD_SIZE_SMALL_DESCRIPTION
+                value: planetsize_small
+                score: -2
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_LARGE_NAME
+                description: HOMEWORLD_SIZE_LARGE_DESCRIPTION
+                value: planetsize_large
+                score: 2
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_HUGE_NAME
+                description: HOMEWORLD_SIZE_HUGE_DESCRIPTION
+                value: planetsize_huge
+                score: 4
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_MASSIVE_NAME
+                description: HOMEWORLD_SIZE_MASSIVE_DESCRIPTION
+                value: planetsize_massive
+                score: 6
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_COLOSSAL_NAME
+                description: HOMEWORLD_SIZE_COLOSSAL_DESCRIPTION
+                value: planetsize_colossal
+                score: 8
+                displayIcon: assets/racial_traits/home_size_large.png
+              - displayName: HOMEWORLD_SIZE_GIGANTIC_NAME
+                description: HOMEWORLD_SIZE_GIGANTIC_DESCRIPTION
+                value: planetsize_gigantic
+                score: 10
+                displayIcon: assets/racial_traits/home_size_large.png
+...

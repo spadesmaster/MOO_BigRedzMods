@@ -1,0 +1,64 @@
+---
+- collection: &Backend.Galaxy.PlanetSizeType
+    items:
+          - key: planetsize_massive
+            name: "Massive"
+            level: 6
+            maxTiles: 32
+            scaleFactor: 1.5
+            satelliteOrbits: 2
+            satelliteChance: 1.0
+            satelliteSizeChances:
+                - satellitesize_small: 0.0
+                - satellitesize_medium: 0.3
+                - satellitesize_large: 0.7
+            pollutionCapacity: 450
+            pollutionAbsorptionFactor: 1.75
+            terraformingCostFactor: 2.5
+            minRequiredFood: 75
+            maxRequiredFoodStart: 200
+            maxRequiredFoodEnd: 400
+          - key: planetsize_colossal
+            name: "Colossal"
+            level: 7
+            maxTiles: 40
+            scaleFactor: 1.75
+            satelliteOrbits: 2
+            satelliteChance: 1.0
+            satelliteSizeChances:
+                - satellitesize_small: 0.0
+                - satellitesize_medium: 0.2
+                - satellitesize_large: 0.8
+            pollutionCapacity: 550
+            pollutionAbsorptionFactor: 2.0
+            terraformingCostFactor: 3.5
+            minRequiredFood: 75
+            maxRequiredFoodStart: 200
+            maxRequiredFoodEnd: 500
+          - key: planetsize_gigantic
+            name: "Gigantic"
+            level: 8
+            maxTiles: 50
+            scaleFactor: 2.0
+            satelliteOrbits: 2
+            satelliteChance: 1.0
+            satelliteSizeChances:
+                - satellitesize_small: 0.0
+                - satellitesize_medium: 0.0
+                - satellitesize_large: 1.0
+            pollutionCapacity: 700
+            pollutionAbsorptionFactor: 2.5
+            terraformingCostFactor: 5.0
+            minRequiredFood: 75
+            maxRequiredFoodStart: 200
+            maxRequiredFoodEnd: 600
+          - key: planetsize_gasgiant
+            level: 8
+            scaleFactor: 2.0
+            satelliteOrbits: 2
+            satelliteChance: 1.0
+            satelliteSizeChances:
+                - satellitesize_small: 0.0
+                - satellitesize_medium: 0.0
+                - satellitesize_large: 1.0
+...

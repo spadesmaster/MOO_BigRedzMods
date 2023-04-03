@@ -1,0 +1,85 @@
+# Xpanded Xtra Orbits - PLANETARY RATING VALUES
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the listing of AI planatary rating values
+# ***** This is a complete copy of PlanetRating.yaml
+# ***** You can select to have the default settings
+# ***** by keeping / removing this file.
+# *****
+---
+- globals: &AI.PlanetRating
+    hasResources: 0.5
+    hasGold: 0.5
+    hasArtifact: 0.5
+# ***** Planet Biome 
+    biomeRatings:
+      - biome: biome_orion
+        value: 7.7
+      - biome: biome_inferno
+        value: 3.15
+      - biome: biome_tropical
+        value: 7.6
+      - biome: biome_coral_world
+        value: 7.6
+      - biome: biome_dark_swamp
+        value: 7.25
+      - biome: biome_forest
+        value: 7.25
+      - biome: biome_grassland
+        value: 6.9
+      - biome: biome_mountainous
+        value: 6.9
+      - biome: biome_cavernous
+        value: 6.55
+      - biome: biome_cybernetic
+        value: 6.55
+      - biome: biome_gaia
+        value: 7.1
+      - biome: biome_terran
+        value: 4.85
+      - biome: biome_ocean
+        value: 4.15
+      - biome: biome_swamp
+        value: 3.65
+      - biome: biome_arid
+        value: 3.2
+      - biome: biome_tundra
+        value: 2.4
+      - biome: biome_desert
+        value: 2.7
+      - biome: biome_barren
+        value: 1.8
+      - biome: biome_radiated
+        value: 0.55
+      - biome: biome_toxic
+        value: 0.55
+      - biome: biome_volcanic
+        value: 0.65
+      - biome: biome_asteroid_field
+        value: 0
+# ***** Planet Minerals
+    mineralRichnessRatings:
+      - richness: planetmineralrichness_ultra_rich
+        value: 3.3
+      - richness: planetmineralrichness_rich
+        value: 2.3
+      - richness: planetmineralrichness_abundant
+        value: 1.6
+      - richness: planetmineralrichness_poor
+        value: 1.2
+      - richness: planetmineralrichness_ultra_poor
+        value: 1.0
+# ***** Planet Size
+    sizeRatings:
+      - size: planetsize_huge
+        value: 3.3
+      - size: planetsize_large
+        value: 2.825
+      - size: planetsize_medium
+        value: 2.55
+      - size: planetsize_small
+        value: 2.175
+      - size: planetsize_tiny
+        value: 1.8
+...

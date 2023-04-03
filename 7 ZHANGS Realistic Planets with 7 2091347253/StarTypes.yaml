@@ -1,0 +1,388 @@
+---
+- collection: &Backend.Galaxy.StarType
+    items:
+        - key: star_blue_white
+          nebulaeDensity: 4
+          orbitChances:
+                - orbit: 1
+                  chance: 27
+                - orbit: 2
+                  chance: 25
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 13
+                - orbit: 5
+                  chance: 8
+                - orbit: 6
+                  chance: 5
+                - orbit: 7
+                  chance: 2
+          orbits:
+                - orbit: 1
+                  planetChance: 85
+                  asteroidFieldChance: 15
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 80
+                  asteroidFieldChance: 20
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 75
+                  asteroidFieldChance: 25
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 70
+                  asteroidFieldChance: 30
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 65
+                  asteroidFieldChance: 35
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 40
+                  gasGiantChance: 00
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 55
+                  asteroidFieldChance: 45
+                  gasGiantChance: 00
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 30
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 40
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 30
+        - key: star_white
+          nebulaeDensity: 2
+          orbitChances:
+                - orbit: 1
+                  chance: 21
+                - orbit: 2
+                  chance: 23
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 15
+                - orbit: 5
+                  chance: 10
+                - orbit: 6
+                  chance: 7 
+                - orbit: 7
+                  chance: 4
+          orbits:
+                - orbit: 1
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 85
+                  asteroidFieldChance: 15
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 80
+                  asteroidFieldChance: 20
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 25
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 65
+                  asteroidFieldChance: 30
+                  gasGiantChance: 5
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 35
+                  gasGiantChance: 5
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 60
+                  asteroidFieldChance: 40
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 15
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 35
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 35
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 15
+        - key: star_yellow
+          nebulaeDensity: 1
+          orbitChances:
+                - orbit: 1
+                  chance: 15
+                - orbit: 2
+                  chance: 18
+                - orbit: 3
+                  chance: 20
+                - orbit: 4
+                  chance: 17
+                - orbit: 5
+                  chance: 15
+                - orbit: 6
+                  chance: 10 
+                - orbit: 7
+                  chance: 5
+          orbits:
+                - orbit: 1
+                  planetChance: 95
+                  asteroidFieldChance: 5
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 85
+                  asteroidFieldChance: 15
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 20
+                  gasGiantChance: 5
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 60
+                  asteroidFieldChance: 25
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 30
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 60
+                  asteroidFieldChance: 35
+                  gasGiantChance: 5
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 10
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 25
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 30
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 25
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 10
+        - key: star_orange
+          nebulaeDensity: 0
+          orbitChances:
+                - orbit: 1
+                  chance: 11
+                - orbit: 2
+                  chance: 14
+                - orbit: 3
+                  chance: 17
+                - orbit: 4
+                  chance: 20
+                - orbit: 5
+                  chance: 16
+                - orbit: 6
+                  chance: 13
+                - orbit: 7
+                  chance: 9
+          orbits:
+                - orbit: 1
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 95
+                  asteroidFieldChance: 5
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 90
+                  asteroidFieldChance: 10
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 15
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 65
+                  asteroidFieldChance: 20
+                  gasGiantChance: 15
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 25
+                  gasGiantChance: 15
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 60
+                  asteroidFieldChance: 30
+                  gasGiantChance: 10
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 15
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 35
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 30
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 15
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 5
+        - key: star_red
+          nebulaeDensity: 0
+          orbitChances:
+                - orbit: 1
+                  chance: 7
+                - orbit: 2
+                  chance: 11
+                - orbit: 3
+                  chance: 15
+                - orbit: 4
+                  chance: 18
+                - orbit: 5
+                  chance: 20
+                - orbit: 6
+                  chance: 17
+                - orbit: 7
+                  chance: 12
+          orbits:
+                - orbit: 1
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 95
+                  asteroidFieldChance: 5
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 10
+                  gasGiantChance: 15
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 65
+                  asteroidFieldChance: 15
+                  gasGiantChance: 20
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 20
+                  gasGiantChance: 20
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 60
+                  asteroidFieldChance: 25
+                  gasGiantChance: 15
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 40
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 30
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 10
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 0
+        - key: star_brown
+          nebulaeDensity: -1
+          orbitChances:
+                - orbit: 1
+                  chance: 1
+                - orbit: 2
+                  chance: 3
+                - orbit: 3
+                  chance: 7
+                - orbit: 4
+                  chance: 15
+                - orbit: 5
+                  chance: 23
+                - orbit: 6
+                  chance: 27
+                - orbit: 7
+                  chance: 24
+          orbits:
+                - orbit: 1
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 75
+                  asteroidFieldChance: 5
+                  gasGiantChance: 20
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 65
+                  asteroidFieldChance: 10
+                  gasGiantChance: 25
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 60
+                  asteroidFieldChance: 15
+                  gasGiantChance: 25
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 60
+                  asteroidFieldChance: 20
+                  gasGiantChance: 20
+                  multipleObjectChance: 0
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 20
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 20
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 20
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 20
+...

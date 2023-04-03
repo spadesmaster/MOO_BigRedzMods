@@ -1,0 +1,51 @@
+﻿# Xpanded Xtra Orbits - PLANETARY & LUNAR ORBIT RADII
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of planatary & lunar orbit settings
+# ***** taken out from Globals.yaml
+# ***** You can select to have the default settings
+# ***** by keeping / removing this file
+# *****
+---
+- globals: &Backend.Galaxy.SolarSystemGenerator
+    PLANETARY_ORBITS:
+# ***** 1st Planatary Orbit
+        - minOrbitRadius: 0.220
+          maxOrbitRadius: 0.235
+# ***** As of 5/09/21 after extensive testing the bodyCapacity seems to be an obsolete setting -MeVII
+          bodyCapacity: 1
+# ***** 2nd Planatary Orbit
+        - minOrbitRadius: 0.310
+          maxOrbitRadius: 0.325
+          bodyCapacity: 1
+# ***** 3rd Planatary Orbit
+        - minOrbitRadius: 0.400
+          maxOrbitRadius: 0.415
+          bodyCapacity: 1
+# ***** 4th Planatary Orbit
+        - minOrbitRadius: 0.490
+          maxOrbitRadius: 0.505
+          bodyCapacity: 1
+# ***** 5th Planatary Orbit
+        - minOrbitRadius: 0.580
+          maxOrbitRadius: 0.595
+          bodyCapacity: 1
+# ***** 6th Planatary Orbit
+        - minOrbitRadius: 0.670
+          maxOrbitRadius: 0.685
+          bodyCapacity: 1
+# ***** 7th Planatary Orbit
+        - minOrbitRadius: 0.760
+          maxOrbitRadius: 0.775
+          bodyCapacity: 1
+    LUNAR_ORBITS:
+# ***** 1st Lunar Orbit
+        - minOrbitRadius: 0.1
+          maxOrbitRadius: 0.125
+          bodyCapacity: 1
+# ***** 1st Lunar Orbit
+        - minOrbitRadius: 0.150
+          maxOrbitRadius: 0.175
+          bodyCapacity: 1
+...

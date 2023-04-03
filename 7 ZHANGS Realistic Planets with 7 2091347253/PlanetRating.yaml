@@ -1,0 +1,36 @@
+---
+- globals: &AI.PlanetRating
+    biomeRatings:
+      - biome: biome_gaia
+        value: 3.2
+      - biome: biome_grassland
+        value: 3.0
+      - biome: biome_tropical
+        value: 3.0
+      - biome: biome_cavernous
+        value: 3.0
+      - biome: biome_terran
+        value: 2.8
+      - biome: biome_ocean
+        value: 2.6
+      - biome: biome_swamp
+        value: 2.4
+      - biome: biome_arid
+        value: 2.2
+      - biome: biome_tundra
+        value: 2
+      - biome: biome_desert
+        value: 1.8
+      - biome: biome_barren
+        value: 1.6
+      - biome: biome_toxic
+        value: 1.4
+      - biome: biome_radiated
+        value: 1.3
+      - biome: biome_inferno
+        value: 1.1
+      - biome: biome_volcanic
+        value: 1
+      - biome: biome_asteroid_field
+        value: 0
+...

@@ -1,0 +1,173 @@
+# Xpanded Xtra Orbits - NUMBER OF PLANETS PER STAR TYPE - NORMAL DENSITY GALAXY
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of biome chances for a single galaxy type
+# ***** taken out from PlanetaryDensityPackages.yaml
+# ***** You can select which galaxy type use the modified / default settings
+# ***** by keeping / removing its file from this folder
+# *****
+# ***** ! NOTE ! Planet Count does NOT = "planets" It = OBJECTS
+# ***** See StarTypes.yaml for more info
+# *****
+---
+- collection: &Backend.Galaxy.PlanetDensityPackage
+    items:
+# ***** NORMAL PLANET DENSITY
+      - key: normal_planetary_density
+        name: NORMAL_PLANETARY_DENSITY_NAME
+        displayOrder: 3
+        starDensities:
+# ***** BLUE WHITE STAR
+          - star_type: star_blue_white
+            occupationChances:
+              - planetCount: 0
+                chance: 10
+              - planetCount: 1
+                chance: 15
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 50
+              - planetCount: 4
+                chance: 3
+              - planetCount: 5
+                chance: 3
+              - planetCount: 6
+                chance: 2
+              - planetCount: 7
+                chance: 2
+# ***** WHITE STAR
+          - star_type: star_white
+            occupationChances:
+              - planetCount: 0
+                chance: 10
+              - planetCount: 1
+                chance: 15
+              - planetCount: 2
+                chance: 15
+              - planetCount: 3
+                chance: 30
+              - planetCount: 4
+                chance: 8
+              - planetCount: 5
+                chance: 8
+              - planetCount: 6
+                chance: 7
+              - planetCount: 7
+                chance: 7
+# ***** YELLOW STAR
+          - star_type: star_yellow
+            occupationChances:
+              - planetCount: 0
+                chance: 5
+              - planetCount: 1
+                chance: 5
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 30
+              - planetCount: 4
+                chance: 18
+              - planetCount: 5
+                chance: 18
+              - planetCount: 6
+                chance: 10
+              - planetCount: 7
+                chance: 9
+# ***** ORANGE STAR
+          - star_type: star_orange
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 0
+              - planetCount: 2
+                chance: 5
+              - planetCount: 3
+                chance: 20
+              - planetCount: 4
+                chance: 23
+              - planetCount: 5
+                chance: 23
+              - planetCount: 6
+                chance: 15
+              - planetCount: 7
+                chance: 14
+# ***** RED STAR
+          - star_type: star_red
+            occupationChances:
+              - planetCount: 0
+                chance: 0
+              - planetCount: 1
+                chance: 25
+              - planetCount: 2
+                chance: 50
+              - planetCount: 3
+                chance: 25
+              - planetCount: 4
+                chance: 0
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+# ***** BROWN STAR
+          - star_type: star_brown
+            occupationChances:
+              - planetCount: 0
+                chance: 25
+              - planetCount: 1
+                chance: 75
+              - planetCount: 2
+                chance: 0
+              - planetCount: 3
+                chance: 0
+              - planetCount: 4
+                chance: 0
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+# ***** WORM HOLE
+          - star_type: star_black_hole
+            occupationChances:
+              - planetCount: 0
+                chance: 25
+              - planetCount: 1
+                chance: 75
+              - planetCount: 2
+                chance: 0
+              - planetCount: 3
+                chance: 0
+              - planetCount: 4
+                chance: 0
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+# ***** BLACK HOLE
+          - star_type: star_real_black_hole
+            occupationChances:
+              - planetCount: 0
+                chance: 25
+              - planetCount: 1
+                chance: 75
+              - planetCount: 2
+                chance: 0
+              - planetCount: 3
+                chance: 0
+              - planetCount: 4
+                chance: 0
+              - planetCount: 5
+                chance: 0
+              - planetCount: 6
+                chance: 0
+              - planetCount: 7
+                chance: 0
+...

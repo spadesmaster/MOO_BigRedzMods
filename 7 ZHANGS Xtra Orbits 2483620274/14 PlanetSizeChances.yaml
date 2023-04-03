@@ -1,0 +1,106 @@
+# Xpanded Xtra Orbits - PLANETARY CHANCES PER ORBIT
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the listing of planatary size percent chances per orbit
+# ***** It sets the % chance of what size planet will spawn in each orbit
+# ***** (if that orbit is present)
+# ***** This is a complete copy of PlanetSizeChances.yaml
+# ***** You can select to have the default settings
+# ***** by keeping / removing this file
+# *****
+---
+- collection: &Backend.Galaxy.PlanetSizeChances
+    items:
+# ***** 1st ORBIT
+        - key: orbit_1
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 95
+                - size: planetsize_small
+                  chance: 5
+                - size: planetsize_medium
+                  chance: 0
+                - size: planetsize_large
+                  chance: 0
+                - size: planetsize_huge
+                  chance: 0
+# ***** 2nd ORBIT
+        - key: orbit_2
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 40
+                - size: planetsize_small
+                  chance: 55
+                - size: planetsize_medium
+                  chance: 5
+                - size: planetsize_large
+                  chance: 0
+                - size: planetsize_huge
+                  chance: 0
+# ***** 3rd ORBIT
+        - key: orbit_3
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 35
+                - size: planetsize_medium
+                  chance: 50
+                - size: planetsize_large
+                  chance: 15
+                - size: planetsize_huge
+                  chance: 0
+# ***** 4th ORBIT
+        - key: orbit_4
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 5
+                - size: planetsize_medium
+                  chance: 50
+                - size: planetsize_large
+                  chance: 35
+                - size: planetsize_huge
+                  chance: 10
+# ***** 5th ORBIT
+        - key: orbit_5
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 0
+                - size: planetsize_small
+                  chance: 0
+                - size: planetsize_medium
+                  chance: 35
+                - size: planetsize_large
+                  chance: 40
+                - size: planetsize_huge
+                  chance: 25
+# ***** 6th ORBIT
+        - key: orbit_6
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 5
+                - size: planetsize_small
+                  chance: 20
+                - size: planetsize_medium
+                  chance: 30
+                - size: planetsize_large
+                  chance: 30
+                - size: planetsize_huge
+                  chance: 15
+# ***** 7th ORBIT
+        - key: orbit_7
+          sizeChances:
+                - size: planetsize_tiny
+                  chance: 20
+                - size: planetsize_small
+                  chance: 45
+                - size: planetsize_medium
+                  chance: 25
+                - size: planetsize_large
+                  chance: 5
+                - size: planetsize_huge
+                  chance: 5
+...

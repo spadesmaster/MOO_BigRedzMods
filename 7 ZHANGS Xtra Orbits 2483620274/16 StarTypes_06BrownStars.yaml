@@ -1,0 +1,95 @@
+# Xpanded Xtra Orbits - PLANET / ORBIT CONFIGURATION - BROWN STARS
+# by MeVII
+# *****
+# ***** 5/09/21
+# ***** This file is the seperated listing of planet & orbit configuration
+# ***** for a single system type taken out from StarTypes.yaml
+# ***** You can select which system type use the modified / default settings
+# ***** by keeping / removing its file from this folder
+# *****
+# ***** After the number of OBJECTS is selected by PlanetaryDensityPackages.yaml
+# ***** then orbits are filled according to orbitChances parameters
+# ***** First it will roll % and select the orbit for the 1st, then 2nd etc... object
+# ***** The total must = 100
+# ***** 
+# ***** After it selects what orbit to fill it decides what to fill the orbit with
+# ***** The total of planetChance + asteroidFieldChance + gasGiantChance must do NOT need to = 100
+# ***** multipleObjectChance only affects asteroids and can place 2 asteroids in one orbit
+# *****
+# ***** Lastly it sets the mineral_richness for the object according to a % roll
+# ***** The total must = 100
+# *****
+# ***** Final Note - If I dont comment on it is either obvious or I dont know about it
+# *****
+---
+- collection: &Backend.Galaxy.StarType
+    items:
+# ***** BROWN STARS
+        - key: star_brown
+          name: STAR_TYPE_BROWN
+          nebulaeDensity: -1
+# ***** ORBIT CREATION ORDER
+          orbitChances:
+                - orbit: 1
+                  chance: 0
+                - orbit: 2
+                  chance: 0
+                - orbit: 3
+                  chance: 100
+                - orbit: 4
+                  chance: 0
+                - orbit: 5
+                  chance: 0
+                - orbit: 6
+                  chance: 0
+                - orbit: 7
+                  chance: 0
+          orbits:
+                - orbit: 1
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 2
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 3
+                  planetChance: 100
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 4
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 5
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 6
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+                - orbit: 7
+                  planetChance: 0
+                  asteroidFieldChance: 0
+                  gasGiantChance: 0
+                  multipleObjectChance: 0
+# ***** MINERAL RICHNESS CHANCES
+          richness_chances:
+                - mineral_richness: planetmineralrichness_ultra_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_poor
+                  chance: 0
+                - mineral_richness: planetmineralrichness_abundant
+                  chance: 45
+                - mineral_richness: planetmineralrichness_rich
+                  chance: 45
+                - mineral_richness: planetmineralrichness_ultra_rich
+                  chance: 10
+...

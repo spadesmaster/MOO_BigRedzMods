@@ -1,0 +1,57 @@
+---
+- collection: &Backend.Galaxy.PlanetSizeType
+    items:
+          - key: planetsize_tiny
+            scaleFactor: 0.7
+            satelliteOrbits: 1
+            satelliteChance: 0.1
+            satelliteSizeChances:
+                - satellitesize_small: 1
+          - key: planetsize_small
+            scaleFactor: 0.85
+            satelliteOrbits: 1
+            satelliteChance: 0.25
+            satelliteSizeChances:
+                - satellitesize_small: 1
+          - key: planetsize_medium
+            scaleFactor: 1.1
+            satelliteOrbits: 1
+            satelliteChance: 0.33
+            satelliteSizeChances:
+                - satellitesize_small: 0.7
+                - satellitesize_medium: 0.3
+          - key: planetsize_large
+            scaleFactor: 1.25
+            satelliteOrbits: 2
+            satelliteChance: 0.4
+            satelliteSizeChances:
+                - satellitesize_small: 0.55
+                - satellitesize_medium: 0.3
+                - satellitesize_large: 0.15
+          - key: planetsize_huge
+            scaleFactor: 1.4
+            satelliteOrbits: 2
+            satelliteChance: 0.5
+            satelliteSizeChances:
+                - satellitesize_small: 0.3
+                - satellitesize_medium: 0.4
+                - satellitesize_large: 0.3
+          - key: planetsize_gasgiant
+            level: 6
+            scaleFactor: 1.5
+            satelliteOrbits: 2
+            satelliteChance: 0.5
+            satelliteSizeChances:
+                - satellitesize_small: 0.2
+                - satellitesize_medium: 0.4
+                - satellitesize_large: 0.4
+          - key: satellitesize_small
+            name: SATELLITE_SIZE_TYPE_SMALL
+            scaleFactor: 0.13
+          - key: satellitesize_medium
+            name: SATELLITE_SIZE_TYPE_MEDIUM
+            scaleFactor: 0.2
+          - key: satellitesize_large
+            name: SATELLITE_SIZE_TYPE_LARGE
+            scaleFactor: 0.25
+...
