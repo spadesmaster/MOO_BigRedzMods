@@ -12,6 +12,7 @@
             cost: 60           # was 120
 
           ## Outposts_Anywhere (Steel) allows military outposts and jump gates to be built even in systems we haven't yet colonized a planet in for more strategic map control
+          ## The Complex 4X addon also does these but this is in case they dont want to use that
           - key: structure_military_outpost
             requiresColonyInSystem: false
           - key: structure_advanced_military_outpost
@@ -19,7 +20,24 @@
           - key: structure_jump_gate_orbital
             requiresColonyInSystem: false
 
+          ## Add Ancient Battle Damage and Merchants now offering Morale increase and opportunity for tourism building upgrades
+          - key: structure_tourism_infrastructure
+            compatiblePlanetaryResource:
+              - planetary_resource_natural_wonders          
+              - planetary_resource_battle_damage
+              - planetary_resource_merchants
+                
+          - key: structure_advanced_tourism_infrastructure
+            compatiblePlanetaryResource:
+              - planetary_resource_natural_wonders
+              - planetary_resource_battle_damage
+              - planetary_resource_merchants
 
+          - key: structure_tourism_infrastructure01
+            compatiblePlanetaryResource:
+              - planetary_resource_natural_wonders
+              - planetary_resource_battle_damage
+              - planetary_resource_merchants
           
           ## Pollution Structures Boost (Mituna) makes pollution structures a little more effective by changing the reduction multiplier
           - key: structure_atmospheric_renewer

@@ -1,0 +1,22 @@
+## BigRedz 02 AllInOne adding morale bonus to Ancient Battle Damage and Merchant Traders and bumped up the Credits for the latter as well
+---
+- collection: &Backend.Galaxy.PlanetaryResourceType
+    items:
+        ##LOCAL
+        - key: planetary_resource_battle_damage
+          name: "Ancient Battle Damage"
+          description: "This planet was heavily damaged during an ancient battle, but repairing some of the remaining structures grants the colony a significant boost to %Morale. %Population Growth rate is higher than normal."
+          icon: assets/racial_traits/agriculture.png
+          isTradeable: false
+          populationGrowthPercentualBonus: .2
+          moraleBonus: 0.2
+        
+        - key: planetary_resource_merchants
+          name: "Merchant Traders"
+          description: "A network of fine merchant traders is located in this area. %Credits and %Morale are both increased."
+          icon: assets/racial_traits/stash.png
+          isTradeable: false                   
+          creditsBonus: 6 #was 2
+          moraleBonus: 0.2
+          #productionBonus: 1  
+...

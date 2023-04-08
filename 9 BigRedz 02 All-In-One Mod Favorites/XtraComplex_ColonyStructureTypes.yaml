@@ -1,0 +1,175 @@
+﻿## BigRedz 02 AllInOne merged changes from Xtra Complex 4X
+## Restored the original (lower) cost for SB/Btl/Fort but kept the reduced (and matching) fleet support/CP bonus and upkeep cost from his mod
+## Simplified and corrected bug where it would not allow the creation of jump gates even with the proper tech 
+## Slighty boosted CP bonus curve on Starbases and Scanner/Outposts from 5/6/7 to 5/7/9
+## Allow Advanced Outposts to also serve as warp connection points to give another reason to upgrade them
+
+# DETAILS OF XTRA COMPLEX 4X CHANGES:
+# GOOD NEWS - GOOD NEWS - GOOD NEWS - GOOD NEWS - GOOD NEWS - GOOD NEWS
+# Upkeep for the Star Base, Battle Station and Star Fortress are lower.
+# Build cost for Star Fortress and Surveillance Stations is lower.
+# Surveillance Stations, Military and Adv Military Outposts
+# now create, not take up command points.
+# … can now repair ships, upgrade ships, and block star lanes.
+# … have the largest scanner boost of any structure in the game,
+# actually making it a consideration of building and keeping them for Surveillance.
+# …provide a +1/2/3 research bonus per turn.
+# Military and Adv Military Outposts have had both
+# their repair factor, and scanners boosted.
+# Asteroid Labs / mines and Gas Giant Mines… slightly repair ships every turn.
+# …can upgrade fleets.
+# Asteroid Labs have a +1 Scanner Boost.
+# Asteroid / Gas Giant mines have a +1 Research Bonus.
+# Asteroid Mines boosted from +10bc to +15bc.
+# Jump Gates can now be built at all planet and asteroid locations.
+# Jump Gates now reduce travel time by half.
+
+# BAD NEWS - BAD NEWS - BAD NEWS - BAD NEWS - BAD NEWS - BAD NEWS - BAD NEWS
+# [spoiler]Build costs for the Star Base, Battle Station
+# and Star Fortress have been increased.
+# Command Point bonuses for the Star Base, Battle Station
+# and Star Fortress have been lowered.
+# Surveillance Stations have a higher upkeep.
+# Military and Adv Military Outposts now have a BC upkeep.
+# Asteroid Labs / mines and Gas Giant Mines… have higher build costs.
+# …have a command point cost of 1.
+# Jump Gates cost more and have a higher upkeep.
+
+---
+- collection: &Backend.Settlements.ColonyStructureType
+    items:
+#### STAR BASE
+          - key: structure_star_base
+            upkeep: 5 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 1 # <---  <---  <---
+            fleetSupportBonus: 5 # <---  <---  <---
+            repairFactor: 0.05 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+
+#### BATTLESTATION
+          - key: structure_battlestation
+            upkeep: 7 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 2 # <---  <---  <---
+            fleetSupportBonus: 7 # <---  <---  <---
+            repairFactor: 0.10 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+
+#### STAR FORTRESS
+          - key: structure_star_fortress           # BC
+            upkeep: 9 # <---  <---  <---
+            # cost: 440 # <---  <---  <--- USE 5X / EXISTING COST SETTING SEE TOP FOR REASONING
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 3 # <---  <---  <---
+            fleetSupportBonus: 9 # <---  <---  <---
+ 
+#### SURVEILLIANCE SYSTEM
+          - key: structure_surveilliance_system
+            cost: 30 # <---  <---  <---
+            upkeep: 5 # <---  <---  <---
+            baseResearchBonus: 1 # <---  <---  <---
+            hasScanner: true
+            scannerRangeBonus: 4
+            fleetSupportCost: 0
+            fleetSupportBonus: 5 # <---  <---  <---
+            repairFactor: 0.05
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+            canBlock: true  # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            requiresColonyInSystem: false  # <---  <---  <---
+
+#### MILITARY OUTPOST
+          - key: structure_military_outpost
+            #cost: 75 # <---  <---  <---
+            upkeep: 7  # <---  <---  <---
+            baseResearchBonus: 2 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 2 # <---  <---  <---
+            fleetSupportCost: 0 # <---  <---  <---
+            fleetSupportBonus: 7
+            repairFactor: 0.10 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+            canBlock: true # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            requiresWarpGate: true # <---  <---  <--- 
+            generatesJumpConnection: false              # BigRedz change this to true to allow outposts to also serve as jump connections! fun but too OP esp. early game
+
+#### ADVANCED MILITARY OUTPOST
+          - key: structure_advanced_military_outpost
+            cost: 150 # <---  <---  <---                # BigRedz we are keeping upgraded cost since it now includes making a jump connection as well
+            upkeep: 9  # <---  <---  <---
+            baseResearchBonus: 3 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 3 # <---  <---  <---
+            fleetSupportCost: 0 # <---  <---  <---
+            fleetSupportBonus: 9  # <---  <---  <---
+            repairFactor: 0.15 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+            canBlock: true # <---  <---  <---
+            buildBorder: true  # <---  <---  <---
+            requiresWarpGate: true # <---  <---  <---  
+            generatesJumpConnection: true                # BigRedz changed this to true to allow adv outposts to also serve as a jump connections!
+            requiresColonyInSystem: false # <---  <---  <---
+
+#### HYPER ADVANCED MILITARY OUTPOST (UNUSED?)
+          # - key: structure_hyper_advanced_military_outpost
+            # cost: 150
+            # hasScanner: true
+ 
+#### ASTEROID MINE
+          - key: structure_asteroid_mine           # BC
+            cost: 60 # <---  <---  <---
+            upkeep: 0 # <---  <---  <---            # workerIncomeBonus: 0
+            creditIncomeBonus: 15 # <---  <---  <---
+            baseResearchBonus: 1 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            fleetSupportCost: 1 # <---  <---  <---
+            repairFactor: 0.02 # <---  <---  <---
+            allowShipBlueprintUpgrade: true # <---  <---  <---
+            requiresColonyInSystem: false # <---  <---  <---
+            compatibleBiomes:  # <---  <---  <---
+                - biome_asteroid_field  # <---  <---  <---
+                
+#### ASTEROID LABORATORY
+          - key: structure_asteroid_laboratory           # BC
+            cost: 60 # <---  <---  <---
+            upkeep: 5 # <---  <---  <---
+            baseResearchBonus: 5 # <---  <---  <---
+            hasScanner: true # <---  <---  <---
+            scannerRangeBonus: 1 # <---  <---  <---
+            fleetSupportCost: 1  # <---  <---  <---
+            repairFactor: 0.02 # <---  <---  <---
+            allowShipBlueprintUpgrade: true  # <---  <---  <---
+            requiresColonyInSystem: false # <---  <---  <---
+            compatibleBiomes:
+                - biome_asteroid_field
+                - biome_relics
+                
+#### GAS GIANT MINE
+          - key: structure_superscalar_gas_harvester
+            cost: 60 # <---  <---  <---
+            creditIncomeBonus: 10 # <---  <---  <---
+            baseResearchBonus: 1  # <---  <---  <---
+            hasScanner: true  # <---  <---  <---
+            fleetSupportCost: 1  # <---  <---  <---
+            repairFactor: 0.02  # <---  <---  <---
+            allowShipBlueprintUpgrade: true  # <---  <---  <---
+            requiresColonyInSystem: false  # <---  <---  <---
+            compatibleBiomes:
+                - biome_gas_giant
+
+#### JUMP GATE (FUNCTIONING)
+          # - key: structure_jump_gate_orbital
+            # #cost: 75 # <---  <---  <---
+            # #upkeep: 10 # <---  <---  <---
+            # repairFactor: 0.02 # <---  <---  <---
+            # allowShipBlueprintUpgrade: true # <---  <---  <---
+            # generatesJumpConnection: true # <---  <---  <---
+            # systemUnique: true # <---  <---  <---
+            # requiresWarpGate: true # <---  <---  <---
+            # requiresColonyInSystem: false # <---  <---  <---
+
+#### JUMP GATE ADVANCED (UNUSED?)
+          # - key: structure_advanced_jump_gate_orbital
+...

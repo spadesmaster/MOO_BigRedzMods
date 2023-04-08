@@ -1,8 +1,30 @@
+# now unlocks both mandatory endgame techs even if not creative, no need to choose but increases the total cost of the tech by 1.5x
+# for computers XI instead of 3-way choice, always gives pleasure dome and choose between cyber security and galactic cybernet
+# YOU MUST BE USING SPLIT TECH TREE!
 ---
 - collection: &Backend.Research.Technology
     items:
-          - key: technode_tectonic_engineering
-            unlocks:  # now unlocks both mandatory endgame techs even if not creative
+          - key: technode_construction10 #SPLIT TECH TREE!
+            name: Construction X
+            cost: 25000 # ST shows 16200, UCP and game shows 10800, up ST looks like its showing discounted cost for me
+            requires:
+                - technology: technode_construction9
+            unlocks:
+                - application: techapp_artemis_system_net
                 - application: techapp_deep_core_mine
                 - application: techapp_core_waste_dump
+            branches:
+
+          - key: technode_computers11 #SPLIT TECH TREE TWEAKS instead of 3-way split pleasure dome now guaranteed, increased cost 
+            name: Computers XI
+            cost: 30000  # was 24300
+            requires:
+                - technology: technode_computers10
+            unlocks:
+                - application: techapp_pleasure_dome
+            branches:
+                - unlocks:
+                     - application: techapp_cyber_security_link
+                - unlocks:
+                     - application: techapp_galactic_cybernet
 ...

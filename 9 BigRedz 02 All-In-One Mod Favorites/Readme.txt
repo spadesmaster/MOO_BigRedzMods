@@ -26,3 +26,14 @@ Complete list of mods included (or eliminated as unneccesary) and Change history
 			Eliminated Stronger Fortifications (CREDIT) since TacticalMod 3.4 tweaks HP already (not quite 2x) and is more comprehensive
 			Eliminated PerkPoints15 794294890 (CREDIT) since UCP ups Perks to 20 and BigRedz CustomRace Tweaks ups to 25
 01-Apr-2023 Cleanup and document and reupload to Steam Workshop
+03-Apr-2023 Renamed files to clearly show which mod they come from (at least for the non-trivial ones)
+			Tweaked Anomaly rewards for a more smooth progression and to allow discoveries as early as turn 5 to give something other than just a Scout
+			Added Realistic Minor Civilizations 2086260302 (CREDIT) and corrected mispelling of gaia as gaya so Farmer system has a chance at gaia worlds
+			Uploaded this and all my other mods in-progress to public Github https://github.com/spadesmaster/MOO_BigRedzMods
+			
+
+
+TODO: 		Add fix for Tactical Mod 3.4 RaceTypes contains multiple documents, this method will return only the first?
+			Add fix for AI Galaxies in-game Exception (by removing all the non-English localizations) - modified in mod's own directory for now
+			Setup new public Github BigRedz instead for these and other mod development
+			Split out my favorite tweaks to a separate mod to narrow down errors and allow people to opt-in for those separately

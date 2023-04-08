@@ -1,11 +1,13 @@
 #5X 6X BigRedz All-in-One Combo this mod should be loaded after all other mods (esp. Colony Base)
 #This mod surgically changes just the values we want to tweak without repeating everything and potentially breaking other stuff
-#Created 31Mar Increased hull size of Bomb Ketch / Bomber Frigate to make it not useless
+
+#Created 3-Apr Increased hull size of Bomb Ketch / Bomber Frigate to make it into a semi-useful hull
+#Base normal Frigate can carry 6 bombs, Ketch with half the HP and worse handling can only carry 7?  9 seems more reasonable
 ---
-- collection: &Backend.Fleets.ShipHullTypes
+- collection: &Backend.Fleets.ShipHullType
     items:  #SHIP HULLS
           - key: hull_bomber_frigate
-            cost: 5     # same as 5X and frigate
-            space: 98   # 5X=80, frigate is 65, BigRedz w/half HP I suggest 1.5x = 98
-            hp: 45      # same as 5X, half the HP of a regular frigate at 90
+            space: 99    # 5X=80, 5X frigate is 65, TM is 70, BigRedz suggests 98 so it can now carry 9 instead of 7 bombs
+            #cost: 5     # same as 5X and frigate
+            #hp: 45      # same as 5X, half the HP of a regular frigate at 90
 ...
