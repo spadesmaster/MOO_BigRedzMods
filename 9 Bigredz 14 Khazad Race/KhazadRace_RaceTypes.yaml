@@ -43,7 +43,11 @@
                   boldness: 9
                   grateful: 8
                   tradeInclination: 9
-              
+                  
+            # Add full list of available blueprints and techs to enable jump gate?  nope that broke galaxy loading even for other races
+            moralBlockadedBonus: -0.3
+
+          
             # Khazad favor certain types of planets
             secondaryPlanetBiomeChances:
                 - biome: biome_gas_giant
