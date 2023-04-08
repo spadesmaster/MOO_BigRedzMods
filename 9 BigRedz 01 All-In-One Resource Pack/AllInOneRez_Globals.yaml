@@ -1,0 +1,111 @@
+﻿## BigRedz 01 All-In-One Resource Pack
+## For now this just includes art assets for all of BigRedz mods
+## but I expect to incorporate the other asset packs as well so new/returning
+## players can skip a bunch of confusing installer steps
+
+## For now it also includes MeVII's assets and his number-based rank graphics
+## Updated to my newly assigned Steam ID 2956360670
+---
+- globals: &Backend.Leaders.Leader
+    COLONY_RANKS:
+      - id: rank_newbie
+        name: 
+        minExperience: 0
+        level: 0
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-00-Newbie.png
+      - id: rank_manager
+        name: LEADER_RANK_MANAGER
+        minExperience: 80
+        level: 1
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/rank_C-01-Manager.png
+      - id: rank_administrator
+        name: LEADER_RANK_ADMINISTRATOR
+        minExperience: 170
+        level: 2
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-02-Administrator.png
+      - id: rank_commissioner
+        name: LEADER_RANK_COMMISSIONER
+        minExperience: 270
+        level: 3
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-03-Commissioner.png
+      - id: rank_director
+        name: LEADER_RANK_DIRECTOR
+        minExperience: 380
+        level: 4
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-04-Director.png
+      - id: rank_magistrate
+        name: LEADER_RANK_MAGISTRATE
+        minExperience: 500
+        level: 5
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-05-Magistrate.png
+      - id: rank_minister
+        name: LEADER_RANK_MINISTER
+        minExperience: 630
+        level: 6
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-06-Minister.png
+      - id: rank_governor
+        name: LEADER_RANK_GOVERNOR
+        minExperience: 770
+        level: 7
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-07-Governor.png      
+      - id: rank_chancellor
+        name: LEADER_RANK_CHANCELLOR
+        minExperience: 920
+        level: 8
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-08-Chancellor.png
+      - id: rank_president
+        name: LEADER_RANK_PRESIDENT
+        minExperience: 1080
+        level: 9
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/C-09-President.png
+    SHIP_RANKS:
+      - id: rank_newbie
+        name: 
+        minExperience: 0
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-00-Newbie.png
+      - id: rank_lieutenant
+        name: LEADER_RANK_LIEUTENANT
+        level: 1
+        minExperience: 80
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-01-Lieutenant.png
+      - id: rank_lieutenant_commander
+        name: LEADER_RANK_LIEUTENANT_COMMANDER
+        level: 2
+        minExperience: 170
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-02-LCom.png
+      - id: rank_commander
+        name: LEADER_RANK_COMMANDER
+        level: 3
+        minExperience: 270
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-03-Commander.png
+      - id: rank_captain
+        name: LEADER_RANK_CAPTAIN
+        minExperience: 380
+        level: 4
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-04-Captain.png
+      - id: rank_commodore
+        name: LEADER_RANK_COMMODORE
+        minExperience: 500
+        level: 5
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-05-Commodore.png
+      - id: rank_rear_admiral
+        name: LEADER_RANK_REAR_ADMIRAL
+        minExperience: 630
+        level: 6
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-06-RAdmiral.png
+      - id: rank_vice_admiral
+        name: LEADER_RANK_VICE_ADMIRAL
+        minExperience: 770
+        level: 7
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-07-Admiral.png
+      - id: rank_admiral
+        name: LEADER_RANK_ADMIRAL
+        minExperience: 920
+        level: 8
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-08-RRAdmiral.png
+      - id: rank_fleet_admiral
+        name: LEADER_RANK_FLEET_ADMIRAL
+        minExperience: 1080
+        level: 9
+        icon: ../../../../workshop/content/298050/2956360670/lr/02/S-09-Admiral.png
+...
