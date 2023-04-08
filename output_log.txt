@@ -1,0 +1,2284 @@
+Initialize engine version: 5.2.1p3 (435e87ed1f7c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumdx.dll 31.0.15.3141]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER
+    Vendor:   NVIDIA
+    VRAM:     8019 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AmplifyBloom.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AmplifyBloom.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\LZ4s.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\LZ4s.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\protobuf-net.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\SteamworksManaged.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\SteamworksManaged.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Drawing.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Avro.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Avro.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AWSSDK.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AWSSDK.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\log4net.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\log4net.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Vectrosity.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Vectrosity.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Core.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Core.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Windows_Lib.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Windows_Lib.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.074 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 3440x1440 60Hz; virtual: 7280x4321 at -3840,-1070
+<RI> Initialized touch support.
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Xml.dll (this message is harmless)
+Non platform assembly: data-000000001F743EF0 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-000000001F743EF0.dll
+Non platform assembly: data-000000001F7C9010 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-000000001F7C9010.dll
+Non platform assembly: data-0000000027D03040 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-0000000027D03040.dll
+Rewired: Searching for compatible XInput library...
+Rewired: Found Xinput1_3.dll.
+
+##############################################################
+##############################################################
+BUILD INFO:
+Platform: WindowsPlayer
+System Language: English
+MainThread Culture Info: en-US
+Streaming Assets Path: C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/StreamingAssets
+Resolution: 3440x1440  Fullscreen
+Unity Version: 5.2.1p3
+Player Version: 1.0
+Compile Constants: USE_STEAM; 
+##############################################################
+##############################################################
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Tobii EyeTracking disabled connection by UCP.
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 6374 -> priority: 1 
+  Thread -> id: 723c -> priority: 1 
+  Thread -> id: 7dd0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.471100 ms
+Type MessageGoToObject uses basetype Message which is not serializable [GameData].
+Backend.Core.Client:LogWarning(String)
+Backend.Core.ProtoBufModelBuilder:ParseTypes(List`1)
+Backend.Core.ProtoBufModelBuilder:Build()
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+NetworkLayer is using Steam Network.
+Backend.Core.Client:Log(String)
+NetworkLayer:Initialize()
+Backend.Core.Client:.ctor(BaseGame)
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Steam is not available. Using fallback TCP Network.
+Backend.Core.Client:LogWarning(String)
+NetworkLayer:Initialize()
+Backend.Core.Client:.ctor(BaseGame)
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+[Client] ResetGame
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\01 GlobalsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\02 GlobalsAINOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\05 GalaxyAges.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\06 GameStartPointsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\07 DifficultiesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\08 GameSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\09 ResearchSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\11 PopulationGrowthSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\12 TimelineSaveModes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\13 BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\15 PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\16 StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\18 TradeableResourceChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\23 BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\25 PlanetSizeTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\27 PlanetMineralRichnessTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\29 ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\30 ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\32 ShipModuleModTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\33 WeaponTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\34 ShipModulesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\35 ShipBlueprintTemplatesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\37 ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\38 ColonyProjects.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\39 PlanetDefensesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\40 Miniaturizations.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\41 TechAchievementsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\42 TechAppsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\43 RacialBiases.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\44 RacialPerksNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\45 RaceTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\47 TechTreeNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\48 EspionageMissions.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\49 RandomEvents.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\51 GNNRankings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\61 AntaranSettingsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\64 LeaderTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\65 LeaderBonusesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\66 MinorCivClassesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\AutoBuildQueue.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\Difficulties.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\FormationTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\GlobalsAI.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\LeaderBonuses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\LeaderTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\NotificationType.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RaceTypesDLC.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RandomEvents.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\14 PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\18 TradeableResourceChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\28 GravityTable.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\37 ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\42 TechAppsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\44 RacialPerksHomeworld.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\45 RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\47 TechTreeNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\02 GlobalsAI.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\06 GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\07 Difficulties.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\23 BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\27 PlanetMineralRichnessTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\32 ShipModuleModTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\33 WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\34 ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\35 ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\39 PlanetDefenses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\41 TechAchievements.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\42 TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\44 RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\45 RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\47 TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\61 AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\64 LeaderTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\65 LeaderBonuses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\66 MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\AutoBuildQueue.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\29 ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\34 ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\42 TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 03 5X Resource Patch Last 1697368999\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\05 GalaxyAges.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\13 BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\15 PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\16 StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\37 Colony Structure Types - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\42 Tech Apps - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\47 Tech Tree - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Realistic Minor Civs 2086260302\MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Realistic Minor Civs 2086260302\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\RaceTypesDLC.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullModelConfigTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipModuleModTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\GravityTable.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\RacialPerksHomeworld.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\01 Globals - PnL OR.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_01VeryYoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_02YoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_03AverageGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_04OldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_05VeryOldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_06VeryLushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_07LushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_08SparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_09VerySparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_01VeryYoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_02YoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_03AverageGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_04OldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_05VeryOldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_06VeryLushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_07LushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_08SparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_09VerySparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\14 PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_00TutorialGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_01VeryLowDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_02LowDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_03NormalDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_04HighDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_05VeryHighDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_00 StarNames.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_01BlueWhiteStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_02WhiteStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_03YellowStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_04OrangeStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_05RedStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_06BrownStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_07WormHoles.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_08BlackHoles.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 01 All-In-One Resource Pack\AllInOneRez_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\BothTectonicCores_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\MaxPopPlus4_PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Nerfed_AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_AIDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_Anomaly.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_Pirates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_PlayerDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\SpyDisappears_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\UnlDooms_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\XtraCapitols__ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\XtraComplex_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\XtraAutobuilds_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 14 Khazad Race\KhazadRace_RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 14 Khazad Race\KhazadRace_RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Configuration.dll (this message is harmless)
+ASVersion:
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+AS3
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Currrent Build:  55.1.1  2.1.41258W64S   (28/04/2017 12:18) **** UCP-S.0.6.3a ****
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+[Client] ResetGame
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+HerefordGame.State changing from  Initial to Menu
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Tobii EyeTracking is shutting down.
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 101.287399 ms (FindLiveObjects: 0.105400 ms CreateObjectMapping: 0.066700 ms MarkObjects: 101.075500 ms  DeleteObjects: 0.037800 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Setting to default shader.
+UnloadTime: 0.380700 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3959.
+Total: 93.862801 ms (FindLiveObjects: 0.101400 ms CreateObjectMapping: 0.052500 ms MarkObjects: 93.638901 ms  DeleteObjects: 0.067700 ms)
+
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Boo.Lang.dll (this message is harmless)
+Initialize engine version: 5.2.1p3 (435e87ed1f7c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumdx.dll 31.0.15.3141]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER
+    Vendor:   NVIDIA
+    VRAM:     8019 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AmplifyBloom.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AmplifyBloom.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\LZ4s.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\LZ4s.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\protobuf-net.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\protobuf-net.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\SteamworksManaged.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\SteamworksManaged.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Drawing.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Avro.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Avro.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AWSSDK.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\AWSSDK.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\log4net.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\log4net.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Vectrosity.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Vectrosity.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\GalaxyCSharp.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Core.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Core.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Windows_Lib.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Rewired_Windows_Lib.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.094 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 3440x1440 60Hz; virtual: 7280x4321 at -3840,-1070
+<RI> Initialized touch support.
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Xml.dll (this message is harmless)
+Non platform assembly: data-0000000020C52C80 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-0000000020C52C80.dll
+Non platform assembly: data-00000000210E9020 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-00000000210E9020.dll
+Non platform assembly: data-0000000028D35040 (this message is harmless)
+Fallback handler could not load library C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/Mono/data-0000000028D35040.dll
+Rewired: Searching for compatible XInput library...
+Rewired: Found Xinput1_3.dll.
+
+##############################################################
+##############################################################
+BUILD INFO:
+Platform: WindowsPlayer
+System Language: English
+MainThread Culture Info: en-US
+Streaming Assets Path: C:/Games/Steam/steamapps/common/Master of Orion/MasterOfOrion_Data/StreamingAssets
+Resolution: 3440x1440  Fullscreen
+Unity Version: 5.2.1p3
+Player Version: 1.0
+Compile Constants: USE_STEAM; 
+##############################################################
+##############################################################
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Tobii EyeTracking disabled connection by UCP.
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 7a4c -> priority: 1 
+  Thread -> id: 59fc -> priority: 1 
+  Thread -> id: 60bc -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.558400 ms
+Type MessageGoToObject uses basetype Message which is not serializable [GameData].
+Backend.Core.Client:LogWarning(String)
+Backend.Core.ProtoBufModelBuilder:ParseTypes(List`1)
+Backend.Core.ProtoBufModelBuilder:Build()
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+NetworkLayer is using Steam Network.
+Backend.Core.Client:Log(String)
+NetworkLayer:Initialize()
+Backend.Core.Client:.ctor(BaseGame)
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Steam successfully initialized. User : BigRedz
+Backend.Core.Client:Log(String)
+NetworkSteam:Init()
+NetworkLayer:Initialize()
+Backend.Core.Client:.ctor(BaseGame)
+HerefordGame:Awake()
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+[Client] ResetGame
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\01 GlobalsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\02 GlobalsAINOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\05 GalaxyAges.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\06 GameStartPointsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\07 DifficultiesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\08 GameSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\09 ResearchSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\11 PopulationGrowthSpeeds.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\12 TimelineSaveModes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\13 BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\15 PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\16 StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\18 TradeableResourceChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\23 BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\25 PlanetSizeTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\27 PlanetMineralRichnessTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\29 ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\30 ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\32 ShipModuleModTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\33 WeaponTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\34 ShipModulesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\35 ShipBlueprintTemplatesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\37 ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\38 ColonyProjects.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\39 PlanetDefensesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\40 Miniaturizations.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\41 TechAchievementsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\42 TechAppsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\43 RacialBiases.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\44 RacialPerksNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\45 RaceTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\47 TechTreeNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\48 EspionageMissions.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\49 RandomEvents.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\51 GNNRankings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\61 AntaranSettingsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\64 LeaderTypesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\65 LeaderBonusesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 1 5X Base 800155077\66 MinorCivClassesNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\AutoBuildQueue.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\Difficulties.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\FormationTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\GlobalsAI.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\LeaderBonuses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\LeaderTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\NotificationType.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RaceTypesDLC.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\RandomEvents.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 2 UCP Unofficial Code Patch\WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\14 PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\18 TradeableResourceChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\28 GravityTable.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\37 ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\42 TechAppsNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\44 RacialPerksHomeworld.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\45 RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 4 DSMP 1199902121\47 TechTreeNOUCP.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\02 GlobalsAI.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\06 GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\07 Difficulties.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\17 PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\23 BattlefieldHazardsConfig.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\27 PlanetMineralRichnessTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\32 ShipModuleModTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\33 WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\34 ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\35 ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\39 PlanetDefenses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\41 TechAchievements.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\42 TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\44 RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\45 RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\47 TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\61 AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\64 LeaderTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\65 LeaderBonuses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\66 MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 5 5XCPC 1190572281\AutoBuildQueue.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/5X 6 SplitTechTree 867373732\TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\29 ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\34 ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 02 Custom 5X DSMP Pack 1348895422\42 TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/6 03 5X Resource Patch Last 1697368999\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\01 Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\05 GalaxyAges.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\13 BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\15 PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\16 StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 AI Galaxies 1179207859\26 PlanetBiomeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\37 Colony Structure Types - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\42 Tech Apps - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Arcology 1458419518\47 Tech Tree - Arc.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Realistic Minor Civs 2086260302\MinorCivClasses.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Realistic Minor Civs 2086260302\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720/description.txt
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\RaceTypesDLC.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullModelConfigTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipModuleModTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 Tactical Mod 3.4 1687155720\WeaponTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\GravityTable.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Even Bigger Planets 1555758770\RacialPerksHomeworld.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\BiomeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetaryDensityPackages.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Realistic Planets with 7 2091347253\StarTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\01 Globals - PnL OR.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\03 PlanetRating.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\04 ModelledGalaxyData.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_01VeryYoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_02YoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_03AverageGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_04OldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_05VeryOldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_06VeryLushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_07LushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_08SparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\05 GalaxyAges_09VerySparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_01VeryYoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_02YoungGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_03AverageGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_04OldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_05VeryOldGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_06VeryLushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_07LushGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_08SparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\13 BiomeChances_09VerySparseGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\14 PlanetSizeChances.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_00TutorialGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_01VeryLowDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_02LowDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_03NormalDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_04HighDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\15 PlanetaryDensityPackages_05VeryHighDensityGalaxy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_00 StarNames.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_01BlueWhiteStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_02WhiteStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_03YellowStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_04OrangeStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_05RedStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_06BrownStars.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_07WormHoles.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\16 StarTypes_08BlackHoles.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/7 ZHANGS Xtra Orbits 2483620274\25 PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 01 All-In-One Resource Pack\AllInOneRez_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_GameStartPoints.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_PlanetaryResourceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\AllInOne_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\BothTectonicCores_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\MaxPopPlus4_PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Nerfed_AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_AIDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_Anomaly.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_Pirates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\Rewards_PlayerDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\SpyDisappears_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\UnlDooms_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\XtraCapitols__ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 02 All-In-One Mod Favorites\XtraComplex_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipBlueprintTemplates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipHullModels.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_TechApps.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\SublightColony_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 BigRedz 06 Fixed Sublight Colony Base\XtraAutobuilds_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 13 Custom Race Tweaks\CustomRace_RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 14 Khazad Race\KhazadRace_RaceTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:/Users/spade/OneDrive/Documents/Master of Orion/Mods/9 Bigredz 14 Khazad Race\KhazadRace_RacialPerks.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\System.Configuration.dll (this message is harmless)
+ASVersion:
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+AS3
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Currrent Build:  55.1.1  2.1.41258W64S   (28/04/2017 12:18) **** UCP-S.0.6.3a ****
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+[Client] ResetGame
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+HerefordGame.State changing from  Initial to Menu
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 2909.
+Total: 138.010910 ms (FindLiveObjects: 0.179200 ms CreateObjectMapping: 0.084500 ms MarkObjects: 137.536301 ms  DeleteObjects: 0.207700 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Setting to default shader.
+UnloadTime: 0.387700 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3962.
+Total: 78.328201 ms (FindLiveObjects: 0.123400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 78.060905 ms  DeleteObjects: 0.081100 ms)
+
+Platform assembly: C:\Games\Steam\steamapps\common\Master of Orion\MasterOfOrion_Data\Managed\Boo.Lang.dll (this message is harmless)
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\AICantIgnore_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\AllInOne_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\AllInOne_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\AllInOne_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\AllInOne_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\BattlePods_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\BothCores_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\BothTectonicCores_TechTree.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\MaxPopPlus4_PlanetSizeTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Nerfed_AntaranSettings.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\NoBadEvents_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\OutpostsAnywhere_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\PollutionStructs_ColonyStructureTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_AIDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_Anomaly.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_Globals_Spy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_Pirates.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Rewards_PlayerDiplomacy.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\SpeedPerks_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\Speed_ShipModules.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\SpyDisappears_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\StrongerForts_ShipHullType.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2953281350\UnlDooms_ShipHullTypes.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Read -> C:\Games\Steam\steamapps\workshop\content\298050\2956360670\AllInOneRez_Globals.yaml
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Received stats and achievements from Steam
+
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OnUGCQueryCompletedFalse
+ 
+(Filename: Z:/Work/nobackup/unity/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
