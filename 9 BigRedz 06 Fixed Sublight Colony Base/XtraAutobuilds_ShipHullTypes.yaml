@@ -1,30 +1,13 @@
----
-## BigRedz 06 Fixed Sublight Colony Base
-## Cleaned out unchanged values to respect UCP and other mod tweaks
-
-## 1-Apr-2023   Updated colonizationStructures to include most of the Xtra structures and double cost
-## TODO:        How to inherit Autobuilds changes and autodetect inclusion so it doesn't double cost for those without?
-##              Looks like &default and << : OR *default alias may provide some basic copy/inheritance support?
-##              https://stackoverflow.com/questions/14184971/more-complex-inheritance-in-yaml
-##              https://web.archive.org/web/20130213112648/http://blog.101ideas.cz/posts/dry-your-yaml-files.html
-##              https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started
-##              https://yaml.org/type/merge.html
-##              https://docs.unity3d.com/Manual/UnityYAML.html
-##              Use &tag after any item (but not keys?) to later reference it elsewhere using <<: *tag
-## For now I just copy/pasted from Xtra Autobuilds...
 ## TODO: Add Weather Controller from Bio VI to advanced and hyper_advanced, felt like they were missing
-
-## TODO: If tag inclusion works, expand it for the full colony ship details and description as well listing the buildings it will create upon landing
-## Colony Base Mod v1.5 Added Geosynchronic Warehouse to Advanced Sublight
-## Colony Base Mod v1.3 Added new hull types: sublight_colony, sublight_advanced_colony, and sublight_hyper_advanced_colony
+---
 - collection: &Backend.Fleets.ShipHullType
     items:
-          - key: hull_sublight_colony
-            name: HULL_SUBLIGHT_COLONY_NAME
-            description: SHIP_TYPE_SUBLIGHT_COLONY_DESCRIPTION
-            cost: 85                # 33% of the cost of the real thing with Autobuild=250, half the price of basic UCP=140, more than original mod w/o structs
-            space: 5
-            hp: 50
+          - key: hull_colony
+            name: HULL_COLONY_NAME
+            description: SHIP_TYPE_COLONY_DESCRIPTION
+            cost: 250
+            space: 500
+            hp: 150
             tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
             icon: assets/ships/%civ%/%type%/ship_colony.png
             hullScale: 1.0
@@ -71,14 +54,13 @@
                 - structure_pollution_processor
                 ### UNKNOWN MAY BE NEEDED FOR COMPATABILITY
                 - structure_government_building
-
                 
-          - key: hull_sublight_advanced_colony
-            name: HULL_SUBLIGHT_ADVANCED_COLONY_NAME
-            description: SHIP_TYPE_SUBLIGHT_ADVANCED_COLONY_DESCRIPTION
-            cost: 170              # double the cost of the previous generation colony ship = 33% of the cost of the real thing Autobuild=500 UCP=400
-            space: 5
-            hp: 100
+          - key: hull_advanced_colony
+            name: HULL_ADVANCED_COLONY_NAME
+            description: SHIP_TYPE_ADVANCED_COLONY_DESCRIPTION
+            cost: 500
+            space: 500
+            hp: 200
             tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
             icon: assets/ships/%civ%/%type%/ship_colony.png
             hullScale: 1.0
@@ -114,7 +96,7 @@
                 - structure_gravity_generators #ANTI GRAVITY PENALITY
                 # FIELDS V
                 - structure_planetary_radiation_shield #ANTI RADIATED PLANETS
-               
+
               ### COLONY SHIP
                 # GAME START
                 - structure_marine_barracks
@@ -151,34 +133,33 @@
                 # CONSTRUCTION VII
                 - structure_armor_barracks
                 ### UNKNOWN MAY BE NEEDED FOR COMPATABILITY
-                - structure_government_building 
+                - structure_government_building
 
               ### ADVANCED COLONY SHIP BigRedz inclusions, felt it was conspiciously missing
                 # BIOLOGY VI
-                - structure_weather_controller
- 
+                - structure_weather_controller        
                 
-          - key: hull_sublight_hyper_advanced_colony
-            name: HULL_SUBLIGHT_HYPER_ADVANCED_COLONY_NAME
-            description: SHIP_TYPE_SUBLIGHT_HYPER_ADVANCED_COLONY_DESCRIPTION
-            cost: 340              # double the cost of the previous generation colony ship = 33% of the cost of the real thing Autobuild=1000 UCP=1500
-            space: 5
-            hp: 150
+          - key: hull_hyper_advanced_colony
+            name: HULL_HYPER_ADVANCED_COLONY_NAME
+            description: SHIP_TYPE_HYPER_ADVANCED_COLONY_DESCRIPTION
+            cost: 1000
+            space: 500
+            hp: 600
             tacticalHPIcon: ContentPrefabs/Tactical/HealthBarIcons/civilian.png
             icon: assets/ships/%civ%/%type%/ship_colony.png
             hullScale: 1.0
             hullPrefab: /ContentPrefabs/FleetIconsStarSystem/%civ%/fleeticon_race_%civ%_colony
-            acceleration: 0.4
-            angularAcceleration: 0.2
-            baseDriveVelocity: 0.75
-            bestDriveVelocity: 1.5
-            maxVelocity: 1.6
-            maxAngularVelocity: 0.3
+            acceleration: 0.6
+            angularAcceleration: 0.3
+            baseDriveVelocity: 1.0
+            bestDriveVelocity: 2.0
+            maxVelocity: 2.5
+            maxAngularVelocity: 0.6
             velocityFriction: 0.02
             angularFriction: 0.05
             flagType: colony
             flagPriority: 6
-            fleetSupportCost: 4
+            fleetSupportCost: 1
             isUnarmed: true
             hullClass: 1
             tacticalVictoryDelay: 5.0
@@ -218,6 +199,7 @@
                 - structure_holo_simulator
                 # CHEMISTRY V
                 - structure_pollution_processor
+                
               ### ADVANCED COLONY SHIP
                 # SOCIOLOGY III
                 - structure_advance_data_center
@@ -233,10 +215,10 @@
                 - structure_space_port
                 # CONSTRUCTION VII
                 - structure_armor_barracks
-
+                
               ### ADVANCED COLONY SHIP BigRedz inclusions, felt it was conspiciously missing
                 # BIOLOGY VI
-                - structure_weather_controller                 
+                - structure_weather_controller  
                 
               ### HYPER-ADVANCED COLONY SHIP
                 # FIELDS VIII
@@ -249,7 +231,5 @@
                 - structure_deep_core_mine
                 - structure_core_waste_dump
                 # UNKNOWN MAY BE NEEDED FOR COMPATABILITY
-                - structure_government_building  
-
-               
+                - structure_government_building
 ...
