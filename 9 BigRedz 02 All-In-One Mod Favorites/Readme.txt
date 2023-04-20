@@ -1,13 +1,20 @@
 BigRedz 01 All-In-One Mod Favorites with Tweaks
 
 Mod MUST BE LOADED LAST IN YOUR MOD ORDER to override/correct any previous' mods changes
-It should also be loaded before BigRedz' other mods (the 01 shows you the load order within my own mods)
+SEE BELOW FOR DETAILS ON MOD LOAD ORDER
 
 Tired of having so many tiny tweak mods cluttering your mod list?
 Tired of having to fuss with the mod load order to get your game to work properly?
 Not sure which of the popular old mods are no longer necessary/compatible with 5X/UCP/DSMP/TacticalMod?
 Tired of casual mod developers overwriting/breaking other mods?
 Want a clean updated version for each of your favorite tweak mods?
+
+STANDARD 5X + BIGREDZ MOD LOAD ORDER:
+1) 'Standard' 5X/UCP/DSMP mod order list: 5X, UCP, UCP Workshop, DSMP, 5XCPC
+2) 'Standard' 5X/UCP/DSMP resources: Resource Pack, Custom 5X DSMP, 5X Resource Patch
+3) Any other mods you like to use (I also use AI Galaxies and Tactical Mod 3.4)
+4) Any BigRedz mods you are using in numerical order (including this one)
+
 
 Complete list of mods included (or eliminated as unneccesary) and Change history below
 
@@ -30,10 +37,12 @@ Complete list of mods included (or eliminated as unneccesary) and Change history
 			Tweaked Anomaly rewards for a more smooth progression and to allow discoveries as early as turn 5 to give something other than just a Scout
 			Added Realistic Minor Civilizations 2086260302 (CREDIT) and corrected mispelling of gaia as gaya so Farmer system has a chance at gaia worlds
 			Uploaded this and all my other mods in-progress to public Github https://github.com/spadesmaster/MOO_BigRedzMods
+04-Apr-2023 Added Xtra Capitols and Xtra Custom 4X (ADD DESCRIPTION)
+08-Apr-2023 Playtested in two games uploading to Steam Workshop
+
 			
 
 
 TODO: 		Add fix for Tactical Mod 3.4 RaceTypes contains multiple documents, this method will return only the first?
 			Add fix for AI Galaxies in-game Exception (by removing all the non-English localizations) - modified in mod's own directory for now
-			Setup new public Github BigRedz instead for these and other mod development
 			Split out my favorite tweaks to a separate mod to narrow down errors and allow people to opt-in for those separately

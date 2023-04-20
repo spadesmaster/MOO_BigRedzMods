@@ -1,14 +1,14 @@
 ﻿---
 - globals: &Backend.Civilizations.IndependentCivilization
     REWARD_MARINES_MIN: 2
-    REWARD_MARINES_MAX: 3
+    REWARD_MARINES_MAX: 4
     
 - globals: &Backend.Galaxy.Anomaly
-    turn_of_first_anomaly_spawn: 2
-    anomalies_over_stars_percentage: 1000
-    initial_anomalies_over_players_percentage: 100
-    default_anomalies_interval: 10
-    default_anomalies_over_players_percentage: 100
+    #turn_of_first_anomaly_spawn: 4
+    #anomalies_over_stars_percentage: 1000
+    #initial_anomalies_over_players_percentage: 100
+    #default_anomalies_interval: 10
+    #default_anomalies_over_players_percentage: 100
     default_treasure_type_chances:
         - type: credits
           chance: 25   # was 25, mod used 5, BigRedz suggests 25
@@ -23,24 +23,9 @@
             - hull_colony
             - hull_frigate
             - hull_bomber_frigate
+            
+    # make sure to include all intervals in original 15,20,25,30,35,40,45,50,75,100,150 (not sure others actually work)
     anomaly_intervals:
-
-        - interval: 5  # if I get a ship out early with scanner dont penalize me too harshly (scout reward) for grabbing the anomaly 
-          anomalies_over_players_percentage: 95
-          treasure_chances:
-            - type: credits
-              chance: 25   # was 25, mod used 5, BigRedz suggests 25
-              min: 100      
-              max: 300     # was 200, BigRedz suggests 300
-            - type: ship   # was 50, mod used 95, BigRedz suggests 50
-              chance: 50
-            - type: tech   # was 25, mod used 0, BigRedz suggests 25
-              chance: 25
-          ship_availability:
-            - hull_worker
-            - hull_colony
-            - hull_frigate
-            - hull_bomber_frigate
 
         - interval: 15
           anomalies_over_players_percentage: 90
@@ -113,6 +98,25 @@
               - hull_cruiser
               - hull_gunship
             
+        - interval: 35
+          anomalies_over_players_percentage: 75
+          treasure_chances:
+              - type: credits
+                chance: 33  # was 60, BigRedz suggests 33
+                min: 800
+                max: 1600
+              - type: ship
+                chance: 34  # was 40, BigRedz suggests 34
+              - type: tech
+                chance: 33  # was 0, BigRedz suggests 33
+          ship_availability:
+              - hull_colony
+              - hull_advanced_colony
+              - hull_destroyer
+              - hull_ironclad
+              - hull_cruiser
+              - hull_gunship
+
         - interval: 40
           anomalies_over_players_percentage: 65
           treasure_chances:
@@ -185,6 +189,22 @@
 
         - interval: 100
           anomalies_over_players_percentage: 60
+          treasure_chances:
+              - type: credits
+                chance: 30
+                min: 2500
+                max: 5000
+              - type: ship
+                chance: 50
+              - type: tech
+                chance: 20
+          ship_availability:
+              - hull_hyper_advanced_colony
+              - hull_battleship
+              - hull_battlecruiser
+              
+        - interval: 150
+          anomalies_over_players_percentage: 50
           treasure_chances:
               - type: credits
                 chance: 30

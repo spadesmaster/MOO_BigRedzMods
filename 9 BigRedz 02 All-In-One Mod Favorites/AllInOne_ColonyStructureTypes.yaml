@@ -23,45 +23,45 @@
           ## Add Ancient Battle Damage and Merchants now offering Morale increase and opportunity for tourism building upgrades
           - key: structure_tourism_infrastructure
             compatiblePlanetaryResource:
-              - planetary_resource_natural_wonders          
-              - planetary_resource_battle_damage
-              - planetary_resource_merchants
+                planetary_resource_natural_wonders          
+                planetary_resource_battle_damage
+                planetary_resource_merchants
                 
           - key: structure_advanced_tourism_infrastructure
             compatiblePlanetaryResource:
-              - planetary_resource_natural_wonders
-              - planetary_resource_battle_damage
-              - planetary_resource_merchants
+                planetary_resource_natural_wonders
+                planetary_resource_battle_damage
+                planetary_resource_merchants
 
           - key: structure_tourism_infrastructure01
             compatiblePlanetaryResource:
-              - planetary_resource_natural_wonders
-              - planetary_resource_battle_damage
-              - planetary_resource_merchants
+                planetary_resource_natural_wonders
+                planetary_resource_battle_damage
+                planetary_resource_merchants
           
           ## Pollution Structures Boost (Mituna) makes pollution structures a little more effective by changing the reduction multiplier
           - key: structure_atmospheric_renewer
             #cost: 60
             #upkeep: 2
-            pollutionMultiplierReduction: 0.75                  # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            pollutionMultiplierReduction: 1                      # UCP defaults 0.25, Boost mod removes (setting it to 1)
             #pollutionCleaningRate: 10
           - key: structure_pollution_processor
             #ost: 140
             #pkeep: 3
-            pollutionMultiplierReduction: 0.75                  # UCP defaults 0.5, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            pollutionMultiplierReduction: 1                      # UCP defaults 0.5, Boost mod removes (setting it to 1)
             #pollutionCleaningRate: 30
 
           - key: structure_core_waste_dump
             #cost: 300
             #upkeep: 5
             upgrades: structure_pollution_processor
-            pollutionMultiplierReduction: 0.75                   # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            pollutionMultiplierReduction: 1                      # UCP defaults 0.25, Boost mod removes (setting it to 1)
             #pollutionCleaningRate: 1000
 
           - key: structure_toxics_processor
             #cost: 160
             #upkeep: 3
-            pollutionMultiplierReduction: 0.75                   # UCP defaults 0.25, Boost mod removes (setting it to 1), BigRedz suggests 0.75
+            pollutionMultiplierReduction: 1                      # UCP defaults 0.25, Boost mod removes (setting it to 1)
             #pollutionCleaningRate: 15
             
           ## BigRedz also added the other (newer 5X UCP) buildings that cleanup Pollution here mostly for reference and easy tweaking in the future
